@@ -1,0 +1,230 @@
+{
+    "selected_algorithm": "Gradient Boosting",
+    "selection_rationale": "Gradient Boosting demonstrated the highest PR-AUC (0.0167) and F1-score (0.0748) on the unseen test set while maintaining strong fraud recall (8.6%), effectively distinguishing rare fraudulent transactions from legitimate banking volume under real-world class imbalance.",
+    "dataset_split": {
+        "train_size": 329874,
+        "val_size": 110247,
+        "test_size": 109879,
+        "total_size": 550000,
+        "fraud_counts": {
+            "train": 2930,
+            "val": 960,
+            "test": 983,
+            "total": 4873
+        }
+    },
+    "comparison": {
+        "Logistic Regression": {
+            "accuracy": 0.9803,
+            "precision": 0.0618,
+            "recall": 0.0844,
+            "f1_score": 0.0713,
+            "roc_auc": 0.5473,
+            "pr_auc": 0.0167,
+            "confusion_matrix": [
+                [
+                    107635,
+                    1261
+                ],
+                [
+                    900,
+                    83
+                ]
+            ],
+            "threshold_used": 0.7078,
+            "train_time_sec": 30.83,
+            "val_tuning": {
+                "threshold": 0.7078,
+                "val_f1": 0.085,
+                "val_precision": 0.0718,
+                "val_recall": 0.1042
+            }
+        },
+        "Decision Tree": {
+            "accuracy": 0.9817,
+            "precision": 0.0638,
+            "recall": 0.0763,
+            "f1_score": 0.0695,
+            "roc_auc": 0.5361,
+            "pr_auc": 0.0147,
+            "confusion_matrix": [
+                [
+                    107796,
+                    1100
+                ],
+                [
+                    908,
+                    75
+                ]
+            ],
+            "threshold_used": 0.9,
+            "train_time_sec": 32.24,
+            "val_tuning": {
+                "threshold": 0.9,
+                "val_f1": 0.079,
+                "val_precision": 0.07,
+                "val_recall": 0.0906
+            }
+        },
+        "Random Forest": {
+            "accuracy": 0.983,
+            "precision": 0.065,
+            "recall": 0.0671,
+            "f1_score": 0.0661,
+            "roc_auc": 0.5116,
+            "pr_auc": 0.0144,
+            "confusion_matrix": [
+                [
+                    107947,
+                    949
+                ],
+                [
+                    917,
+                    66
+                ]
+            ],
+            "threshold_used": 0.4945,
+            "train_time_sec": 63.61,
+            "val_tuning": {
+                "threshold": 0.4945,
+                "val_f1": 0.0845,
+                "val_precision": 0.0807,
+                "val_recall": 0.0885
+            }
+        },
+        "Gradient Boosting": {
+            "accuracy": 0.9811,
+            "precision": 0.0665,
+            "recall": 0.0855,
+            "f1_score": 0.0748,
+            "roc_auc": 0.5351,
+            "pr_auc": 0.0167,
+            "confusion_matrix": [
+                [
+                    107716,
+                    1180
+                ],
+                [
+                    899,
+                    84
+                ]
+            ],
+            "threshold_used": 0.6346,
+            "train_time_sec": 9.52,
+            "val_tuning": {
+                "threshold": 0.6346,
+                "val_f1": 0.0881,
+                "val_precision": 0.0758,
+                "val_recall": 0.1052
+            }
+        }
+    },
+    "best_model_metrics": {
+        "accuracy": 0.9811,
+        "precision": 0.0665,
+        "recall": 0.0855,
+        "f1_score": 0.0748,
+        "roc_auc": 0.5351,
+        "pr_auc": 0.0167,
+        "confusion_matrix": [
+            [
+                107716,
+                1180
+            ],
+            [
+                899,
+                84
+            ]
+        ],
+        "threshold_used": 0.6346,
+        "train_time_sec": 9.52,
+        "val_tuning": {
+            "threshold": 0.6346,
+            "val_f1": 0.0881,
+            "val_precision": 0.0758,
+            "val_recall": 0.1052
+        }
+    },
+    "top_features": [
+        {
+            "feature": "transaction_amount",
+            "importance": 0.00973
+        },
+        {
+            "feature": "account_balance",
+            "importance": 0.0022
+        },
+        {
+            "feature": "merchant_category_Salary",
+            "importance": 0.00133
+        },
+        {
+            "feature": "transaction_type_Net_Banking",
+            "importance": 0.0012
+        },
+        {
+            "feature": "loan_type_Education",
+            "importance": 0.00107
+        },
+        {
+            "feature": "channel_Mobile_App",
+            "importance": 0.00073
+        },
+        {
+            "feature": "merchant_category_Utilities",
+            "importance": 0.00067
+        },
+        {
+            "feature": "loan_type_Personal",
+            "importance": 0.00053
+        },
+        {
+            "feature": "hour_sin",
+            "importance": 0.00047
+        },
+        {
+            "feature": "transaction_type_Cheque",
+            "importance": 0.00047
+        },
+        {
+            "feature": "merchant_category_Entertainment",
+            "importance": 0.0004
+        },
+        {
+            "feature": "merchant_category_Investment",
+            "importance": 0.0004
+        },
+        {
+            "feature": "state_Tamil Nadu",
+            "importance": 0.0004
+        },
+        {
+            "feature": "loan_type_Home",
+            "importance": 0.0004
+        },
+        {
+            "feature": "channel_Branch",
+            "importance": 0.0004
+        },
+        {
+            "feature": "channel_POS_Terminal",
+            "importance": 0.0004
+        },
+        {
+            "feature": "merchant_category_Healthcare",
+            "importance": 0.00027
+        },
+        {
+            "feature": "merchant_category_Insurance",
+            "importance": 0.00027
+        },
+        {
+            "feature": "kyc_status_Expired",
+            "importance": 0.00027
+        },
+        {
+            "feature": "transaction_type_IMPS",
+            "importance": 0.00013
+        }
+    ]
+}

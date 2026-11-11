@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block title %}FinGuard – Transactions Ledger{% endblock %}
+
+{% block content %}
+<div class="page-intro">
+  <h2 class="page-title">Transaction Audit Ledger</h2>
+  <p class="page-subtitle">Search, filter, and inspect banking transactions across the full 550,000 audited records dataset.</p>
+</div>
+
+<!-- Controls & Filters Toolbar -->
+<div class="filter-bar">
+  <div class="search-input-wrap">
+    <input type="text" id="filter-search" class="input-field" placeholder="Search by Transaction ID or Customer ID (e.g. TXN000002937 or CUST015796)...">
+  </div>
+
+  <div style="min-width: 150px;">
+    <select id="filter-status" class="select-field">
+      <option value="all">Status: All Records</option>
+      <option value="fraud">Fraudulent Only</option>
+      <option value="legitimate">Legitimate Only</option>
+    </select>
+  </div>
+
+  <div style="min-width: 150px;">
+    <select id="filter-type" class="select-field">
+      <option value="all">Instrument: All Types</option>
+      <option value="UPI">UPI</option>
+      <option value="RTGS">RTGS</option>
+      <option value="NEFT">NEFT</option>
+      <option value="IMPS">IMPS</option>
+      <option value="Net_Banking">Net Banking</option>
+      <option value="Credit_Card">Credit Card</option>
+      <option value="Cheque">Cheque</option>
+      <option value="ATM_Withdrawal">ATM Withdrawal</option>
+      <option value="POS">POS</option>
+      <option value="Auto_Debit">Auto Debit</option>
+    </select>
+  </div>
+
+  <div style="min-width: 150px;">
+    <select id="filter-channel" class="select-field">
+      <option value="all">Channel: All Channels</option>
+      <option value="Mobile_App">Mobile App</option>
+      <option value="Web">Web Banking</option>
+      <option value="Branch">Bank Branch</option>
+      <option value="ATM">ATM Network</option>
+      <option value="POS_Terminal">POS Terminal</option>
+      <option value="API">API Gateway</option>
+    </select>
+  </div>
+
+  <div style="min-width: 170px;">
+    <select id="filter-sort" class="select-field">
+      <option value="transaction_date:desc">Sort: Date (Newest First)</option>
+      <option value="transaction_date:asc">Sort: Date (Oldest First)</option>
+      <option value="transaction_amount:desc">Sort: Amount (Highest First)</option>
+      <option value="transaction_amount:asc">Sort: Amount (Lowest First)</option>
+    </select>
+  </div>
+</div>
+
+<!-- Transactions Table Container -->
+<div class="panel" style="margin-bottom:0; border-bottom-left-radius:0; border-bottom-right-radius:0;">
+  <div class="table-wrapper" style="border:none; border-radius:0;">
+    <table id="transactions-table" class="data-table">
+      <thead>
+        <tr>
+          <th>Transaction ID</th>
+          <th>Customer ID</th>
+          <th>Date</th>
+          <th>Amount</th>
+          <th>Instrument</th>
+          <th>Account Type</th>
+          <th>Channel</th>
+          <th>Status</th>
+          <th>Assessment</th>
+        </tr>
+      </thead>
+      <tbody id="tx-table-body">
+        <tr>
+          <td colspan="9" style="text-align:center; padding:2rem; color:var(--text-muted);">
+            Querying transaction database...
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Pagination Controls -->
+<div class="pagination-bar">
+  <div id="pagination-info">Showing records...</div>
+  <div class="pagination-controls">
+    <button id="btn-prev-page" class="btn btn-secondary btn-sm" disabled>&larr; Previous</button>
+    <button id="btn-next-page" class="btn btn-secondary btn-sm">Next &rarr;</button>
+  </div>
+</div>
+{% endblock %}

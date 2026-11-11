@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}FinGuard – Financial Fraud Detection System{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <!-- Top Application Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <a href="{{ url_for('dashboard') }}" class="brand-wrapper">
+        <div class="brand-mark">FG</div>
+        <div class="brand-text">
+          <h1>FINGUARD</h1>
+          <span>Financial Fraud Detection System</span>
+        </div>
+      </a>
+
+      <!-- Primary Navigation Bar -->
+      <nav class="app-nav">
+        <a href="{{ url_for('dashboard') }}" class="nav-link {% if active_page == 'dashboard' %}active{% endif %}">Dashboard</a>
+        <a href="{{ url_for('transactions') }}" class="nav-link {% if active_page == 'transactions' %}active{% endif %}">Transactions</a>
+        <a href="{{ url_for('fraud_detection') }}" class="nav-link {% if active_page == 'fraud_detection' %}active{% endif %}">Fraud Detection</a>
+        <a href="{{ url_for('analytics') }}" class="nav-link {% if active_page == 'analytics' %}active{% endif %}">Analytics</a>
+        <a href="{{ url_for('model_performance') }}" class="nav-link {% if active_page == 'model_performance' %}active{% endif %}">Model Performance</a>
+      </nav>
+
+      <div class="header-badge">
+        <span class="status-dot"></span>
+        <span>ML Engine Active</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main View Container -->
+  <main class="main-content">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Transaction Detail Modal (Shared) -->
+  <div id="txn-modal" class="modal-backdrop" onclick="if(event.target === this) closeTxnModal()">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h3>Transaction Audit Inspection</h3>
+          <span id="modal-txn-id" class="mono" style="font-size:0.85rem; color:var(--text-secondary); font-weight:600;"></span>
+        </div>
+        <button class="modal-close" onclick="closeTxnModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+          <div>
+            <span style="font-size:0.75rem; text-transform:uppercase; color:var(--text-secondary); font-weight:600;">System Assessment</span>
+            <div id="modal-fraud-status" style="margin-top:0.25rem;"></div>
+          </div>
+          <div style="text-align:right;">
+            <span style="font-size:0.75rem; text-transform:uppercase; color:var(--text-secondary); font-weight:600;">Transaction Amount</span>
+            <div id="modal-amount" class="mono" style="font-size:1.2rem; font-weight:700; color:var(--text-main);"></div>
+          </div>
+        </div>
+
+        <div class="detail-grid">
+          <div class="detail-item">
+            <label>Customer Identifier</label>
+            <span id="modal-cust-id" class="mono"></span>
+          </div>
+          <div class="detail-item">
+            <label>Timestamp</label>
+            <span id="modal-date"></span>
+          </div>
+          <div class="detail-item">
+            <label>Account Type</label>
+            <span id="modal-acc-type"></span>
+          </div>
+          <div class="detail-item">
+            <label>Transaction Instrument</label>
+            <span id="modal-type"></span>
+          </div>
+          <div class="detail-item">
+            <label>Direction</label>
+            <span id="modal-direction"></span>
+          </div>
+          <div class="detail-item">
+            <label>Available Balance</label>
+            <span id="modal-balance" class="mono"></span>
+          </div>
+          <div class="detail-item">
+            <label>Merchant Category</label>
+            <span id="modal-merchant"></span>
+          </div>
+          <div class="detail-item">
+            <label>Originating State</label>
+            <span id="modal-state"></span>
+          </div>
+          <div class="detail-item">
+            <label>Channel</label>
+            <span id="modal-channel"></span>
+          </div>
+          <div class="detail-item">
+            <label>Execution Status</label>
+            <span id="modal-status"></span>
+          </div>
+          <div class="detail-item">
+            <label>Customer Credit Score</label>
+            <span id="modal-credit-score" class="mono"></span>
+          </div>
+          <div class="detail-item">
+            <label>KYC Compliance Status</label>
+            <span id="modal-kyc"></span>
+          </div>
+          <div class="detail-item">
+            <label>Active Loan Exposure</label>
+            <span id="modal-loan"></span>
+          </div>
+          <div class="detail-item">
+            <label>Scheduled EMI Amount</label>
+            <span id="modal-emi" class="mono"></span>
+          </div>
+        </div>
+
+        <div style="margin-top:1.5rem; text-align:right;">
+          <button class="btn btn-secondary" onclick="closeTxnModal()">Close Record</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div>
+        <strong>FinGuard</strong> &mdash; Production-Grade Financial Fraud Detection & Transaction Risk Management System
+      </div>
+      <div>
+        Indian Banking Transaction Dataset &bull; Supervised Machine Learning
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="{{ url_for('static', filename='js/chart.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

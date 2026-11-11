@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %}FinGuard – Operational Dashboard{% endblock %}
+
+{% block content %}
+<div class="page-intro">
+  <h2 class="page-title">Executive Transaction Overview</h2>
+  <p class="page-subtitle">Real-time macro transaction monitoring, fraud prevalence indicators, and active surveillance metrics.</p>
+</div>
+
+<!-- Primary Banking KPIs -->
+<div class="kpi-grid">
+  <div class="kpi-card kpi-highlight">
+    <div class="kpi-label">Total Transactions</div>
+    <div class="kpi-value" id="kpi-total-txns">--</div>
+    <div class="kpi-sub">Audited records in dataset</div>
+  </div>
+
+  <div class="kpi-card">
+    <div class="kpi-label">Legitimate Volume</div>
+    <div class="kpi-value" style="color:var(--status-legit-text);" id="kpi-legit-txns">--</div>
+    <div class="kpi-sub">Standard banking operations</div>
+  </div>
+
+  <div class="kpi-card">
+    <div class="kpi-label">Fraudulent Volume</div>
+    <div class="kpi-value" style="color:var(--status-fraud-text);" id="kpi-fraud-txns">--</div>
+    <div class="kpi-sub">Confirmed anomalous events</div>
+  </div>
+
+  <div class="kpi-card">
+    <div class="kpi-label">Fraud Prevalence</div>
+    <div class="kpi-value" id="kpi-fraud-pct">--</div>
+    <div class="kpi-sub">Severe class imbalance ratio</div>
+  </div>
+
+  <div class="kpi-card">
+    <div class="kpi-label">Total Monitored Value</div>
+    <div class="kpi-value" style="font-size:1.15rem;" id="kpi-total-vol">--</div>
+    <div class="kpi-sub">Gross monetary settlement</div>
+  </div>
+
+  <div class="kpi-card">
+    <div class="kpi-label">Active Model Engine</div>
+    <div class="kpi-value" style="font-size:1.15rem; color:var(--accent-bronze);" id="kpi-active-model">--</div>
+    <div class="kpi-sub">Supervised classification</div>
+  </div>
+</div>
+
+<!-- Dynamic Visualizations Row -->
+<div class="charts-row">
+  <div class="chart-box">
+    <div class="chart-header">
+      <h3 class="chart-title">Class Distribution (Severe Imbalance)</h3>
+      <span class="chart-caption">Ratio of legitimate transactions to fraudulent anomalies (0.886% fraud rate)</span>
+    </div>
+    <div class="chart-canvas-wrap">
+      <canvas id="chart-dash-fraud-legit"></canvas>
+    </div>
+    <div class="chart-explanation">
+      <strong>Analytical Context:</strong> Fraudulent transactions constitute less than 1% of total banking volume. Accuracy alone is misleading; threshold tuning on PR-AUC is essential.
+    </div>
+  </div>
+
+  <div class="chart-box">
+    <div class="chart-header">
+      <h3 class="chart-title">Transaction Activity Over Time</h3>
+      <span class="chart-caption">Annual transaction volume distribution across multi-year audit period</span>
+    </div>
+    <div class="chart-canvas-wrap">
+      <canvas id="chart-dash-activity"></canvas>
+    </div>
+    <div class="chart-explanation">
+      <strong>Analytical Context:</strong> Consistent multi-year volume across 2019–2023 validates chronological train/validation/test splitting without seasonal distortion.
+    </div>
+  </div>
+
+  <div class="chart-box">
+    <div class="chart-header">
+      <h3 class="chart-title">Fraud Risk by Merchant Category</h3>
+      <span class="chart-caption">Top categories displaying elevated fraud concentration rates</span>
+    </div>
+    <div class="chart-canvas-wrap">
+      <canvas id="chart-dash-categories"></canvas>
+    </div>
+    <div class="chart-explanation">
+      <strong>Analytical Context:</strong> Peer Transfers, Investments, and E-Commerce consistently demonstrate above-average fraud probabilities.
+    </div>
+  </div>
+</div>
+
+<!-- Recent Transactions Inspection Table -->
+<div class="panel">
+  <div class="panel-header">
+    <div>
+      <h3 class="panel-title">Recent Monitored Transactions</h3>
+      <p class="panel-desc">Real-time ledger feed from core banking processing system (click any row for full audit profile)</p>
+    </div>
+    <a href="{{ url_for('transactions') }}" class="btn btn-secondary btn-sm">View Full Ledger &rarr;</a>
+  </div>
+  <div class="table-wrapper">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Transaction ID</th>
+          <th>Date & Time</th>
+          <th>Amount</th>
+          <th>Instrument</th>
+          <th>Channel</th>
+          <th>Fraud Status</th>
+        </tr>
+      </thead>
+      <tbody id="recent-txns-body">
+        <tr>
+          <td colspan="6" style="text-align:center; padding:1.5rem; color:var(--text-muted);">
+            Connecting to banking transaction store...
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

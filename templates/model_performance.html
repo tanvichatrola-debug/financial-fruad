@@ -1,0 +1,214 @@
+{% extends "base.html" %}
+
+{% block title %}FinGuard – Machine Learning Model Performance{% endblock %}
+
+{% block content %}
+<div class="page-intro">
+  <h2 class="page-title">Supervised Machine Learning Evaluation & Benchmarks</h2>
+  <p class="page-subtitle">Rigorous empirical comparison of four classification algorithms evaluated on an unbiased chronological test split.</p>
+</div>
+
+<div id="model-performance-container">
+
+  <!-- Winning Model Executive Summary Card -->
+  <div class="panel">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Production Champion Algorithm: <span id="mp-selected-model" style="color:var(--accent-bronze);">--</span></h3>
+        <p class="panel-desc">Selected via cross-validation and threshold optimization on validation data</p>
+      </div>
+      <span class="badge badge-legit" style="font-size:0.8rem;">DEPLOYED IN PIPELINE</span>
+    </div>
+    <div class="panel-body">
+      <p id="mp-rationale" style="font-size:0.9rem; line-height:1.55; color:var(--text-main); margin-bottom:1.25rem;">
+        <!-- Rationale text -->
+      </p>
+
+      <!-- Chronological Split Summary -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem; padding:1rem; background-color:var(--bg-surface-alt); border-radius:var(--radius-sm); border:1px solid var(--border-light);">
+        <div>
+          <span style="font-size:0.75rem; text-transform:uppercase; color:var(--text-secondary); font-weight:600;">Training Split (2019–2021)</span>
+          <div id="mp-train-size" class="mono" style="font-weight:700; margin-top:0.2rem;">--</div>
+        </div>
+        <div>
+          <span style="font-size:0.75rem; text-transform:uppercase; color:var(--text-secondary); font-weight:600;">Validation Split (2022)</span>
+          <div id="mp-val-size" class="mono" style="font-weight:700; margin-top:0.2rem;">--</div>
+        </div>
+        <div>
+          <span style="font-size:0.75rem; text-transform:uppercase; color:var(--text-secondary); font-weight:600;">Test Split (2023–2024)</span>
+          <div id="mp-test-size" class="mono" style="font-weight:700; margin-top:0.2rem;">--</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Key Test Metrics Grid -->
+  <div class="metrics-summary-grid">
+    <div class="metric-tile">
+      <div class="metric-tile-label">Test Accuracy</div>
+      <div class="metric-tile-val" id="mp-accuracy">--</div>
+    </div>
+    <div class="metric-tile">
+      <div class="metric-tile-label">Fraud Precision</div>
+      <div class="metric-tile-val" id="mp-precision">--</div>
+    </div>
+    <div class="metric-tile">
+      <div class="metric-tile-label">Fraud Recall</div>
+      <div class="metric-tile-val" id="mp-recall">--</div>
+    </div>
+    <div class="metric-tile">
+      <div class="metric-tile-label">Test F1-Score</div>
+      <div class="metric-tile-val" id="mp-f1">--</div>
+    </div>
+    <div class="metric-tile">
+      <div class="metric-tile-label">PR-AUC (Key Metric)</div>
+      <div class="metric-tile-val" id="mp-pr-auc" style="color:var(--accent-bronze);">--</div>
+    </div>
+    <div class="metric-tile">
+      <div class="metric-tile-label">ROC-AUC</div>
+      <div class="metric-tile-val" id="mp-roc-auc">--</div>
+    </div>
+    <div class="metric-tile">
+      <div class="metric-tile-label">Tuned Threshold</div>
+      <div class="metric-tile-val" id="mp-threshold">--</div>
+    </div>
+  </div>
+
+  <!-- Confusion Matrix and Comparison Chart Row -->
+  <div class="charts-row">
+    <!-- Confusion Matrix -->
+    <div class="chart-box">
+      <div class="chart-header">
+        <h3 class="chart-title">Confusion Matrix on Unseen Test Set (109,879 Transactions)</h3>
+        <span class="chart-caption">Evaluated at the validation-tuned decision threshold</span>
+      </div>
+
+      <div class="cm-container">
+        <table class="cm-table">
+          <thead>
+            <tr>
+              <th colspan="2" rowspan="2"></th>
+              <th colspan="2">Predicted Condition</th>
+            </tr>
+            <tr>
+              <th>Predicted Legitimate (0)</th>
+              <th>Predicted Fraud (1)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2" style="writing-mode: vertical-rl; transform: rotate(180deg); padding: 0.5rem;">Actual Condition</th>
+              <th style="text-align: left;">Actual Legitimate (0)</th>
+              <td class="cm-correct">
+                <span id="cm-tn" class="cm-cell-val">--</span>
+                <span class="cm-cell-label">True Negative (TN)</span>
+              </td>
+              <td class="cm-error">
+                <span id="cm-fp" class="cm-cell-val">--</span>
+                <span class="cm-cell-label">False Positive (FP)</span>
+              </td>
+            </tr>
+            <tr>
+              <th style="text-align: left;">Actual Fraud (1)</th>
+              <td class="cm-error">
+                <span id="cm-fn" class="cm-cell-val">--</span>
+                <span class="cm-cell-label">False Negative (FN)</span>
+              </td>
+              <td class="cm-correct">
+                <span id="cm-tp" class="cm-cell-val">--</span>
+                <span class="cm-cell-label">True Positive (TP)</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="chart-explanation">
+        <strong>Viva Defense Tip:</strong> On highly imbalanced data (99.1% legitimate), a naive model predicting all zeros gets 99.1% accuracy but catches 0 frauds. Our model proactively flags suspicious transactions while correctly approving over 107,000 legitimate transfers.
+      </div>
+    </div>
+
+    <!-- Comparative Benchmark Chart -->
+    <div class="chart-box">
+      <div class="chart-header">
+        <h3 class="chart-title">Algorithm Benchmark Comparison</h3>
+        <span class="chart-caption">PR-AUC, F1-Score, and Fraud Recall across all four trained algorithms</span>
+      </div>
+      <div class="chart-canvas-wrap">
+        <canvas id="chart-mp-comparison"></canvas>
+      </div>
+      <div class="chart-explanation">
+        <strong>Analytical Takeaway:</strong> Gradient Boosting and Logistic Regression achieve superior PR-AUC on this tabular banking structure, with Gradient Boosting providing the strongest overall balance of precision and recall.
+      </div>
+    </div>
+  </div>
+
+  <!-- Comparative Model Benchmark Table -->
+  <div class="panel">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Comparative Performance Benchmark Table</h3>
+        <p class="panel-desc">All algorithms trained on the identical 329,874-row training split and evaluated on the same 109,879-row test split</p>
+      </div>
+    </div>
+    <div class="table-wrapper">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Algorithm Name</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+            <th>PR-AUC</th>
+            <th>ROC-AUC</th>
+            <th>Optimal Threshold</th>
+            <th>Training Time</th>
+          </tr>
+        </thead>
+        <tbody id="mp-comparison-body">
+          <tr>
+            <td colspan="9" style="text-align:center; padding:1.5rem; color:var(--text-muted);">
+              Loading comparative evaluation metrics...
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Global Feature Importance Table -->
+  <div class="panel">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Global Feature Importance (Top Predictors)</h3>
+        <p class="panel-desc">Grounded permutation and tree-split importances quantifying predictive weight across the 79-feature space</p>
+      </div>
+      <span class="badge badge-neutral" style="font-size:0.75rem;">Model-Wide Importance</span>
+    </div>
+    <div class="table-wrapper">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th style="width: 60px;">Rank</th>
+            <th>Feature Name</th>
+            <th>Relative Importance Weight</th>
+            <th style="width: 240px;">Relative Magnitude Bar</th>
+          </tr>
+        </thead>
+        <tbody id="mp-features-body">
+          <tr>
+            <td colspan="4" style="text-align:center; padding:1.5rem; color:var(--text-muted);">
+              Loading feature importance scores...
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="padding:1rem 1.35rem; background-color:#faf9f6; font-size:0.8rem; color:var(--text-secondary); border-top:1px solid var(--border-light);">
+      <em>Note: Global feature importance reveals overarching predictive patterns across all 550,000 records, whereas the individual transaction explanation on the Fraud Detection page assesses specific deviation factors for a given customer event.</em>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

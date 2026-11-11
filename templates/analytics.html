@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block title %}FinGuard – Fraud Analytics & Behavioral Patterns{% endblock %}
+
+{% block content %}
+<div class="page-intro">
+  <h2 class="page-title">Fraud Analytics & Behavioral Pattern Analysis</h2>
+  <p class="page-subtitle">Exploratory data analytics derived from 550,000 audited transactions revealing structural fraud distributions.</p>
+</div>
+
+<div id="analytics-container">
+
+  <!-- Row 1: Macro Imbalance & Transaction Type -->
+  <div class="charts-row">
+    <div class="chart-box">
+      <div class="chart-header">
+        <h3 class="chart-title">Class Imbalance: Legitimate vs. Fraudulent</h3>
+        <span class="chart-caption">Baseline ground truth distribution in the Indian banking dataset</span>
+      </div>
+      <div class="chart-canvas-wrap">
+        <canvas id="chart-an-distribution"></canvas>
+      </div>
+      <div class="chart-explanation">
+        <strong>Presentation Explanation:</strong> Fraudulent transactions represent only 0.886% (4,873 records) out of 550,000 transactions. This extreme 1:112 imbalance demonstrates why standard accuracy is ineffective and why threshold tuning and PR-AUC are vital for banking security.
+      </div>
+    </div>
+
+    <div class="chart-box">
+      <div class="chart-header">
+        <h3 class="chart-title">Fraud Incidence Rate by Transaction Type</h3>
+        <span class="chart-caption">Empirical fraud probability across different banking payment instruments</span>
+      </div>
+      <div class="chart-canvas-wrap">
+        <canvas id="chart-an-type"></canvas>
+      </div>
+      <div class="chart-explanation">
+        <strong>Presentation Explanation:</strong> High-value wire transfers (RTGS at 1.85%) and physical instruments (Cheques at 1.18%) exhibit more than double the fraud rate of micro-payment channels like UPI (0.79%), due to higher financial stakes.
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Payment Channel & Merchant Category -->
+  <div class="charts-row">
+    <div class="chart-box">
+      <div class="chart-header">
+        <h3 class="chart-title">Fraud Incidence Rate by Payment Channel</h3>
+        <span class="chart-caption">Comparison of digital, assisted, and physical touchpoints</span>
+      </div>
+      <div class="chart-canvas-wrap">
+        <canvas id="chart-an-channel"></canvas>
+      </div>
+      <div class="chart-explanation">
+        <strong>Presentation Explanation:</strong> Traditional Branch counters (0.95%) and POS Terminals (0.92%) experience marginally higher fraud vulnerability compared to Mobile App banking (0.87%), demonstrating that branch-based impersonation remains a persistent threat.
+      </div>
+    </div>
+
+    <div class="chart-box">
+      <div class="chart-header">
+        <h3 class="chart-title">Fraud Frequency by Merchant Category</h3>
+        <span class="chart-caption">Absolute count of fraudulent occurrences across top merchant segments</span>
+      </div>
+      <div class="chart-canvas-wrap">
+        <canvas id="chart-an-category"></canvas>
+      </div>
+      <div class="chart-explanation">
+        <strong>Presentation Explanation:</strong> Retail Shopping, E-Commerce, Food & Dining, and Peer Transfers lead in absolute fraud volume because they account for the vast majority of consumer transaction attempts.
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 3: Geographic Distribution & Temporal Hourly Curve -->
+  <div class="charts-row">
+    <div class="chart-box">
+      <div class="chart-header">
+        <h3 class="chart-title">Fraud Incidence Rate by Indian State</h3>
+        <span class="chart-caption">Regional variation in fraudulent transaction ratios across major states</span>
+      </div>
+      <div class="chart-canvas-wrap">
+        <canvas id="chart-an-state"></canvas>
+      </div>
+      <div class="chart-explanation">
+        <strong>Presentation Explanation:</strong> Fraud rates remain relatively uniform across major commercial hubs (Maharashtra, Karnataka, West Bengal, Delhi, Tamil Nadu) hovering near the national 0.88% baseline, indicating generalized rather than localized attack surfaces.
+      </div>
+    </div>
+
+    <div class="chart-box">
+      <div class="chart-header">
+        <h3 class="chart-title">Fraud Activity Across 24 Transaction Hours</h3>
+        <span class="chart-caption">Hourly curve of fraudulent activity from 00:00 to 23:00 hrs</span>
+      </div>
+      <div class="chart-canvas-wrap">
+        <canvas id="chart-an-hour"></canvas>
+      </div>
+      <div class="chart-explanation">
+        <strong>Presentation Explanation:</strong> Fraudulent activity occurs around the clock with notable nocturnal activity between midnight and 05:00 hrs, when automated bots and unauthorized account takeovers capitalize on delayed customer alerts.
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 4: Transaction Amount Range -->
+  <div class="charts-row" style="grid-template-columns: 1fr;">
+    <div class="chart-box">
+      <div class="chart-header">
+        <h3 class="chart-title">Fraud Concentration by Transaction Amount Range</h3>
+        <span class="chart-caption">Fraud likelihood segmented by monetary size tiers</span>
+      </div>
+      <div class="chart-canvas-wrap" style="height: 260px;">
+        <canvas id="chart-an-amount"></canvas>
+      </div>
+      <div class="chart-explanation">
+        <strong>Presentation Explanation:</strong> The average fraudulent transaction is INR 119,446 compared to INR 29,106 for legitimate transactions. High-value tiers (over INR 100K and over INR 500K) exhibit heightened financial risk exposure, confirming transaction amount as the #1 predictive feature in our model.
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

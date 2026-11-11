@@ -1,0 +1,253 @@
+{% extends "base.html" %}
+
+{% block title %}FinGuard – Real-time Fraud Detection Engine{% endblock %}
+
+{% block content %}
+<div class="page-intro">
+  <h2 class="page-title">Real-Time Transaction Risk Evaluation</h2>
+  <p class="page-subtitle">Submit transaction parameters to execute live inference against the trained Gradient Boosting supervised model.</p>
+</div>
+
+<!-- Transaction Input Form Panel -->
+<div class="panel">
+  <div class="panel-header">
+    <div>
+      <h3 class="panel-title">Transaction Parameter Input Form</h3>
+      <p class="panel-desc">All fields are mapped directly to the 79-dimensional preprocessed feature space</p>
+    </div>
+    <div class="form-presets">
+      <button type="button" id="btn-preset-legit" class="btn btn-outline btn-sm" title="Populate with authentic legitimate transaction">Load Legitimate Sample</button>
+      <button type="button" id="btn-preset-fraud" class="btn btn-outline btn-sm" title="Populate with authentic confirmed fraudulent transaction" style="color:var(--status-fraud-text); border-color:var(--status-fraud-border);">Load Suspicious Sample</button>
+      <button type="button" id="btn-preset-reset" class="btn btn-outline btn-sm">Reset</button>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <form id="fraud-analysis-form">
+      <div class="form-grid">
+
+        <!-- 1. Transaction Amount -->
+        <div class="form-group">
+          <label class="form-label" for="f-amount">
+            Transaction Amount (INR) *
+          </label>
+          <input type="number" step="0.01" min="1" id="f-amount" name="transaction_amount" class="input-field" placeholder="e.g. 45000.00" required value="2450.00">
+          <span class="form-hint">Monetary transfer value</span>
+        </div>
+
+        <!-- 2. Account Balance -->
+        <div class="form-group">
+          <label class="form-label" for="f-balance">
+            Available Balance (INR) *
+          </label>
+          <input type="number" step="0.01" min="0" id="f-balance" name="account_balance" class="input-field" placeholder="e.g. 75000.00" required value="85000.00">
+          <span class="form-hint">Pre-transaction account balance</span>
+        </div>
+
+        <!-- 3. Account Type -->
+        <div class="form-group">
+          <label class="form-label" for="f-acc-type">Account Type *</label>
+          <select id="f-acc-type" name="account_type" class="select-field" required>
+            <option value="Savings" selected>Savings Account</option>
+            <option value="Current">Current Account</option>
+            <option value="Salary">Salary Account</option>
+            <option value="Fixed Deposit">Fixed Deposit Account</option>
+            <option value="NRI">NRI Account</option>
+          </select>
+        </div>
+
+        <!-- 4. Transaction Type / Instrument -->
+        <div class="form-group">
+          <label class="form-label" for="f-tx-type">Transaction Instrument *</label>
+          <select id="f-tx-type" name="transaction_type" class="select-field" required>
+            <option value="UPI" selected>UPI (Unified Payments Interface)</option>
+            <option value="RTGS">RTGS (Real Time Gross Settlement)</option>
+            <option value="NEFT">NEFT (National Electronic Funds)</option>
+            <option value="IMPS">IMPS (Immediate Payment Service)</option>
+            <option value="Net_Banking">Internet Banking</option>
+            <option value="Credit_Card">Credit Card</option>
+            <option value="Cheque">Cheque Clearing</option>
+            <option value="ATM_Withdrawal">ATM Cash Withdrawal</option>
+            <option value="POS">Point of Sale (POS)</option>
+            <option value="Auto_Debit">Auto Debit / ECS</option>
+          </select>
+        </div>
+
+        <!-- 5. Transaction Direction -->
+        <div class="form-group">
+          <label class="form-label" for="f-direction">Direction *</label>
+          <select id="f-direction" name="transaction_direction" class="select-field" required>
+            <option value="Debit" selected>Debit (Outflow)</option>
+            <option value="Credit">Credit (Inflow)</option>
+          </select>
+        </div>
+
+        <!-- 6. Merchant Category -->
+        <div class="form-group">
+          <label class="form-label" for="f-merchant">Merchant Category *</label>
+          <select id="f-merchant" name="merchant_category" class="select-field" required>
+            <option value="Food & Dining" selected>Food & Dining</option>
+            <option value="Retail">Retail Shopping</option>
+            <option value="E-Commerce">E-Commerce</option>
+            <option value="Utilities">Utilities & Bills</option>
+            <option value="Travel">Travel & Transportation</option>
+            <option value="Peer Transfer">Peer-to-Peer Transfer</option>
+            <option value="Investment">Investment & Securities</option>
+            <option value="Healthcare">Healthcare & Pharmacy</option>
+            <option value="Education">Education & Tuition</option>
+            <option value="Real Estate">Real Estate</option>
+            <option value="Government">Government Payments</option>
+            <option value="Fuel">Fuel & Petroleum</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Salary">Salary Payroll</option>
+            <option value="Insurance">Insurance Premium</option>
+          </select>
+        </div>
+
+        <!-- 7. State -->
+        <div class="form-group">
+          <label class="form-label" for="f-state">Originating State *</label>
+          <select id="f-state" name="state" class="select-field" required>
+            <option value="Maharashtra" selected>Maharashtra</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Delhi">Delhi (NCR)</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="UP">Uttar Pradesh</option>
+            <option value="Punjab">Punjab</option>
+          </select>
+        </div>
+
+        <!-- 8. Payment Channel -->
+        <div class="form-group">
+          <label class="form-label" for="f-channel">Delivery Channel *</label>
+          <select id="f-channel" name="channel" class="select-field" required>
+            <option value="Mobile_App" selected>Mobile Banking App</option>
+            <option value="Web">Web Portal</option>
+            <option value="Branch">Bank Branch Counter</option>
+            <option value="ATM">ATM Terminal</option>
+            <option value="POS_Terminal">Merchant POS Terminal</option>
+            <option value="API">Corporate API Gateway</option>
+          </select>
+        </div>
+
+        <!-- 9. Transaction Status -->
+        <div class="form-group">
+          <label class="form-label" for="f-status">Transaction Status *</label>
+          <select id="f-status" name="transaction_status" class="select-field" required>
+            <option value="Success" selected>Success</option>
+            <option value="Pending">Pending Clearance</option>
+            <option value="Failed">Failed Attempt</option>
+            <option value="Reversed">Reversed</option>
+          </select>
+        </div>
+
+        <!-- 10. KYC Status -->
+        <div class="form-group">
+          <label class="form-label" for="f-kyc">Customer KYC Status *</label>
+          <select id="f-kyc" name="kyc_status" class="select-field" required>
+            <option value="Verified" selected>Verified (Active)</option>
+            <option value="Pending">Pending Documentation</option>
+            <option value="Expired">Expired / Inactive</option>
+          </select>
+        </div>
+
+        <!-- 11. Credit Score -->
+        <div class="form-group">
+          <label class="form-label" for="f-credit-score">Credit Score (300 - 850) *</label>
+          <input type="number" min="300" max="850" id="f-credit-score" name="credit_score" class="input-field" required value="740">
+        </div>
+
+        <!-- 12. Active Loan -->
+        <div class="form-group">
+          <label class="form-label" for="f-has-loan">Active Loan Facility *</label>
+          <select id="f-has-loan" name="has_loan" class="select-field" required>
+            <option value="0" selected>No Active Loan (0)</option>
+            <option value="1">Active Loan Present (1)</option>
+          </select>
+        </div>
+
+        <!-- 13. Loan Type -->
+        <div class="form-group">
+          <label class="form-label" for="f-loan-type">Loan Classification</label>
+          <select id="f-loan-type" name="loan_type" class="select-field">
+            <option value="No Loan" selected>No Loan</option>
+            <option value="Personal">Personal Loan</option>
+            <option value="Home">Home Mortgage Loan</option>
+            <option value="Auto">Auto / Vehicle Loan</option>
+            <option value="Business">Business Commercial Loan</option>
+            <option value="Education">Education Loan</option>
+            <option value="Gold">Gold Loan</option>
+            <option value="Unknown">Unknown Facility</option>
+          </select>
+        </div>
+
+        <!-- 14. EMI Amount -->
+        <div class="form-group">
+          <label class="form-label" for="f-emi">Monthly EMI (INR)</label>
+          <input type="number" step="0.01" min="0" id="f-emi" name="emi_amount" class="input-field" value="0.00">
+        </div>
+
+        <!-- 15. Transaction Date -->
+        <div class="form-group">
+          <label class="form-label" for="f-date">Transaction Date *</label>
+          <input type="date" id="f-date" name="transaction_date" class="input-field" required value="2024-05-15">
+        </div>
+
+        <!-- 16. Transaction Time -->
+        <div class="form-group">
+          <label class="form-label" for="f-time">Transaction Time (HH:MM) *</label>
+          <input type="time" id="f-time" name="transaction_time" class="input-field" required value="14:30">
+        </div>
+
+      </div>
+
+      <div class="form-actions">
+        <div style="font-size:0.8rem; color:var(--text-muted);">
+          * All parameters are validated prior to feature engineering and scoring.
+        </div>
+        <button type="submit" id="btn-analyze-submit" class="btn btn-primary" style="padding:0.75rem 2rem; font-size:0.95rem;">
+          ANALYSE TRANSACTION
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Prediction Assessment Output Box (Dynamically Revealed) -->
+<div id="prediction-result-wrap" style="display:none;">
+  <div class="result-card">
+    <div id="res-banner" class="result-banner">
+      <div class="result-title-group">
+        <h2 id="res-title">EVALUATION RESULT</h2>
+        <div id="res-timestamp" class="result-timestamp"></div>
+      </div>
+      <div class="probability-meter">
+        <div class="probability-label">Estimated Fraud Probability</div>
+        <div id="res-prob" class="probability-score">--%</div>
+      </div>
+    </div>
+
+    <div class="result-content">
+      <div class="explanation-section">
+        <h4 class="explanation-heading">Key Characteristics Influencing Assessment</h4>
+        <ul id="res-factors" class="factors-list">
+          <!-- Dynamic factors -->
+        </ul>
+      </div>
+
+      <div class="recommendation-box">
+        <h4>Operational Recommendation</h4>
+        <p id="res-recommendation"></p>
+      </div>
+
+      <div id="res-disclaimer" class="disclaimer-text">
+        <!-- Machine learning disclaimer -->
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

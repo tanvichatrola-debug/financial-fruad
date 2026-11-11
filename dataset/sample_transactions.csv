@@ -1,0 +1,1001 @@
+transaction_id,customer_id,transaction_date,transaction_time,account_type,transaction_type,transaction_amount,transaction_direction,account_balance,merchant_category,state,credit_score,has_loan,loan_type,emi_amount,transaction_status,channel,kyc_status,is_fraud,transaction_hour
+TXN000000001,CUST015796,2019-01-01,15:28,Current,UPI,1820.17,Debit,609365.31,Food & Dining,Maharashtra,764,0,None,0.0,Success,Branch,Verified,0,15
+TXN000000002,CUST000861,2019-01-01,03:00,Current,UPI,392.67,Credit,14451.14,Education,West Bengal,630,0,None,0.0,Success,Mobile_App,Verified,0,3
+TXN000000003,CUST076821,2019-01-01,18:03,Fixed Deposit,POS,1255.97,Debit,47621.87,Utilities,Punjab,813,1,Home,1433.91,Success,Mobile_App,Verified,0,18
+TXN000000004,CUST054887,2019-01-01,08:03,Savings,UPI,2580.68,Debit,34467.85,Travel,Karnataka,628,1,Personal,6280.35,Success,API,Verified,0,8
+TXN000000005,CUST006266,2019-01-01,14:23,Fixed Deposit,UPI,2573.8,Debit,26617.4,Utilities,West Bengal,767,0,None,0.0,Success,API,Verified,0,14
+TXN000000006,CUST037195,2019-01-01,01:51,Fixed Deposit,Net_Banking,39172.48,Debit,1798.86,Government,Karnataka,707,1,Auto,4197.37,Pending,Web,Verified,0,1
+TXN000000007,CUST044132,2019-01-01,06:27,Savings,NEFT,4008.09,Credit,177668.37,Investment,Punjab,361,1,Home,4251.79,Success,ATM,Verified,0,6
+TXN000000008,CUST060264,2019-01-01,23:40,Current,Net_Banking,17797.85,Debit,17568.23,Healthcare,Punjab,651,0,None,0.0,Success,Mobile_App,Expired,0,23
+TXN000000009,CUST016024,2019-01-01,20:25,Salary,Credit_Card,3284.62,Debit,66973.0,Food & Dining,Tamil Nadu,443,0,None,0.0,Success,Web,Verified,0,20
+TXN000000010,CUST041091,2019-01-01,22:15,Savings,Net_Banking,921.64,Debit,36054.94,Real Estate,Karnataka,330,1,Personal,9630.13,Success,Web,Verified,0,22
+TXN000000011,CUST067222,2019-01-01,08:50,Salary,Cheque,95223.86,Debit,200239.14,Government,Maharashtra,358,0,None,0.0,Success,Mobile_App,Verified,0,8
+TXN000000012,CUST064821,2019-01-01,13:52,Current,ATM_Withdrawal,1000.0,Debit,32673.88,E-Commerce,Tamil Nadu,500,0,None,0.0,Failed,Mobile_App,Verified,0,13
+TXN000000013,CUST000770,2019-01-01,20:13,Current,ATM_Withdrawal,2000.0,Debit,5156.5,Investment,Tamil Nadu,452,1,Personal,5845.85,Success,API,Verified,0,20
+TXN000000014,CUST059736,2019-01-01,20:17,NRI,ATM_Withdrawal,2000.0,Debit,100172.21,E-Commerce,Telangana,843,0,None,0.0,Success,ATM,Verified,0,20
+TXN000000015,CUST062956,2019-01-01,15:31,NRI,POS,233.62,Debit,638972.89,Government,Telangana,511,0,None,0.0,Failed,Mobile_App,Verified,0,15
+TXN000000016,CUST064926,2019-01-01,18:11,Fixed Deposit,POS,1251.8,Debit,13200.07,Government,Delhi,794,0,None,0.0,Success,Mobile_App,Verified,0,18
+TXN000000017,CUST067970,2019-01-01,10:55,Savings,NEFT,60788.4,Credit,119463.69,Government,Punjab,525,0,None,0.0,Success,Branch,Verified,0,10
+TXN000000018,CUST005312,2019-01-01,18:17,Savings,IMPS,9570.57,Debit,212350.12,Real Estate,Maharashtra,888,0,None,0.0,Failed,POS_Terminal,Verified,0,18
+TXN000000019,CUST053708,2019-01-01,10:18,Savings,POS,412.69,Debit,62943.57,Food & Dining,Telangana,582,0,None,0.0,Success,Mobile_App,Verified,0,10
+TXN000000020,CUST028694,2019-01-01,23:40,Current,UPI,968.06,Credit,83450.88,Retail,Maharashtra,614,0,None,0.0,Success,Mobile_App,Verified,0,23
+TXN000000021,CUST071933,2019-01-01,18:37,Current,RTGS,24601.6,Debit,25884.35,E-Commerce,UP,890,1,Gold,9645.1,Success,Web,Verified,0,18
+TXN000000022,CUST025659,2019-01-01,05:29,Current,RTGS,73416.02,Credit,21042.96,Travel,Rajasthan,862,0,None,0.0,Success,Mobile_App,Verified,0,5
+TXN000000023,CUST018432,2019-01-01,21:28,Current,UPI,447.21,Debit,15308.09,Healthcare,Tamil Nadu,517,0,None,0.0,Success,Branch,Verified,0,21
+TXN000000024,CUST002748,2019-01-01,09:21,Current,Credit_Card,9424.02,Debit,6219.97,Utilities,Maharashtra,347,1,Personal,20598.86,Success,Mobile_App,Verified,0,9
+TXN000000025,CUST059151,2019-01-01,04:02,Current,POS,2712.74,Debit,23484.81,Retail,Tamil Nadu,834,1,Auto,12565.3,Success,Mobile_App,Verified,0,4
+TXN000000026,CUST065726,2019-01-01,16:43,Savings,Net_Banking,24752.78,Credit,24426.0,Retail,Delhi,738,0,None,0.0,Success,Web,Verified,0,16
+TXN000000027,CUST035774,2019-01-01,04:35,Current,UPI,3615.95,Credit,97253.42,Retail,Telangana,376,0,None,0.0,Success,Web,Verified,0,4
+TXN000000028,CUST067436,2019-01-01,16:30,Fixed Deposit,ATM_Withdrawal,2000.0,Debit,23731.08,Fuel,Rajasthan,770,0,None,0.0,Success,Mobile_App,Verified,0,16
+TXN000000029,CUST056887,2019-01-01,12:26,Savings,UPI,125.47,Debit,85332.53,Retail,Maharashtra,481,1,Home,2058.02,Success,Mobile_App,Verified,0,12
+TXN000000030,CUST066804,2019-01-01,05:15,Salary,UPI,209.11,Debit,15812.04,E-Commerce,Gujarat,667,0,None,0.0,Success,Branch,Verified,0,5
+TXN000000031,CUST031552,2019-01-01,07:49,Current,IMPS,2705.25,Credit,19737.17,Salary,Punjab,653,0,None,0.0,Success,Web,Verified,0,7
+TXN000000032,CUST011395,2019-01-01,02:05,Savings,POS,350.05,Debit,46379.02,Investment,Telangana,721,0,None,0.0,Success,Mobile_App,Verified,0,2
+TXN000000033,CUST069093,2019-01-01,12:32,Current,UPI,1942.74,Debit,95581.93,Entertainment,Delhi,655,0,None,0.0,Success,Branch,Verified,0,12
+TXN000000034,CUST003891,2019-01-01,11:49,Current,UPI,3075.47,Credit,28556.52,E-Commerce,UP,785,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000035,CUST041607,2019-01-01,00:46,Savings,UPI,1194.03,Credit,310155.36,Salary,Punjab,316,1,Education,3985.19,Success,ATM,Verified,0,0
+TXN000000036,CUST010628,2019-01-01,13:07,Salary,Credit_Card,41717.68,Debit,25147.14,Entertainment,UP,372,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000037,CUST008793,2019-01-01,00:02,NRI,IMPS,2195.36,Credit,82828.47,Education,Tamil Nadu,484,0,None,0.0,Success,Mobile_App,Verified,0,0
+TXN000000038,CUST073970,2019-01-01,02:22,Current,ATM_Withdrawal,2000.0,Debit,108781.99,Food & Dining,Karnataka,649,0,None,0.0,Success,ATM,Verified,0,2
+TXN000000039,CUST043002,2019-01-01,23:04,Current,IMPS,37391.94,Credit,27586.27,E-Commerce,Delhi,614,0,None,0.0,Success,Branch,Verified,0,23
+TXN000000040,CUST076553,2019-01-01,14:24,Current,IMPS,2059.42,Debit,6276.78,Salary,Tamil Nadu,512,0,None,0.0,Success,Mobile_App,Pending,0,14
+TXN000000041,CUST023898,2019-01-01,11:35,Savings,Auto_Debit,879.1,Debit,45807.46,E-Commerce,Delhi,633,1,None,8597.49,Success,Web,Verified,0,11
+TXN000000042,CUST068149,2019-01-01,20:07,Salary,UPI,634.61,Credit,232027.81,Peer Transfer,Delhi,678,1,None,6697.8,Success,API,Verified,0,20
+TXN000000043,CUST023484,2019-01-01,03:02,Savings,IMPS,325.38,Debit,15765.64,Insurance,Karnataka,894,0,None,0.0,Success,Branch,Pending,0,3
+TXN000000044,CUST048556,2019-01-01,07:00,Salary,Auto_Debit,592.49,Debit,17060.23,Fuel,Maharashtra,366,0,None,0.0,Failed,API,Expired,0,7
+TXN000000045,CUST017160,2019-01-01,03:19,Savings,IMPS,5658.7,Debit,91286.26,Peer Transfer,Maharashtra,779,0,None,0.0,Success,API,Verified,1,3
+TXN000000046,CUST035921,2019-01-01,13:48,Fixed Deposit,IMPS,916.72,Debit,4343.46,Real Estate,Gujarat,835,1,Home,3844.96,Success,Web,Verified,0,13
+TXN000000047,CUST067122,2019-01-01,05:47,Current,UPI,11453.15,Debit,78636.2,Peer Transfer,Delhi,504,0,None,0.0,Success,Web,Expired,0,5
+TXN000000048,CUST069480,2019-01-01,06:14,Current,Cheque,7710.25,Debit,39627.17,E-Commerce,Karnataka,867,0,None,0.0,Success,API,Verified,0,6
+TXN000000049,CUST019458,2019-01-01,03:17,Savings,Auto_Debit,608.46,Debit,97103.44,Peer Transfer,Rajasthan,491,0,None,0.0,Success,Mobile_App,Verified,0,3
+TXN000000050,CUST066558,2019-01-01,06:57,Salary,IMPS,5929.66,Credit,203499.18,Real Estate,Maharashtra,860,1,Personal,19503.01,Success,POS_Terminal,Pending,0,6
+TXN000000051,CUST077190,2019-01-01,11:17,Savings,Auto_Debit,796.41,Debit,19168.22,Fuel,Telangana,617,0,None,0.0,Success,ATM,Verified,0,11
+TXN000000052,CUST078954,2019-01-01,21:29,Savings,POS,835.58,Debit,1945.46,Insurance,Karnataka,609,0,None,0.0,Success,Web,Verified,0,21
+TXN000000053,CUST052996,2019-01-01,21:51,Salary,UPI,635.81,Credit,52446.1,Real Estate,Telangana,670,0,None,0.0,Success,POS_Terminal,Verified,0,21
+TXN000000054,CUST040758,2019-01-01,07:36,Savings,IMPS,2132.7,Credit,15382.11,E-Commerce,Punjab,533,0,None,0.0,Success,API,Verified,0,7
+TXN000000055,CUST009693,2019-01-01,18:28,Salary,RTGS,28438.49,Credit,34822.82,Salary,West Bengal,789,0,None,0.0,Success,Mobile_App,Verified,0,18
+TXN000000056,CUST045759,2019-01-01,12:35,NRI,Credit_Card,27986.94,Debit,13297.8,E-Commerce,Maharashtra,711,1,Personal,3887.8,Success,Web,Verified,0,12
+TXN000000057,CUST072410,2019-01-01,20:54,Fixed Deposit,Net_Banking,94702.15,Credit,5712.46,Healthcare,Maharashtra,576,0,None,0.0,Success,Web,Verified,0,20
+TXN000000058,CUST071212,2019-01-01,21:26,Savings,NEFT,10198.66,Debit,4934.98,E-Commerce,Delhi,789,0,None,0.0,Success,Web,Verified,0,21
+TXN000000059,CUST065698,2019-01-01,04:20,Savings,Credit_Card,2422.15,Debit,5281.19,Government,Telangana,885,1,Home,4249.94,Success,ATM,Verified,0,4
+TXN000000060,CUST037066,2019-01-01,03:43,Savings,ATM_Withdrawal,2000.0,Debit,107338.6,Travel,Delhi,757,1,Home,11531.77,Success,Mobile_App,Verified,0,3
+TXN000000061,CUST032607,2019-01-01,09:16,Current,POS,362.85,Debit,110569.88,Retail,West Bengal,338,0,None,0.0,Success,Mobile_App,Pending,0,9
+TXN000000062,CUST011535,2019-01-01,09:35,Current,POS,285.4,Debit,7763.51,Peer Transfer,Tamil Nadu,456,0,None,0.0,Success,Web,Verified,0,9
+TXN000000063,CUST040398,2019-01-01,12:25,Current,Credit_Card,12449.96,Debit,39826.5,Real Estate,Telangana,811,0,None,0.0,Success,Mobile_App,Verified,0,12
+TXN000000064,CUST001017,2019-01-01,21:49,Salary,UPI,1771.33,Debit,6051.15,Real Estate,Gujarat,664,0,None,0.0,Success,Mobile_App,Verified,0,21
+TXN000000065,CUST055592,2019-01-01,01:39,Salary,UPI,258.38,Credit,54509.96,Healthcare,Tamil Nadu,804,1,Auto,10763.41,Success,POS_Terminal,Pending,0,1
+TXN000000066,CUST023248,2019-01-01,16:53,Savings,IMPS,1305.17,Debit,62216.41,Travel,Gujarat,774,0,None,0.0,Success,Branch,Verified,0,16
+TXN000000067,CUST024301,2019-01-01,00:10,Salary,UPI,1840.52,Credit,96536.64,Utilities,Gujarat,642,1,Auto,7614.1,Success,Mobile_App,Verified,0,0
+TXN000000068,CUST074066,2019-01-01,04:57,Salary,Cheque,2868.49,Credit,56275.55,Retail,Tamil Nadu,681,1,Home,3348.02,Success,POS_Terminal,Expired,0,4
+TXN000000069,CUST009269,2019-01-01,19:00,Current,RTGS,79938.63,Debit,199447.61,Utilities,UP,352,1,None,5683.47,Success,ATM,Pending,0,19
+TXN000000070,CUST012186,2019-01-01,12:10,Current,UPI,580.51,Debit,14173.91,E-Commerce,Gujarat,319,0,None,0.0,Success,POS_Terminal,Verified,0,12
+TXN000000071,CUST063705,2019-01-01,04:56,Current,UPI,808.57,Debit,4655.78,Education,Maharashtra,626,0,None,0.0,Success,Web,Verified,0,4
+TXN000000072,CUST039100,2019-01-01,01:21,Savings,Cheque,28383.53,Credit,80530.23,Food & Dining,Maharashtra,767,0,None,0.0,Success,Mobile_App,Verified,0,1
+TXN000000073,CUST008572,2019-01-01,07:12,Savings,UPI,424.06,Debit,706365.16,E-Commerce,Maharashtra,478,1,None,8317.18,Success,API,Verified,0,7
+TXN000000074,CUST038045,2019-01-01,13:16,Current,ATM_Withdrawal,2000.0,Debit,13538.27,Fuel,Maharashtra,634,0,None,0.0,Success,Mobile_App,Pending,0,13
+TXN000000075,CUST051215,2019-01-01,04:15,Savings,ATM_Withdrawal,2000.0,Debit,74511.26,Utilities,Delhi,422,0,None,0.0,Success,Web,Verified,0,4
+TXN000000076,CUST061229,2019-01-01,23:49,Savings,Net_Banking,7979.56,Debit,231597.49,Travel,Maharashtra,579,0,None,0.0,Success,Web,Verified,0,23
+TXN000000077,CUST048985,2019-01-01,23:49,Savings,UPI,213.41,Debit,19096.88,Travel,Telangana,850,0,None,0.0,Success,Web,Verified,0,23
+TXN000000078,CUST040775,2019-01-01,16:30,Current,IMPS,713.11,Debit,9520.98,Healthcare,Telangana,864,1,Personal,1871.94,Success,Web,Verified,0,16
+TXN000000079,CUST002569,2019-01-01,07:35,Salary,IMPS,2081.0,Credit,7001.08,Healthcare,Delhi,312,1,Gold,2056.58,Success,POS_Terminal,Verified,0,7
+TXN000000080,CUST062593,2019-01-01,08:05,Savings,UPI,1326.32,Credit,27410.95,Entertainment,Gujarat,351,0,None,0.0,Success,Mobile_App,Pending,0,8
+TXN000000081,CUST067564,2019-01-01,22:00,Fixed Deposit,POS,1239.5,Debit,68564.15,E-Commerce,UP,883,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000082,CUST002696,2019-01-01,23:15,Salary,NEFT,109970.48,Debit,11635.73,Retail,Karnataka,633,0,None,0.0,Success,POS_Terminal,Verified,0,23
+TXN000000083,CUST048191,2019-01-01,14:19,Fixed Deposit,UPI,354.34,Credit,168233.96,Travel,Delhi,661,0,None,0.0,Success,Mobile_App,Verified,0,14
+TXN000000084,CUST005259,2019-01-01,01:05,Savings,UPI,4958.43,Debit,16220.62,Fuel,Karnataka,587,0,None,0.0,Success,Web,Verified,0,1
+TXN000000085,CUST039505,2019-01-01,12:04,Savings,NEFT,2700.35,Credit,59245.96,Food & Dining,West Bengal,695,0,None,0.0,Success,API,Verified,0,12
+TXN000000086,CUST033160,2019-01-01,09:22,Savings,UPI,356.45,Debit,25840.63,Food & Dining,Delhi,847,1,Personal,884.71,Success,API,Verified,0,9
+TXN000000087,CUST013987,2019-01-01,21:44,Savings,UPI,1236.73,Debit,129880.5,E-Commerce,West Bengal,573,0,None,0.0,Success,Mobile_App,Verified,0,21
+TXN000000088,CUST061859,2019-01-01,21:44,Current,Auto_Debit,668.61,Debit,18045.46,Government,Maharashtra,739,1,Gold,1873.9,Success,Mobile_App,Verified,0,21
+TXN000000089,CUST012667,2019-01-01,06:40,Fixed Deposit,UPI,563.86,Debit,77021.57,Entertainment,West Bengal,846,0,None,0.0,Success,Web,Verified,0,6
+TXN000000090,CUST038661,2019-01-01,09:11,Salary,IMPS,37687.42,Credit,14445.58,Travel,Tamil Nadu,812,1,Business,10654.12,Success,POS_Terminal,Verified,0,9
+TXN000000091,CUST003562,2019-01-01,11:19,Current,UPI,46.08,Credit,74501.16,Education,Tamil Nadu,749,1,Auto,3876.04,Success,Mobile_App,Pending,0,11
+TXN000000092,CUST026855,2019-01-01,05:24,Salary,RTGS,217578.55,Credit,16619.09,Education,Delhi,595,0,None,0.0,Success,POS_Terminal,Verified,0,5
+TXN000000093,CUST064506,2019-01-01,17:10,Savings,Credit_Card,583.28,Debit,15569.75,Utilities,Karnataka,817,0,None,0.0,Failed,Web,Verified,0,17
+TXN000000094,CUST052252,2019-01-01,23:51,Current,ATM_Withdrawal,3000.0,Debit,66073.13,Entertainment,Maharashtra,325,0,None,0.0,Success,Web,Expired,0,23
+TXN000000095,CUST022663,2019-01-01,21:02,Salary,NEFT,5669.19,Credit,7995.24,Travel,Maharashtra,483,0,None,0.0,Reversed,Mobile_App,Verified,0,21
+TXN000000096,CUST008393,2019-01-01,00:45,Savings,UPI,2088.97,Debit,89877.58,Salary,Telangana,326,1,Education,9346.22,Success,Mobile_App,Verified,0,0
+TXN000000097,CUST030536,2019-01-01,19:08,Savings,IMPS,6391.24,Debit,26285.48,Fuel,West Bengal,615,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000098,CUST078604,2019-01-01,09:56,Current,Credit_Card,9163.33,Debit,34863.37,Food & Dining,Gujarat,368,0,None,0.0,Success,Web,Verified,0,9
+TXN000000099,CUST052257,2019-01-01,11:13,Salary,UPI,401.06,Credit,127854.15,Salary,Gujarat,316,0,None,0.0,Success,API,Verified,0,11
+TXN000000100,CUST035223,2019-01-01,02:00,Savings,IMPS,7861.91,Debit,77729.98,Salary,West Bengal,678,0,None,0.0,Success,Mobile_App,Verified,0,2
+TXN000000101,CUST077374,2019-01-01,19:41,Savings,ATM_Withdrawal,5000.0,Debit,2372.54,Investment,Karnataka,672,1,Home,1968.47,Success,Web,Verified,0,19
+TXN000000102,CUST079576,2019-01-01,23:12,Salary,Net_Banking,34938.36,Credit,15334.72,Retail,Maharashtra,858,0,None,0.0,Success,Web,Verified,0,23
+TXN000000103,CUST063336,2019-01-01,16:59,Salary,NEFT,76854.15,Credit,46306.28,Utilities,Gujarat,397,1,Auto,3352.36,Success,Mobile_App,Pending,0,16
+TXN000000104,CUST010966,2019-01-01,06:50,Savings,UPI,2411.42,Debit,10402.6,Food & Dining,Tamil Nadu,881,1,Business,11762.55,Success,API,Verified,0,6
+TXN000000105,CUST024539,2019-01-01,21:58,Savings,Net_Banking,18137.56,Credit,32417.86,Education,Tamil Nadu,799,0,None,0.0,Success,Web,Verified,0,21
+TXN000000106,CUST070593,2019-01-01,08:22,Savings,UPI,1904.2,Credit,17955.73,Government,West Bengal,870,1,Auto,3609.19,Success,POS_Terminal,Verified,0,8
+TXN000000107,CUST008111,2019-01-01,12:23,Savings,IMPS,244.75,Debit,112815.44,Travel,Maharashtra,842,0,None,0.0,Success,POS_Terminal,Verified,0,12
+TXN000000108,CUST079310,2019-01-01,06:33,Current,NEFT,19697.37,Debit,36330.95,E-Commerce,Gujarat,336,0,None,0.0,Success,API,Pending,0,6
+TXN000000109,CUST027267,2019-01-01,11:16,Savings,Auto_Debit,2801.32,Debit,20837.81,Investment,Karnataka,627,1,Personal,14314.25,Success,POS_Terminal,Verified,0,11
+TXN000000110,CUST052993,2019-01-01,14:02,Current,Credit_Card,834.03,Debit,66941.13,E-Commerce,West Bengal,841,1,None,6982.45,Success,ATM,Verified,0,14
+TXN000000111,CUST006911,2019-01-01,16:07,NRI,UPI,880.76,Debit,6765.73,Real Estate,Karnataka,647,0,None,0.0,Success,Mobile_App,Verified,0,16
+TXN000000112,CUST000207,2019-01-01,18:43,Current,POS,1268.09,Debit,150872.6,Peer Transfer,Telangana,385,0,None,0.0,Failed,Mobile_App,Verified,0,18
+TXN000000113,CUST023420,2019-01-01,11:51,Savings,Net_Banking,42536.41,Debit,36848.79,Insurance,Telangana,407,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000114,CUST050637,2019-01-01,05:41,Savings,ATM_Withdrawal,2000.0,Debit,8383.58,Healthcare,Gujarat,611,1,Education,6068.76,Success,Web,Verified,0,5
+TXN000000115,CUST050016,2019-01-01,04:11,Savings,Auto_Debit,6291.16,Debit,4126.13,Fuel,Tamil Nadu,616,1,Business,17411.25,Success,Mobile_App,Verified,0,4
+TXN000000116,CUST054269,2019-01-01,07:45,NRI,UPI,700.83,Credit,25388.65,Retail,Karnataka,638,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000117,CUST018142,2019-01-01,21:29,Salary,ATM_Withdrawal,2000.0,Debit,38842.91,Education,Telangana,301,1,Home,872.82,Success,POS_Terminal,Verified,0,21
+TXN000000118,CUST071911,2019-01-01,01:07,NRI,Auto_Debit,6421.18,Debit,14506.01,Investment,Punjab,340,1,Auto,8196.08,Success,Mobile_App,Verified,0,1
+TXN000000119,CUST056045,2019-01-01,22:24,Savings,ATM_Withdrawal,1000.0,Debit,74251.77,E-Commerce,Rajasthan,665,0,None,0.0,Success,Branch,Verified,0,22
+TXN000000120,CUST067215,2019-01-01,13:25,NRI,POS,929.72,Debit,611136.59,Healthcare,Karnataka,796,1,Business,4720.51,Success,POS_Terminal,Verified,0,13
+TXN000000121,CUST033828,2019-01-01,05:41,Savings,Net_Banking,12742.45,Credit,63780.18,Retail,Delhi,810,1,Education,7227.31,Success,Mobile_App,Expired,0,5
+TXN000000122,CUST055821,2019-01-01,05:37,Current,Cheque,78186.7,Debit,11124.61,Retail,Punjab,558,1,Personal,6947.01,Success,Mobile_App,Verified,0,5
+TXN000000123,CUST062624,2019-01-01,13:20,Fixed Deposit,Auto_Debit,461.39,Debit,18498.25,Peer Transfer,Tamil Nadu,570,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000124,CUST075451,2019-01-01,17:43,Fixed Deposit,POS,301.03,Debit,329493.17,Real Estate,Delhi,459,0,None,0.0,Success,ATM,Verified,0,17
+TXN000000125,CUST022300,2019-01-01,23:10,Savings,ATM_Withdrawal,1000.0,Debit,6713.07,Fuel,Tamil Nadu,508,0,None,0.0,Success,Branch,Verified,0,23
+TXN000000126,CUST043586,2019-01-01,06:11,Savings,IMPS,557.0,Debit,226346.65,Government,Tamil Nadu,815,0,None,0.0,Success,Mobile_App,Verified,0,6
+TXN000000127,CUST064045,2019-01-01,11:45,Current,POS,1542.38,Debit,12997.91,Investment,Maharashtra,897,1,Home,6568.42,Success,Web,Pending,0,11
+TXN000000128,CUST042558,2019-01-01,06:52,Savings,UPI,345.54,Credit,63630.21,E-Commerce,Maharashtra,666,0,None,0.0,Success,Web,Verified,0,6
+TXN000000129,CUST049081,2019-01-01,20:38,Savings,Auto_Debit,800.14,Debit,156103.32,Investment,Gujarat,752,0,None,0.0,Success,Mobile_App,Verified,0,20
+TXN000000130,CUST002694,2019-01-01,14:55,Savings,Auto_Debit,9020.49,Debit,28042.21,Salary,Karnataka,745,0,None,0.0,Success,Mobile_App,Verified,0,14
+TXN000000131,CUST069164,2019-01-01,13:45,Current,RTGS,127915.93,Credit,3925.47,Travel,Maharashtra,864,1,Education,2869.25,Success,Web,Verified,0,13
+TXN000000132,CUST025940,2019-01-01,02:57,Savings,IMPS,1943.14,Credit,5703.82,Healthcare,Delhi,493,1,Personal,9475.78,Success,Branch,Verified,0,2
+TXN000000133,CUST048926,2019-01-01,17:52,Current,UPI,566.74,Debit,34603.68,Investment,Rajasthan,478,0,None,0.0,Success,API,Verified,0,17
+TXN000000134,CUST042942,2019-01-01,16:52,Salary,UPI,1286.92,Credit,38922.98,Investment,West Bengal,571,1,Education,2370.79,Success,Mobile_App,Verified,0,16
+TXN000000135,CUST021835,2019-01-01,23:58,Current,Net_Banking,11520.79,Debit,16184.78,Healthcare,Maharashtra,414,1,Auto,1917.19,Success,Mobile_App,Verified,0,23
+TXN000000136,CUST018048,2019-01-01,12:27,Current,UPI,695.21,Credit,58071.94,Education,Karnataka,852,1,Auto,3306.99,Success,Web,Verified,0,12
+TXN000000137,CUST026106,2019-01-01,18:58,Savings,IMPS,3646.68,Credit,11122.27,Travel,UP,664,0,None,0.0,Success,Mobile_App,Verified,0,18
+TXN000000138,CUST075767,2019-01-01,00:45,Savings,ATM_Withdrawal,500.0,Debit,24374.76,Education,Rajasthan,710,1,Auto,1679.29,Success,Branch,Verified,0,0
+TXN000000139,CUST015708,2019-01-01,16:59,Savings,UPI,674.47,Credit,51445.99,Travel,Karnataka,590,0,None,0.0,Success,POS_Terminal,Pending,0,16
+TXN000000140,CUST021977,2019-01-01,07:41,NRI,NEFT,9749.09,Credit,12044.65,Government,Tamil Nadu,572,0,None,0.0,Success,ATM,Verified,0,7
+TXN000000141,CUST044263,2019-01-01,05:55,Current,POS,10254.76,Debit,66540.19,Insurance,Punjab,874,0,None,0.0,Success,Mobile_App,Verified,0,5
+TXN000000142,CUST023777,2019-01-01,00:08,Savings,POS,1550.2,Debit,192356.44,Travel,Delhi,830,0,None,0.0,Success,ATM,Verified,0,0
+TXN000000143,CUST030081,2019-01-01,17:27,Salary,RTGS,122876.92,Credit,33180.16,Salary,Tamil Nadu,417,0,None,0.0,Success,Web,Verified,0,17
+TXN000000144,CUST066843,2019-01-01,00:34,Current,Auto_Debit,3649.23,Debit,51706.11,E-Commerce,Karnataka,606,1,Education,7515.34,Success,Web,Pending,0,0
+TXN000000145,CUST061374,2019-01-01,06:42,Savings,UPI,809.58,Credit,20483.79,E-Commerce,West Bengal,595,0,None,0.0,Success,Branch,Verified,0,6
+TXN000000146,CUST006777,2019-01-01,17:12,Salary,UPI,130.8,Debit,22502.32,E-Commerce,Gujarat,703,1,Auto,7961.89,Success,Web,Verified,0,17
+TXN000000147,CUST055017,2019-01-01,09:26,Current,UPI,2967.94,Credit,372570.68,E-Commerce,Delhi,364,1,Personal,6502.05,Success,API,Verified,0,9
+TXN000000148,CUST009475,2019-01-01,21:10,Salary,Credit_Card,690.75,Debit,8287.87,Investment,Telangana,838,0,None,0.0,Success,ATM,Verified,0,21
+TXN000000149,CUST058054,2019-01-01,13:22,Current,ATM_Withdrawal,2000.0,Debit,607787.26,Government,Maharashtra,589,0,None,0.0,Success,POS_Terminal,Verified,0,13
+TXN000000150,CUST021960,2019-01-01,23:18,Salary,POS,1967.05,Debit,43497.5,Healthcare,Tamil Nadu,432,1,None,4558.2,Success,Web,Verified,0,23
+TXN000000151,CUST005531,2019-01-01,08:56,NRI,IMPS,32787.02,Credit,161252.14,Utilities,West Bengal,401,1,Personal,2717.18,Success,Mobile_App,Verified,0,8
+TXN000000152,CUST003749,2019-01-01,16:42,Salary,Net_Banking,1018.32,Credit,14251.26,Utilities,Maharashtra,789,1,Education,4076.68,Success,Branch,Expired,0,16
+TXN000000153,CUST013546,2019-01-01,19:05,Current,UPI,173.72,Debit,304114.73,Entertainment,UP,542,0,None,0.0,Success,ATM,Verified,0,19
+TXN000000154,CUST066200,2019-01-01,00:46,Salary,Cheque,62462.68,Debit,16525.93,Retail,Rajasthan,703,0,None,0.0,Success,Mobile_App,Verified,0,0
+TXN000000155,CUST034767,2019-01-01,03:35,Current,UPI,121.14,Debit,33391.79,Food & Dining,Maharashtra,408,0,None,0.0,Success,Web,Verified,0,3
+TXN000000156,CUST073531,2019-01-01,02:06,Salary,UPI,302.39,Debit,20281.74,Peer Transfer,Rajasthan,454,0,None,0.0,Reversed,API,Verified,0,2
+TXN000000157,CUST061088,2019-01-01,06:06,Current,Cheque,100496.17,Debit,17160.57,Retail,Maharashtra,807,0,None,0.0,Success,Web,Verified,0,6
+TXN000000158,CUST068841,2019-01-01,03:57,Savings,UPI,189.52,Debit,62679.03,Food & Dining,Maharashtra,817,0,None,0.0,Success,ATM,Verified,0,3
+TXN000000159,CUST054385,2019-01-01,20:20,Current,ATM_Withdrawal,500.0,Debit,105113.39,E-Commerce,Delhi,334,0,None,0.0,Success,POS_Terminal,Verified,0,20
+TXN000000160,CUST051006,2019-01-01,15:43,Current,IMPS,2451.3,Debit,38074.18,Travel,Delhi,509,0,None,0.0,Reversed,Web,Verified,0,15
+TXN000000161,CUST046577,2019-01-01,20:55,Fixed Deposit,ATM_Withdrawal,3000.0,Debit,17094.68,Real Estate,Gujarat,832,0,None,0.0,Success,POS_Terminal,Verified,0,20
+TXN000000162,CUST039354,2019-01-01,13:09,Current,IMPS,7249.37,Debit,86335.79,Food & Dining,Telangana,623,1,Auto,6218.52,Success,POS_Terminal,Verified,0,13
+TXN000000163,CUST062004,2019-01-01,09:42,Savings,Credit_Card,6381.84,Debit,10745.15,E-Commerce,Maharashtra,443,0,None,0.0,Success,Web,Pending,0,9
+TXN000000164,CUST052734,2019-01-01,21:20,NRI,ATM_Withdrawal,10000.0,Debit,3705.56,Real Estate,Delhi,825,0,None,0.0,Success,Mobile_App,Verified,0,21
+TXN000000165,CUST065319,2019-01-01,09:28,Savings,NEFT,35444.34,Debit,304595.5,Utilities,Karnataka,563,0,None,0.0,Success,Web,Verified,0,9
+TXN000000166,CUST023665,2019-01-01,21:06,Savings,UPI,1525.89,Credit,472575.56,Food & Dining,Delhi,641,0,None,0.0,Success,Web,Verified,0,21
+TXN000000167,CUST067173,2019-01-01,02:20,Savings,POS,1431.82,Debit,26524.11,Travel,UP,815,0,None,0.0,Success,Branch,Verified,0,2
+TXN000000168,CUST026737,2019-01-01,16:28,NRI,IMPS,35552.32,Debit,15848.29,E-Commerce,Gujarat,573,1,Business,12948.05,Success,Web,Verified,0,16
+TXN000000169,CUST000855,2019-01-01,20:12,Savings,IMPS,609.3,Credit,29310.52,Healthcare,UP,859,0,None,0.0,Success,Web,Verified,0,20
+TXN000000170,CUST038624,2019-01-01,18:01,Current,NEFT,3184.44,Debit,82034.33,Healthcare,Maharashtra,500,0,None,0.0,Failed,ATM,Verified,0,18
+TXN000000171,CUST007393,2019-01-01,17:12,Savings,Net_Banking,7622.13,Credit,103920.38,Retail,Maharashtra,490,0,None,0.0,Success,POS_Terminal,Verified,0,17
+TXN000000172,CUST055681,2019-01-01,03:55,Savings,UPI,800.3,Debit,10076.07,Entertainment,Telangana,457,0,None,0.0,Success,Mobile_App,Verified,0,3
+TXN000000173,CUST046718,2019-01-01,22:00,Savings,UPI,99.72,Credit,26605.58,Retail,Delhi,691,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000174,CUST050860,2019-01-01,19:09,NRI,UPI,721.47,Credit,10512.13,Travel,Karnataka,398,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000175,CUST026310,2019-01-01,16:24,Savings,Cheque,538205.53,Debit,41032.56,Healthcare,Karnataka,632,1,Auto,2507.05,Success,Mobile_App,Verified,0,16
+TXN000000176,CUST063735,2019-01-01,03:32,Savings,RTGS,59742.33,Debit,158847.27,Insurance,Punjab,343,0,None,0.0,Success,Web,Verified,0,3
+TXN000000177,CUST070468,2019-01-01,08:42,Current,NEFT,21206.42,Credit,25076.39,Government,Delhi,797,1,Education,3155.78,Success,ATM,Verified,0,8
+TXN000000178,CUST052663,2019-01-01,14:11,Fixed Deposit,UPI,2029.75,Credit,124817.8,Travel,Delhi,436,1,Personal,2530.62,Success,Mobile_App,Verified,0,14
+TXN000000179,CUST012689,2019-01-01,15:00,Salary,UPI,264.28,Debit,8280.41,Peer Transfer,Maharashtra,302,1,Personal,12604.72,Success,Mobile_App,Verified,0,15
+TXN000000180,CUST025343,2019-01-01,02:27,Current,NEFT,309869.01,Credit,68487.8,Education,Gujarat,803,0,None,0.0,Success,POS_Terminal,Verified,0,2
+TXN000000181,CUST037158,2019-01-01,14:10,Current,NEFT,276898.32,Credit,51711.11,Peer Transfer,UP,692,0,None,0.0,Success,Mobile_App,Verified,0,14
+TXN000000182,CUST067864,2019-01-01,05:18,Salary,Auto_Debit,4942.54,Debit,438882.66,Government,Tamil Nadu,682,0,None,0.0,Success,Branch,Verified,0,5
+TXN000000183,CUST052084,2019-01-01,02:48,Salary,RTGS,270421.3,Credit,54631.47,Food & Dining,Delhi,454,1,Business,4224.72,Success,Mobile_App,Verified,0,2
+TXN000000184,CUST065734,2019-01-01,11:02,Savings,POS,421.02,Debit,4246.64,Retail,Tamil Nadu,355,0,None,0.0,Failed,API,Verified,0,11
+TXN000000185,CUST034699,2019-01-01,10:26,NRI,Net_Banking,17877.04,Credit,21903.96,Utilities,Delhi,530,1,Gold,2867.1,Reversed,Web,Verified,0,10
+TXN000000186,CUST022672,2019-01-01,20:05,Salary,POS,424.75,Debit,11005.85,Real Estate,Gujarat,391,1,Education,2902.58,Success,ATM,Verified,0,20
+TXN000000187,CUST025185,2019-01-01,04:51,Savings,Cheque,4248.84,Debit,20503.68,Peer Transfer,Karnataka,720,0,None,0.0,Success,Web,Verified,0,4
+TXN000000188,CUST042108,2019-01-01,11:17,Fixed Deposit,Cheque,8739.71,Debit,4217.39,Peer Transfer,Tamil Nadu,513,0,None,0.0,Success,Web,Verified,0,11
+TXN000000189,CUST051664,2019-01-01,06:59,Current,NEFT,55435.9,Debit,241639.75,Investment,Maharashtra,532,1,Personal,2108.47,Success,Mobile_App,Verified,0,6
+TXN000000190,CUST015709,2019-01-01,17:52,Current,RTGS,169064.83,Debit,11483.19,Travel,Maharashtra,495,1,Business,10862.11,Success,Web,Verified,0,17
+TXN000000191,CUST049812,2019-01-01,22:41,Current,IMPS,891.71,Debit,114166.15,E-Commerce,Tamil Nadu,894,0,None,0.0,Success,Mobile_App,Pending,0,22
+TXN000000192,CUST002812,2019-01-01,18:35,NRI,POS,1894.11,Debit,146451.36,Retail,Maharashtra,812,0,None,0.0,Success,Web,Verified,0,18
+TXN000000193,CUST056251,2019-01-01,20:58,Savings,Cheque,73384.27,Debit,39528.07,Healthcare,UP,750,0,None,0.0,Success,Web,Verified,0,20
+TXN000000194,CUST072083,2019-01-01,01:07,Current,POS,12881.22,Debit,18023.98,Real Estate,Maharashtra,441,1,None,10510.49,Success,Mobile_App,Pending,0,1
+TXN000000195,CUST034755,2019-01-01,14:14,Salary,UPI,137.86,Debit,10696.64,Investment,Karnataka,612,0,None,0.0,Success,Web,Pending,0,14
+TXN000000196,CUST011412,2019-01-01,21:53,Current,NEFT,29022.49,Debit,124801.5,Entertainment,Tamil Nadu,671,1,Personal,3424.82,Success,Web,Verified,0,21
+TXN000000197,CUST002912,2019-01-01,14:56,Savings,UPI,156.71,Credit,2874.01,Entertainment,Maharashtra,632,0,None,0.0,Success,ATM,Verified,0,14
+TXN000000198,CUST067271,2019-01-01,16:19,Salary,ATM_Withdrawal,3000.0,Debit,7816.08,Government,Delhi,660,0,None,0.0,Success,POS_Terminal,Verified,0,16
+TXN000000199,CUST008681,2019-01-01,23:40,Savings,ATM_Withdrawal,1000.0,Debit,2127823.51,Travel,Telangana,731,0,None,0.0,Success,Web,Verified,0,23
+TXN000000200,CUST071296,2019-01-01,01:38,Current,Cheque,3813.87,Debit,51959.03,Fuel,Rajasthan,418,1,Auto,5697.35,Success,Branch,Verified,0,1
+TXN000000201,CUST011112,2019-01-01,06:45,Savings,POS,431.21,Debit,28278.9,Education,Rajasthan,472,1,Auto,4273.27,Success,POS_Terminal,Verified,0,6
+TXN000000202,CUST037505,2019-01-01,10:58,Salary,UPI,2270.92,Credit,19863.0,Travel,Delhi,476,0,None,0.0,Success,Mobile_App,Verified,0,10
+TXN000000203,CUST001803,2019-01-01,14:52,Salary,NEFT,193666.02,Debit,128393.07,Salary,Delhi,405,0,None,0.0,Success,Web,Verified,0,14
+TXN000000204,CUST008156,2019-01-01,07:03,Savings,ATM_Withdrawal,2000.0,Debit,28075.66,E-Commerce,Karnataka,469,1,Gold,14404.05,Success,POS_Terminal,Verified,0,7
+TXN000000205,CUST073657,2019-01-01,12:14,Current,IMPS,11668.58,Debit,32088.39,Investment,Telangana,524,0,None,0.0,Success,ATM,Verified,0,12
+TXN000000206,CUST039385,2019-01-01,10:34,Salary,UPI,373.47,Credit,79365.64,Peer Transfer,UP,578,1,Home,19448.97,Success,ATM,Verified,0,10
+TXN000000207,CUST047255,2019-01-01,09:58,Savings,POS,682.51,Debit,57259.66,Retail,UP,723,0,None,0.0,Success,POS_Terminal,Verified,0,9
+TXN000000208,CUST021919,2019-01-01,13:06,Salary,POS,1266.1,Debit,50767.38,Food & Dining,Tamil Nadu,798,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000209,CUST060714,2019-01-01,09:33,Savings,Net_Banking,23630.22,Credit,23567.3,Retail,Rajasthan,640,0,None,0.0,Success,Web,Pending,0,9
+TXN000000210,CUST030307,2019-01-01,00:54,Savings,ATM_Withdrawal,2000.0,Debit,363664.9,Peer Transfer,Karnataka,612,1,Personal,8241.04,Success,API,Verified,0,0
+TXN000000211,CUST016647,2019-01-01,05:44,Salary,POS,103.87,Debit,7256.97,E-Commerce,Delhi,337,0,None,0.0,Success,Branch,Verified,0,5
+TXN000000212,CUST046844,2019-01-01,19:27,Salary,ATM_Withdrawal,500.0,Debit,39430.45,Investment,Gujarat,456,0,None,0.0,Success,Web,Verified,0,19
+TXN000000213,CUST016372,2019-01-01,22:16,Current,POS,508.4,Debit,51473.05,Travel,Telangana,625,1,Personal,8070.2,Success,POS_Terminal,Verified,0,22
+TXN000000214,CUST077372,2019-01-01,12:12,Savings,UPI,221.92,Credit,9785.87,Food & Dining,Tamil Nadu,867,1,Personal,7798.92,Success,Branch,Verified,0,12
+TXN000000215,CUST002050,2019-01-01,06:25,Fixed Deposit,UPI,938.13,Credit,57971.6,Utilities,Tamil Nadu,897,0,None,0.0,Success,API,Verified,0,6
+TXN000000216,CUST031617,2019-01-01,01:52,Savings,UPI,3402.61,Credit,16309.42,Salary,Tamil Nadu,457,0,None,0.0,Success,ATM,Verified,0,1
+TXN000000217,CUST020933,2019-01-01,16:16,NRI,UPI,2284.25,Credit,2928.94,E-Commerce,Gujarat,499,0,None,0.0,Success,Web,Verified,0,16
+TXN000000218,CUST029856,2019-01-01,19:52,Current,UPI,1796.92,Credit,3556363.05,E-Commerce,Tamil Nadu,411,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000219,CUST061435,2019-01-01,16:52,Current,UPI,624.69,Debit,6897.52,Healthcare,Tamil Nadu,322,1,Personal,3249.65,Success,Web,Verified,0,16
+TXN000000220,CUST072695,2019-01-01,04:53,Fixed Deposit,Net_Banking,1795.92,Debit,47381.16,Healthcare,Gujarat,780,1,Personal,923.0,Success,API,Expired,0,4
+TXN000000221,CUST043017,2019-01-01,07:01,Savings,IMPS,294.52,Credit,5227.43,Insurance,Maharashtra,362,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000222,CUST007401,2019-01-01,00:01,Savings,POS,1159.22,Debit,17938.69,Food & Dining,Telangana,670,1,Personal,2724.51,Success,Mobile_App,Verified,0,0
+TXN000000223,CUST042643,2019-01-01,07:19,Savings,IMPS,1601.56,Debit,10624.27,Retail,Rajasthan,342,1,Auto,4018.35,Success,Mobile_App,Verified,0,7
+TXN000000224,CUST015152,2019-01-01,02:03,Current,Cheque,48908.89,Debit,99348.4,Retail,Karnataka,561,0,None,0.0,Success,Mobile_App,Verified,0,2
+TXN000000225,CUST051408,2019-01-01,13:10,Current,IMPS,24687.73,Debit,34643.9,Utilities,Maharashtra,895,0,None,0.0,Success,Mobile_App,Pending,0,13
+TXN000000226,CUST066691,2019-01-01,09:00,Current,Credit_Card,1113.63,Debit,40817.1,Travel,Gujarat,492,0,None,0.0,Success,Mobile_App,Verified,0,9
+TXN000000227,CUST004500,2019-01-01,09:23,Current,IMPS,1439.42,Debit,360563.77,Salary,Tamil Nadu,662,1,Education,1402.9,Success,Mobile_App,Verified,0,9
+TXN000000228,CUST006296,2019-01-01,05:12,Savings,Cheque,25861.34,Debit,125992.24,Real Estate,West Bengal,392,0,None,0.0,Success,Mobile_App,Verified,0,5
+TXN000000229,CUST059041,2019-01-01,20:04,Current,POS,97.63,Debit,51580.55,Fuel,West Bengal,716,0,None,0.0,Pending,Mobile_App,Verified,0,20
+TXN000000230,CUST012184,2019-01-01,20:48,Savings,IMPS,383.61,Credit,7589.87,E-Commerce,Karnataka,841,1,Education,2690.72,Success,POS_Terminal,Verified,0,20
+TXN000000231,CUST029300,2019-01-01,13:56,Savings,Credit_Card,6672.97,Debit,67364.58,Insurance,West Bengal,835,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000232,CUST012875,2019-01-01,14:51,NRI,RTGS,172080.23,Credit,49669.14,Fuel,Maharashtra,339,0,None,0.0,Success,POS_Terminal,Pending,0,14
+TXN000000233,CUST032712,2019-01-01,02:39,Salary,NEFT,2860.66,Debit,87842.19,Investment,Gujarat,872,0,None,0.0,Pending,Web,Verified,0,2
+TXN000000234,CUST005540,2019-01-01,13:15,Current,ATM_Withdrawal,3000.0,Debit,32752.78,Entertainment,Rajasthan,739,1,Business,5528.9,Success,Mobile_App,Verified,0,13
+TXN000000235,CUST053352,2019-01-01,11:10,Salary,UPI,1555.17,Credit,29112.68,Insurance,Gujarat,678,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000236,CUST061268,2019-01-01,17:49,Salary,POS,8283.29,Debit,56572.91,Retail,Delhi,432,1,Education,4230.3,Success,Web,Verified,0,17
+TXN000000237,CUST048355,2019-01-01,12:33,Savings,ATM_Withdrawal,5000.0,Debit,112659.17,Travel,Tamil Nadu,456,1,Auto,7900.24,Success,Mobile_App,Verified,0,12
+TXN000000238,CUST002558,2019-01-01,04:14,Savings,RTGS,76599.41,Debit,42246.51,Retail,Maharashtra,633,0,None,0.0,Failed,Web,Verified,0,4
+TXN000000239,CUST038361,2019-01-01,08:31,Savings,IMPS,19879.73,Debit,35218.35,Fuel,Rajasthan,369,1,None,3790.34,Success,Mobile_App,Verified,0,8
+TXN000000240,CUST002201,2019-01-01,06:09,Savings,ATM_Withdrawal,5000.0,Debit,4951.65,Food & Dining,Gujarat,307,0,None,0.0,Success,API,Verified,0,6
+TXN000000241,CUST068498,2019-01-01,10:33,Current,UPI,829.61,Credit,5905.17,Retail,Maharashtra,766,0,None,0.0,Success,ATM,Verified,0,10
+TXN000000242,CUST046976,2019-01-01,05:13,Savings,NEFT,25130.11,Debit,5416.65,Retail,Tamil Nadu,755,0,None,0.0,Success,Mobile_App,Verified,0,5
+TXN000000243,CUST021358,2019-01-01,15:56,Salary,Cheque,1192.81,Credit,52767.11,Peer Transfer,Gujarat,636,0,None,0.0,Success,Mobile_App,Verified,0,15
+TXN000000244,CUST077506,2019-01-01,00:16,Savings,NEFT,54580.63,Debit,11246.28,Salary,Delhi,693,0,None,0.0,Success,ATM,Verified,0,0
+TXN000000245,CUST002870,2019-01-01,19:36,Savings,IMPS,2990.75,Debit,124127.92,Insurance,West Bengal,656,0,None,0.0,Success,Web,Verified,0,19
+TXN000000246,CUST061136,2019-01-01,11:50,Savings,Cheque,31451.87,Credit,12407.86,Salary,Karnataka,306,0,None,0.0,Success,API,Verified,0,11
+TXN000000247,CUST050109,2019-01-01,01:26,Salary,IMPS,1765.3,Debit,77857.74,Education,West Bengal,437,0,None,0.0,Success,POS_Terminal,Verified,0,1
+TXN000000248,CUST038468,2019-01-01,20:58,Salary,NEFT,34043.65,Credit,115264.19,Retail,Delhi,649,0,None,0.0,Success,Mobile_App,Verified,0,20
+TXN000000249,CUST023329,2019-01-01,13:29,Savings,UPI,6740.61,Debit,89618.79,Retail,Karnataka,509,1,Home,9008.22,Success,API,Verified,0,13
+TXN000000250,CUST003988,2019-01-01,08:01,Current,UPI,438.7,Debit,18550.56,Salary,Tamil Nadu,438,0,None,0.0,Success,Branch,Verified,0,8
+TXN000000251,CUST058872,2019-01-01,11:39,Current,UPI,138.36,Debit,15656.3,Investment,Karnataka,384,0,None,0.0,Success,Web,Verified,0,11
+TXN000000252,CUST022400,2019-01-01,15:49,Salary,POS,866.24,Debit,9508.61,Government,Telangana,475,1,Education,15643.31,Failed,Mobile_App,Pending,0,15
+TXN000000253,CUST046215,2019-01-01,13:59,Savings,IMPS,16072.23,Credit,22987.37,Salary,Tamil Nadu,394,1,Education,36261.33,Success,ATM,Verified,0,13
+TXN000000254,CUST070272,2019-01-01,04:24,Savings,Auto_Debit,35544.47,Debit,22536.18,E-Commerce,Telangana,318,0,None,0.0,Failed,Branch,Verified,0,4
+TXN000000255,CUST044065,2019-01-01,17:37,Current,RTGS,243324.09,Debit,49983.36,Healthcare,Tamil Nadu,301,0,None,0.0,Success,Mobile_App,Verified,0,17
+TXN000000256,CUST070092,2019-01-01,19:37,Current,Auto_Debit,329.93,Debit,57390.38,Fuel,Rajasthan,634,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000257,CUST040819,2019-01-01,10:46,NRI,ATM_Withdrawal,1000.0,Debit,158288.77,Peer Transfer,Maharashtra,685,1,None,4139.92,Success,Mobile_App,Verified,0,10
+TXN000000258,CUST045526,2019-01-01,11:49,Savings,Credit_Card,12364.07,Debit,7214.72,Utilities,UP,892,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000259,CUST019831,2019-01-01,21:09,NRI,Net_Banking,63830.26,Credit,59775.75,Peer Transfer,Telangana,850,0,None,0.0,Success,Web,Expired,0,21
+TXN000000260,CUST017430,2019-01-01,10:30,Savings,UPI,229.27,Credit,20183.05,Food & Dining,Tamil Nadu,492,0,None,0.0,Success,POS_Terminal,Verified,0,10
+TXN000000261,CUST006894,2019-01-01,06:45,Current,UPI,2777.58,Debit,22074.1,Education,Delhi,329,1,Education,17523.44,Success,Mobile_App,Verified,0,6
+TXN000000262,CUST079910,2019-01-01,18:00,Savings,ATM_Withdrawal,500.0,Debit,137695.15,Insurance,Delhi,533,1,Personal,3860.58,Success,Branch,Verified,0,18
+TXN000000263,CUST047334,2019-01-01,10:39,Savings,IMPS,27247.08,Credit,6820.85,Government,Telangana,631,1,Education,2460.93,Success,Mobile_App,Verified,0,10
+TXN000000264,CUST003437,2019-01-01,22:39,Savings,UPI,710.03,Credit,155343.82,Entertainment,Gujarat,311,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000265,CUST074291,2019-01-01,13:47,Savings,ATM_Withdrawal,3000.0,Debit,8733.13,Salary,Gujarat,630,1,Auto,2974.94,Success,ATM,Verified,0,13
+TXN000000266,CUST076214,2019-01-01,16:34,Savings,Net_Banking,18306.96,Debit,1137.22,Insurance,Punjab,554,0,None,0.0,Success,API,Verified,0,16
+TXN000000267,CUST005896,2019-01-01,07:54,Fixed Deposit,ATM_Withdrawal,3000.0,Debit,87210.62,Utilities,Maharashtra,417,0,None,0.0,Success,Mobile_App,Pending,0,7
+TXN000000268,CUST019739,2019-01-01,21:42,NRI,UPI,105.88,Debit,517664.93,Salary,Maharashtra,754,0,None,0.0,Failed,Branch,Verified,0,21
+TXN000000269,CUST030747,2019-01-01,16:06,Savings,NEFT,1512.3,Debit,163243.11,Insurance,Karnataka,608,0,None,0.0,Failed,Branch,Verified,0,16
+TXN000000270,CUST049378,2019-01-01,07:34,Current,RTGS,114075.95,Debit,40761.22,Fuel,Delhi,608,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000271,CUST048405,2019-01-01,04:17,Savings,NEFT,3788.15,Debit,494344.55,Retail,West Bengal,704,0,None,0.0,Success,Web,Verified,0,4
+TXN000000272,CUST054046,2019-01-01,23:03,Current,Credit_Card,418.37,Debit,343365.78,Food & Dining,Telangana,869,0,None,0.0,Success,Web,Verified,0,23
+TXN000000273,CUST039791,2019-01-01,11:56,Savings,ATM_Withdrawal,500.0,Debit,147819.27,Fuel,Delhi,340,1,Personal,5055.09,Success,ATM,Verified,0,11
+TXN000000274,CUST005601,2019-01-01,12:56,Salary,POS,410.73,Debit,6097.02,Peer Transfer,Gujarat,720,0,None,0.0,Success,Branch,Verified,0,12
+TXN000000275,CUST040765,2019-01-01,07:23,Salary,UPI,589.33,Debit,99302.42,Entertainment,Telangana,887,1,Business,7355.07,Success,Mobile_App,Verified,0,7
+TXN000000276,CUST074544,2019-01-01,07:47,Savings,UPI,232.45,Credit,107643.86,Travel,Maharashtra,728,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000277,CUST045715,2019-01-01,14:57,Savings,Cheque,189678.16,Debit,31540.75,Peer Transfer,West Bengal,895,1,Home,976.16,Success,ATM,Verified,0,14
+TXN000000278,CUST056836,2019-01-01,01:55,Current,UPI,113.19,Credit,4139.63,Retail,Maharashtra,623,0,None,0.0,Success,Web,Verified,0,1
+TXN000000279,CUST073745,2019-01-01,20:29,Salary,IMPS,421.47,Debit,69041.71,Retail,Delhi,774,0,None,0.0,Success,Branch,Verified,0,20
+TXN000000280,CUST056492,2019-01-01,08:06,Salary,POS,340.7,Debit,25204.15,Peer Transfer,Maharashtra,589,1,Home,9665.58,Success,Mobile_App,Verified,0,8
+TXN000000281,CUST018590,2019-01-01,11:59,Current,Auto_Debit,3332.39,Debit,8060.18,Insurance,Tamil Nadu,401,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000282,CUST043485,2019-01-01,11:33,Current,UPI,1847.96,Debit,20143.49,E-Commerce,Maharashtra,663,0,None,0.0,Success,ATM,Verified,0,11
+TXN000000283,CUST036213,2019-01-01,11:49,Savings,Credit_Card,1670.2,Debit,33996.0,Education,Telangana,643,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000284,CUST043526,2019-01-01,22:17,Fixed Deposit,ATM_Withdrawal,5000.0,Debit,23651.81,Government,Delhi,895,1,Personal,10586.77,Success,API,Verified,0,22
+TXN000000285,CUST047203,2019-01-01,03:58,Fixed Deposit,IMPS,73.69,Credit,26200.19,Utilities,Gujarat,552,0,None,0.0,Success,Web,Verified,0,3
+TXN000000286,CUST032636,2019-01-01,21:32,Fixed Deposit,ATM_Withdrawal,1000.0,Debit,8965.47,Peer Transfer,Delhi,726,1,Personal,18776.43,Success,Mobile_App,Verified,0,21
+TXN000000287,CUST063209,2019-01-01,16:11,Savings,ATM_Withdrawal,2000.0,Debit,816.08,Investment,Maharashtra,844,0,None,0.0,Success,Web,Verified,0,16
+TXN000000288,CUST033829,2019-01-01,13:35,Savings,Net_Banking,1814.45,Debit,17843.47,Retail,Maharashtra,365,0,None,0.0,Success,Branch,Verified,0,13
+TXN000000289,CUST018712,2019-01-01,21:22,Current,POS,20937.16,Debit,11565.34,Utilities,Maharashtra,378,0,None,0.0,Success,Web,Verified,0,21
+TXN000000290,CUST003421,2019-01-01,10:59,Salary,NEFT,1367.76,Debit,19180.23,Education,Telangana,686,1,Business,889.92,Success,Web,Verified,0,10
+TXN000000291,CUST000302,2019-01-01,15:52,Savings,ATM_Withdrawal,500.0,Debit,1487.41,Retail,Maharashtra,714,0,None,0.0,Success,Mobile_App,Verified,0,15
+TXN000000292,CUST045237,2019-01-01,01:05,Savings,RTGS,57143.19,Debit,147598.08,E-Commerce,Telangana,684,0,None,0.0,Failed,ATM,Verified,0,1
+TXN000000293,CUST066236,2019-01-01,20:31,Savings,UPI,184.78,Debit,148039.82,Food & Dining,Gujarat,308,1,Gold,3841.34,Success,API,Pending,0,20
+TXN000000294,CUST054241,2019-01-01,00:43,Savings,ATM_Withdrawal,2000.0,Debit,54675.55,Food & Dining,Maharashtra,471,1,Auto,1668.93,Success,POS_Terminal,Verified,0,0
+TXN000000295,CUST065727,2019-01-01,11:49,NRI,UPI,47.38,Debit,24941.92,Healthcare,Delhi,583,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000296,CUST010493,2019-01-01,22:58,Current,Credit_Card,316.34,Debit,7001.23,Education,West Bengal,589,1,Auto,4501.9,Success,API,Verified,0,22
+TXN000000297,CUST006103,2019-01-01,10:25,Current,IMPS,14174.03,Debit,20934.1,Real Estate,Delhi,550,0,None,0.0,Pending,ATM,Verified,0,10
+TXN000000298,CUST050337,2019-01-01,14:43,NRI,RTGS,34936.35,Debit,61870.71,Travel,Punjab,309,0,None,0.0,Success,Mobile_App,Verified,0,14
+TXN000000299,CUST026642,2019-01-02,06:03,Savings,Auto_Debit,689.72,Debit,19785.52,Fuel,Maharashtra,580,0,None,0.0,Success,Mobile_App,Verified,0,6
+TXN000000300,CUST034585,2019-01-02,06:54,Savings,UPI,363.63,Debit,352001.69,Retail,Telangana,608,0,None,0.0,Success,POS_Terminal,Verified,0,6
+TXN000000301,CUST032746,2019-01-02,13:36,Current,POS,2014.42,Debit,73405.91,E-Commerce,Rajasthan,463,0,None,0.0,Success,Branch,Verified,0,13
+TXN000000302,CUST023094,2019-01-02,05:41,Salary,RTGS,315277.96,Credit,2330.62,Travel,Karnataka,627,0,None,0.0,Success,Mobile_App,Verified,0,5
+TXN000000303,CUST066106,2019-01-02,21:04,Current,ATM_Withdrawal,2000.0,Debit,11626.41,Travel,Maharashtra,619,0,None,0.0,Success,Mobile_App,Verified,0,21
+TXN000000304,CUST051886,2019-01-02,16:34,Current,Net_Banking,2035.86,Debit,80278.24,E-Commerce,Maharashtra,476,0,None,0.0,Success,Web,Pending,0,16
+TXN000000305,CUST036632,2019-01-02,09:48,Savings,IMPS,14597.09,Debit,8042.57,Education,Tamil Nadu,378,0,None,0.0,Pending,POS_Terminal,Verified,0,9
+TXN000000306,CUST072992,2019-01-02,16:26,Salary,IMPS,2051.31,Debit,9372.77,E-Commerce,Karnataka,659,1,Auto,12965.43,Pending,Mobile_App,Verified,0,16
+TXN000000307,CUST004015,2019-01-02,20:52,Current,Credit_Card,3310.33,Debit,11748.34,Healthcare,West Bengal,868,0,None,0.0,Success,Mobile_App,Verified,0,20
+TXN000000308,CUST011094,2019-01-02,20:28,Fixed Deposit,UPI,688.26,Debit,11226.41,Government,Telangana,320,0,None,0.0,Success,ATM,Verified,0,20
+TXN000000309,CUST018071,2019-01-02,09:01,Savings,RTGS,541970.25,Credit,28459.13,Education,Maharashtra,563,1,Business,1336.55,Failed,Mobile_App,Verified,0,9
+TXN000000310,CUST035778,2019-01-02,19:13,Current,Net_Banking,3578.05,Credit,346950.88,Fuel,Karnataka,662,0,None,0.0,Success,ATM,Verified,0,19
+TXN000000311,CUST056959,2019-01-02,15:48,Savings,POS,2357.97,Debit,112666.59,Real Estate,Telangana,419,0,None,0.0,Success,POS_Terminal,Verified,0,15
+TXN000000312,CUST010730,2019-01-02,15:04,Savings,Auto_Debit,1348.22,Debit,12923.89,Healthcare,UP,473,1,Home,7338.3,Success,ATM,Verified,0,15
+TXN000000313,CUST045018,2019-01-02,17:27,Salary,UPI,484.84,Debit,24043.14,Travel,Karnataka,621,1,Auto,8142.51,Success,Mobile_App,Verified,0,17
+TXN000000314,CUST066321,2019-01-02,11:09,Savings,ATM_Withdrawal,2000.0,Debit,228728.89,Food & Dining,Karnataka,438,0,None,0.0,Success,Web,Pending,0,11
+TXN000000315,CUST027752,2019-01-02,06:00,Fixed Deposit,UPI,6215.96,Debit,5810.36,Salary,Maharashtra,659,0,None,0.0,Success,POS_Terminal,Verified,0,6
+TXN000000316,CUST078070,2019-01-02,04:46,Salary,NEFT,34801.95,Debit,107548.85,Travel,Karnataka,786,1,Home,3221.02,Success,Mobile_App,Verified,0,4
+TXN000000317,CUST054749,2019-01-02,09:21,Current,ATM_Withdrawal,2000.0,Debit,16279.31,Education,Maharashtra,517,1,None,2268.92,Success,Mobile_App,Verified,0,9
+TXN000000318,CUST005802,2019-01-02,00:27,Salary,NEFT,6386.42,Credit,10281.72,Salary,Maharashtra,618,1,Personal,6810.57,Success,Web,Verified,0,0
+TXN000000319,CUST019191,2019-01-02,01:23,Savings,IMPS,2218.51,Debit,10534.11,E-Commerce,Delhi,350,1,Gold,2715.74,Success,Mobile_App,Verified,0,1
+TXN000000320,CUST049690,2019-01-02,04:50,Salary,UPI,1938.01,Debit,41790.53,Entertainment,Delhi,544,0,None,0.0,Success,Mobile_App,Verified,0,4
+TXN000000321,CUST050994,2019-01-02,08:21,Fixed Deposit,UPI,262.82,Credit,41788.83,Travel,Delhi,485,0,None,0.0,Success,API,Verified,0,8
+TXN000000322,CUST029593,2019-01-02,05:41,NRI,ATM_Withdrawal,3000.0,Debit,11516.11,Real Estate,UP,898,1,Business,1404.99,Success,Mobile_App,Verified,0,5
+TXN000000323,CUST010648,2019-01-02,22:50,Savings,UPI,374.14,Credit,9706.9,E-Commerce,Gujarat,878,1,Home,1485.58,Success,Mobile_App,Verified,0,22
+TXN000000324,CUST008717,2019-01-02,08:06,Current,ATM_Withdrawal,1000.0,Debit,58630.75,Investment,Delhi,587,0,None,0.0,Success,Web,Verified,0,8
+TXN000000325,CUST070317,2019-01-02,02:21,Current,POS,700.43,Debit,7373.53,Insurance,Karnataka,464,1,Personal,1252.47,Success,Web,Pending,0,2
+TXN000000326,CUST002369,2019-01-02,15:39,Savings,POS,34714.75,Debit,23591.3,Education,Maharashtra,829,1,None,3141.82,Success,Mobile_App,Verified,0,15
+TXN000000327,CUST077576,2019-01-02,16:40,Salary,UPI,663.41,Debit,19151.56,Education,Maharashtra,544,1,Auto,2558.47,Success,Mobile_App,Verified,0,16
+TXN000000328,CUST006656,2019-01-02,22:51,Salary,UPI,801.96,Credit,65085.5,Peer Transfer,Karnataka,743,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000329,CUST070032,2019-01-02,09:23,Salary,UPI,1028.41,Credit,119412.64,Utilities,Delhi,474,0,None,0.0,Reversed,ATM,Verified,0,9
+TXN000000330,CUST076430,2019-01-02,00:54,Salary,ATM_Withdrawal,2000.0,Debit,58012.35,Education,Tamil Nadu,409,0,None,0.0,Success,POS_Terminal,Verified,0,0
+TXN000000331,CUST055767,2019-01-02,07:03,Current,IMPS,47323.36,Debit,163088.54,Retail,Tamil Nadu,593,1,Auto,3797.59,Success,Mobile_App,Verified,0,7
+TXN000000332,CUST013404,2019-01-02,05:28,Current,UPI,1729.56,Credit,41251.67,Food & Dining,Karnataka,583,0,None,0.0,Success,Mobile_App,Verified,0,5
+TXN000000333,CUST032098,2019-01-02,17:47,Savings,UPI,3651.19,Credit,41170.31,Healthcare,Gujarat,844,0,None,0.0,Success,POS_Terminal,Verified,0,17
+TXN000000334,CUST078658,2019-01-02,22:25,Current,Cheque,81289.82,Debit,2048.61,Healthcare,West Bengal,842,0,None,0.0,Success,POS_Terminal,Verified,0,22
+TXN000000335,CUST010967,2019-01-02,05:02,Current,IMPS,1515.55,Credit,17370.14,Utilities,Telangana,404,0,None,0.0,Success,POS_Terminal,Verified,0,5
+TXN000000336,CUST052922,2019-01-02,11:49,Current,ATM_Withdrawal,2000.0,Debit,32325.33,Government,West Bengal,341,1,Business,6365.68,Failed,Mobile_App,Verified,0,11
+TXN000000337,CUST049727,2019-01-02,15:02,Savings,POS,783.65,Debit,4300.3,Government,Tamil Nadu,745,0,None,0.0,Success,Mobile_App,Verified,0,15
+TXN000000338,CUST050301,2019-01-02,15:06,Current,UPI,281.53,Credit,64131.34,Government,Maharashtra,574,1,Home,12224.03,Success,Mobile_App,Verified,0,15
+TXN000000339,CUST022678,2019-01-02,20:12,Current,RTGS,297416.15,Credit,51105.22,Food & Dining,Maharashtra,531,1,Gold,1543.65,Success,Mobile_App,Verified,0,20
+TXN000000340,CUST055610,2019-01-02,14:22,Savings,Auto_Debit,1396.59,Debit,59949.28,Food & Dining,Telangana,863,0,None,0.0,Success,ATM,Verified,0,14
+TXN000000341,CUST056662,2019-01-02,16:57,Salary,POS,1088.37,Debit,15420.49,Retail,Telangana,650,0,None,0.0,Success,POS_Terminal,Verified,0,16
+TXN000000342,CUST031025,2019-01-02,07:47,Savings,UPI,5233.17,Credit,104560.73,Food & Dining,Punjab,774,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000343,CUST070314,2019-01-02,13:44,Salary,UPI,1642.65,Credit,96002.62,Real Estate,Rajasthan,531,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000344,CUST053007,2019-01-02,17:46,Current,ATM_Withdrawal,10000.0,Debit,170059.38,Investment,Karnataka,731,0,None,0.0,Success,ATM,Verified,0,17
+TXN000000345,CUST015339,2019-01-02,01:26,Current,UPI,1345.29,Debit,34818.81,E-Commerce,Delhi,552,1,Home,20434.87,Success,Web,Verified,0,1
+TXN000000346,CUST068028,2019-01-02,02:39,NRI,IMPS,2527.51,Debit,16830.14,Government,Rajasthan,321,0,None,0.0,Success,API,Verified,0,2
+TXN000000347,CUST019509,2019-01-02,11:17,Current,IMPS,15833.72,Credit,9930.13,Real Estate,Tamil Nadu,479,1,Business,5297.87,Success,ATM,Verified,0,11
+TXN000000348,CUST003052,2019-01-02,00:45,Savings,NEFT,3584.39,Debit,8156.24,Salary,Delhi,690,0,None,0.0,Success,Branch,Verified,0,0
+TXN000000349,CUST048748,2019-01-02,14:00,Salary,UPI,415.78,Debit,45929.56,Retail,Karnataka,858,1,Personal,5303.93,Success,Mobile_App,Verified,0,14
+TXN000000350,CUST054022,2019-01-02,01:50,Savings,NEFT,5192.68,Credit,6086.71,E-Commerce,Karnataka,696,1,Auto,6560.75,Success,Mobile_App,Verified,0,1
+TXN000000351,CUST066413,2019-01-02,11:27,Current,Net_Banking,6915.2,Credit,31834.13,Healthcare,Tamil Nadu,763,0,None,0.0,Success,Web,Verified,0,11
+TXN000000352,CUST058336,2019-01-02,17:55,Current,POS,1895.55,Debit,21789.67,Real Estate,Rajasthan,763,0,None,0.0,Success,Mobile_App,Verified,0,17
+TXN000000353,CUST056180,2019-01-02,20:34,Salary,UPI,1121.84,Credit,73417.93,Fuel,Telangana,633,0,None,0.0,Success,Mobile_App,Verified,0,20
+TXN000000354,CUST032094,2019-01-02,13:31,Savings,Auto_Debit,1260.07,Debit,173958.76,Salary,Karnataka,595,1,Personal,2455.68,Failed,Mobile_App,Verified,0,13
+TXN000000355,CUST069679,2019-01-02,12:28,Current,ATM_Withdrawal,1000.0,Debit,4709.63,Travel,Gujarat,684,1,Education,4127.75,Success,Mobile_App,Verified,0,12
+TXN000000356,CUST039735,2019-01-02,02:43,Savings,Auto_Debit,1760.02,Debit,55898.35,Food & Dining,Telangana,784,0,None,0.0,Success,POS_Terminal,Verified,0,2
+TXN000000357,CUST072616,2019-01-02,06:48,Fixed Deposit,IMPS,444.6,Credit,264831.99,Retail,Karnataka,894,0,None,0.0,Success,Branch,Verified,0,6
+TXN000000358,CUST073524,2019-01-02,07:57,Savings,Net_Banking,3484.39,Debit,72180.94,Salary,Rajasthan,362,0,None,0.0,Success,Web,Verified,0,7
+TXN000000359,CUST017020,2019-01-02,17:15,Savings,UPI,181.13,Debit,56550.21,E-Commerce,Karnataka,745,0,None,0.0,Success,Mobile_App,Verified,0,17
+TXN000000360,CUST073848,2019-01-02,04:45,Current,UPI,455.69,Credit,9602.16,Travel,Punjab,428,0,None,0.0,Failed,Branch,Verified,0,4
+TXN000000361,CUST079635,2019-01-02,15:04,Savings,NEFT,9020.34,Credit,121572.77,E-Commerce,Karnataka,526,0,None,0.0,Success,ATM,Verified,0,15
+TXN000000362,CUST028252,2019-01-02,13:27,Savings,NEFT,11202.21,Credit,37519.11,Retail,Gujarat,340,0,None,0.0,Failed,Web,Verified,0,13
+TXN000000363,CUST025946,2019-01-02,12:11,NRI,NEFT,97711.52,Debit,116104.2,Healthcare,Maharashtra,640,0,None,0.0,Success,Mobile_App,Pending,0,12
+TXN000000364,CUST032218,2019-01-02,01:21,Fixed Deposit,Auto_Debit,4770.61,Debit,74187.43,Salary,Karnataka,454,1,Business,4658.48,Success,Web,Verified,0,1
+TXN000000365,CUST008309,2019-01-02,22:44,Current,UPI,456.81,Debit,9098.16,E-Commerce,Karnataka,765,0,None,0.0,Success,POS_Terminal,Verified,0,22
+TXN000000366,CUST005950,2019-01-02,19:57,Salary,Net_Banking,11789.75,Credit,74363.94,Utilities,Rajasthan,416,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000367,CUST051991,2019-01-02,04:33,Salary,POS,6609.7,Debit,7113.44,Retail,Maharashtra,661,0,None,0.0,Success,Web,Verified,0,4
+TXN000000368,CUST001151,2019-01-02,13:40,NRI,UPI,2690.93,Credit,38660.31,Travel,Tamil Nadu,418,0,None,0.0,Success,POS_Terminal,Verified,0,13
+TXN000000369,CUST074741,2019-01-02,23:48,Savings,NEFT,57748.72,Credit,15942.09,Education,Rajasthan,801,1,Gold,9290.17,Success,Mobile_App,Pending,0,23
+TXN000000370,CUST066618,2019-01-02,12:51,NRI,IMPS,2830.06,Debit,1196072.47,Entertainment,West Bengal,531,0,None,0.0,Success,Web,Verified,0,12
+TXN000000371,CUST016897,2019-01-02,17:50,Savings,RTGS,35722.38,Credit,108682.48,Travel,Delhi,453,0,None,0.0,Success,POS_Terminal,Verified,0,17
+TXN000000372,CUST046176,2019-01-02,16:35,Current,UPI,176.12,Credit,165263.62,Retail,Delhi,847,0,None,0.0,Success,Mobile_App,Expired,0,16
+TXN000000373,CUST007806,2019-01-02,02:24,Fixed Deposit,UPI,134.37,Debit,287330.54,Travel,Gujarat,891,0,None,0.0,Success,Web,Pending,0,2
+TXN000000374,CUST005238,2019-01-02,01:10,Salary,UPI,2733.74,Credit,9295.31,Food & Dining,Tamil Nadu,851,1,Gold,2912.05,Success,ATM,Verified,0,1
+TXN000000375,CUST020057,2019-01-02,00:44,Savings,ATM_Withdrawal,500.0,Debit,84564.13,Peer Transfer,Telangana,393,0,None,0.0,Success,Web,Verified,0,0
+TXN000000376,CUST045544,2019-01-02,07:31,Current,NEFT,8071.45,Credit,28514.19,Peer Transfer,Tamil Nadu,558,0,None,0.0,Failed,API,Verified,0,7
+TXN000000377,CUST056557,2019-01-02,08:06,Salary,Net_Banking,5432.96,Credit,14340.03,Government,Maharashtra,540,0,None,0.0,Success,Web,Verified,0,8
+TXN000000378,CUST003344,2019-01-02,20:05,Salary,UPI,1309.16,Debit,191370.49,Travel,Delhi,884,0,None,0.0,Success,Web,Verified,0,20
+TXN000000379,CUST013501,2019-01-02,11:38,Salary,UPI,2113.16,Credit,23860.71,Investment,Karnataka,850,0,None,0.0,Reversed,Branch,Verified,0,11
+TXN000000380,CUST053223,2019-01-02,16:51,Salary,NEFT,17334.14,Credit,8267.53,Real Estate,Maharashtra,846,0,None,0.0,Success,Branch,Pending,0,16
+TXN000000381,CUST029376,2019-01-02,03:34,Current,Auto_Debit,3113.25,Debit,38025.82,Peer Transfer,West Bengal,342,1,Home,1683.46,Pending,Mobile_App,Verified,0,3
+TXN000000382,CUST009663,2019-01-02,06:34,Fixed Deposit,NEFT,1518.56,Credit,8363.32,Food & Dining,Tamil Nadu,494,1,Home,3392.52,Success,Mobile_App,Verified,0,6
+TXN000000383,CUST016965,2019-01-02,13:24,Current,UPI,423.33,Credit,30507.23,Utilities,Delhi,888,1,Home,28151.78,Success,Branch,Verified,0,13
+TXN000000384,CUST059639,2019-01-02,09:26,Savings,NEFT,27332.19,Credit,104121.51,Real Estate,Tamil Nadu,310,0,None,0.0,Pending,POS_Terminal,Verified,0,9
+TXN000000385,CUST073667,2019-01-02,10:11,Savings,UPI,869.84,Debit,80292.72,Travel,Maharashtra,605,1,Home,11612.74,Success,POS_Terminal,Expired,0,10
+TXN000000386,CUST067216,2019-01-02,22:03,Current,Cheque,34102.9,Debit,18189.45,Entertainment,Karnataka,771,1,None,3223.34,Success,Web,Verified,0,22
+TXN000000387,CUST069043,2019-01-02,10:59,Savings,UPI,2905.2,Credit,69465.26,Healthcare,Maharashtra,606,0,None,0.0,Success,Mobile_App,Verified,0,10
+TXN000000388,CUST013285,2019-01-02,20:39,Savings,IMPS,14334.94,Credit,4468.72,Fuel,Delhi,563,1,Personal,6247.68,Success,Mobile_App,Expired,0,20
+TXN000000389,CUST072790,2019-01-02,03:50,Current,Net_Banking,17627.75,Debit,260424.78,Retail,Delhi,888,0,None,0.0,Success,Mobile_App,Expired,0,3
+TXN000000390,CUST061390,2019-01-02,03:03,Savings,UPI,2524.74,Debit,7313.61,Entertainment,Maharashtra,550,0,None,0.0,Success,ATM,Pending,0,3
+TXN000000391,CUST009436,2019-01-02,06:48,Savings,Credit_Card,7539.6,Debit,44818.66,Travel,UP,580,0,None,0.0,Success,Web,Verified,0,6
+TXN000000392,CUST054341,2019-01-02,15:11,Savings,Auto_Debit,986.71,Debit,19616.59,Utilities,Tamil Nadu,683,0,None,0.0,Pending,ATM,Expired,0,15
+TXN000000393,CUST044079,2019-01-02,05:06,Savings,ATM_Withdrawal,2000.0,Debit,35307.94,Salary,Maharashtra,311,0,None,0.0,Success,Mobile_App,Verified,0,5
+TXN000000394,CUST078833,2019-01-02,18:16,Savings,Auto_Debit,1191.69,Debit,10074.84,Retail,Delhi,779,0,None,0.0,Success,Web,Verified,0,18
+TXN000000395,CUST051294,2019-01-02,16:57,Savings,Credit_Card,1686.62,Debit,79802.81,Salary,Tamil Nadu,726,1,Home,8546.85,Success,Mobile_App,Expired,0,16
+TXN000000396,CUST078782,2019-01-02,00:13,Fixed Deposit,IMPS,16329.45,Debit,24730.19,Retail,Karnataka,347,1,Auto,2124.78,Failed,Mobile_App,Verified,0,0
+TXN000000397,CUST060404,2019-01-02,03:01,Current,ATM_Withdrawal,500.0,Debit,27132.05,Food & Dining,Telangana,799,0,None,0.0,Success,Mobile_App,Verified,0,3
+TXN000000398,CUST029125,2019-01-02,12:36,Savings,POS,3918.11,Debit,115627.3,E-Commerce,Gujarat,586,1,Home,2715.08,Reversed,Mobile_App,Verified,0,12
+TXN000000399,CUST043920,2019-01-02,12:45,NRI,RTGS,542444.36,Credit,69799.08,Entertainment,Delhi,745,0,None,0.0,Success,ATM,Pending,0,12
+TXN000000400,CUST035248,2019-01-02,10:01,Current,Net_Banking,14654.73,Debit,26513.86,Retail,Karnataka,323,0,None,0.0,Success,ATM,Verified,0,10
+TXN000000401,CUST062753,2019-01-02,20:20,Savings,POS,921.13,Debit,32427.75,Food & Dining,Tamil Nadu,709,0,None,0.0,Success,Branch,Verified,0,20
+TXN000000402,CUST056574,2019-01-02,20:37,NRI,Credit_Card,1876.36,Debit,14329.43,Retail,West Bengal,445,0,None,0.0,Success,Mobile_App,Verified,0,20
+TXN000000403,CUST059102,2019-01-02,12:05,Salary,IMPS,8792.29,Debit,9402.86,Fuel,UP,428,0,None,0.0,Failed,API,Pending,0,12
+TXN000000404,CUST026647,2019-01-02,22:17,Salary,Auto_Debit,2409.46,Debit,6105.55,Salary,Maharashtra,886,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000405,CUST023050,2019-01-02,23:05,Current,UPI,135.16,Credit,10257.46,Utilities,Tamil Nadu,503,0,None,0.0,Success,Branch,Verified,0,23
+TXN000000406,CUST079606,2019-01-02,04:59,Salary,IMPS,4671.52,Credit,97261.27,E-Commerce,Karnataka,795,0,None,0.0,Success,Branch,Verified,0,4
+TXN000000407,CUST068386,2019-01-02,15:57,Salary,ATM_Withdrawal,2000.0,Debit,101730.02,Utilities,Tamil Nadu,873,0,None,0.0,Success,Web,Verified,0,15
+TXN000000408,CUST040159,2019-01-02,09:15,Salary,UPI,727.27,Debit,19202.26,Healthcare,Maharashtra,845,1,Business,4535.87,Failed,Web,Verified,0,9
+TXN000000409,CUST065418,2019-01-02,23:20,Savings,Auto_Debit,485.95,Debit,5897.13,Utilities,Karnataka,678,0,None,0.0,Success,Branch,Verified,0,23
+TXN000000410,CUST023290,2019-01-02,13:37,NRI,UPI,1305.04,Debit,14464.82,Peer Transfer,Gujarat,759,0,None,0.0,Success,ATM,Verified,0,13
+TXN000000411,CUST009824,2019-01-02,07:08,Savings,UPI,494.99,Debit,113997.7,Food & Dining,Maharashtra,626,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000412,CUST060161,2019-01-02,00:22,Current,IMPS,944.09,Debit,167512.62,Retail,Karnataka,337,0,None,0.0,Success,Branch,Verified,0,0
+TXN000000413,CUST041976,2019-01-02,04:17,Salary,Net_Banking,20883.5,Debit,149816.06,Entertainment,Maharashtra,384,1,Personal,3071.47,Success,Web,Verified,0,4
+TXN000000414,CUST009541,2019-01-02,08:43,Current,Credit_Card,2680.69,Debit,98297.77,Retail,Maharashtra,339,1,Business,2785.17,Success,Web,Verified,0,8
+TXN000000415,CUST016365,2019-01-02,07:49,Salary,Auto_Debit,16963.97,Debit,27132.62,E-Commerce,Karnataka,835,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000416,CUST004612,2019-01-02,08:57,Savings,UPI,438.77,Credit,81522.2,Healthcare,West Bengal,895,0,None,0.0,Success,Branch,Verified,0,8
+TXN000000417,CUST027664,2019-01-02,12:16,Savings,ATM_Withdrawal,2000.0,Debit,26048.55,Salary,UP,472,0,None,0.0,Success,Mobile_App,Verified,0,12
+TXN000000418,CUST051992,2019-01-02,23:08,Savings,POS,435.05,Debit,34001.23,Travel,Karnataka,313,0,None,0.0,Success,Web,Verified,0,23
+TXN000000419,CUST057680,2019-01-02,21:10,Salary,NEFT,27615.97,Debit,92845.9,Food & Dining,Delhi,338,0,None,0.0,Success,API,Verified,0,21
+TXN000000420,CUST030978,2019-01-02,20:12,Current,RTGS,40228.2,Debit,16237.88,Education,Gujarat,876,0,None,0.0,Success,Web,Expired,1,20
+TXN000000421,CUST049116,2019-01-02,00:42,Salary,NEFT,22339.17,Debit,287113.25,Food & Dining,Rajasthan,441,0,None,0.0,Success,POS_Terminal,Verified,0,0
+TXN000000422,CUST060891,2019-01-02,15:49,NRI,POS,905.45,Debit,18671.85,Utilities,West Bengal,878,0,None,0.0,Success,Mobile_App,Expired,0,15
+TXN000000423,CUST066388,2019-01-02,16:14,Salary,UPI,1788.31,Debit,10915.73,Entertainment,Karnataka,477,0,None,0.0,Success,Web,Pending,1,16
+TXN000000424,CUST018072,2019-01-02,11:32,Current,IMPS,2948.96,Debit,87383.32,Salary,Tamil Nadu,825,0,None,0.0,Success,Web,Verified,0,11
+TXN000000425,CUST059276,2019-01-02,06:02,Salary,Net_Banking,3495.55,Debit,36781.47,Healthcare,Rajasthan,426,0,None,0.0,Success,Web,Verified,0,6
+TXN000000426,CUST072370,2019-01-02,05:18,Savings,Cheque,80091.36,Credit,264315.04,Healthcare,Delhi,880,1,Home,15890.89,Success,Mobile_App,Verified,0,5
+TXN000000427,CUST011939,2019-01-02,16:59,Current,ATM_Withdrawal,1000.0,Debit,2959.18,Investment,West Bengal,496,0,None,0.0,Success,Mobile_App,Verified,0,16
+TXN000000428,CUST035196,2019-01-02,00:21,Fixed Deposit,POS,36.75,Debit,43016.28,Government,Karnataka,705,1,Home,7809.27,Pending,ATM,Verified,0,0
+TXN000000429,CUST004001,2019-01-02,19:30,Savings,NEFT,10277.45,Debit,7612.66,Real Estate,Punjab,764,1,Gold,26454.16,Success,ATM,Verified,0,19
+TXN000000430,CUST070589,2019-01-02,06:46,Savings,UPI,2595.66,Credit,18022.98,Government,Gujarat,768,0,None,0.0,Success,Mobile_App,Verified,0,6
+TXN000000431,CUST038305,2019-01-02,13:03,Salary,Net_Banking,14680.79,Credit,28752.78,Food & Dining,UP,708,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000432,CUST069450,2019-01-02,06:30,Savings,POS,3973.06,Debit,54480.23,Retail,Karnataka,747,0,None,0.0,Success,Mobile_App,Verified,0,6
+TXN000000433,CUST020765,2019-01-02,11:52,Savings,UPI,915.0,Credit,139489.21,Fuel,Telangana,787,0,None,0.0,Success,ATM,Verified,0,11
+TXN000000434,CUST038495,2019-01-02,21:16,Savings,UPI,394.07,Debit,237090.05,Healthcare,Tamil Nadu,394,1,Personal,18268.89,Success,POS_Terminal,Verified,0,21
+TXN000000435,CUST003374,2019-01-02,01:40,Salary,Auto_Debit,10828.67,Debit,189835.34,Entertainment,Rajasthan,610,1,Business,3996.4,Success,Mobile_App,Verified,0,1
+TXN000000436,CUST012162,2019-01-02,14:44,Savings,UPI,762.64,Credit,117545.19,Real Estate,Tamil Nadu,341,0,None,0.0,Success,Web,Expired,0,14
+TXN000000437,CUST027351,2019-01-02,06:49,Savings,Credit_Card,17575.75,Debit,31257.04,Real Estate,UP,863,0,None,0.0,Success,API,Verified,0,6
+TXN000000438,CUST025352,2019-01-02,13:10,Salary,UPI,305.0,Debit,11266.01,E-Commerce,Delhi,790,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000439,CUST015306,2019-01-02,13:29,Savings,NEFT,19942.07,Credit,17874.12,Salary,Karnataka,588,0,None,0.0,Success,Web,Verified,0,13
+TXN000000440,CUST075354,2019-01-02,00:39,Salary,UPI,1019.26,Debit,14040.93,Utilities,Rajasthan,739,1,Education,3200.66,Success,Web,Verified,0,0
+TXN000000441,CUST076798,2019-01-02,17:09,Salary,ATM_Withdrawal,3000.0,Debit,68752.8,Travel,Gujarat,890,1,Personal,5704.5,Failed,Web,Verified,0,17
+TXN000000442,CUST065954,2019-01-02,20:53,Savings,IMPS,136.77,Debit,5941.4,Food & Dining,Maharashtra,465,1,Gold,6333.81,Success,Mobile_App,Expired,0,20
+TXN000000443,CUST057459,2019-01-02,07:46,NRI,Cheque,12164.63,Debit,9120.3,Food & Dining,Gujarat,521,0,None,0.0,Success,Web,Verified,0,7
+TXN000000444,CUST020359,2019-01-02,02:12,Salary,NEFT,7945.43,Credit,99603.61,Utilities,Delhi,544,0,None,0.0,Success,Web,Verified,0,2
+TXN000000445,CUST003268,2019-01-02,12:24,NRI,NEFT,247262.62,Debit,49626.3,Investment,Gujarat,413,0,None,0.0,Pending,Web,Verified,0,12
+TXN000000446,CUST038514,2019-01-02,22:38,Current,NEFT,1257.69,Credit,446739.09,Insurance,Maharashtra,361,1,Personal,3056.72,Success,Mobile_App,Verified,0,22
+TXN000000447,CUST026093,2019-01-02,15:48,Salary,ATM_Withdrawal,500.0,Debit,27721.05,Utilities,UP,782,0,None,0.0,Success,Mobile_App,Verified,0,15
+TXN000000448,CUST011339,2019-01-02,10:19,Current,RTGS,104447.17,Debit,5954.49,Peer Transfer,Gujarat,425,0,None,0.0,Success,POS_Terminal,Verified,0,10
+TXN000000449,CUST000413,2019-01-02,02:47,Savings,Cheque,175179.6,Debit,18558.03,E-Commerce,Punjab,469,0,None,0.0,Success,POS_Terminal,Verified,0,2
+TXN000000450,CUST007544,2019-01-02,05:19,Salary,NEFT,37327.22,Credit,7654.45,Utilities,Delhi,386,0,None,0.0,Success,Branch,Verified,0,5
+TXN000000451,CUST033497,2019-01-02,09:07,Savings,UPI,1746.86,Debit,65137.86,Utilities,Karnataka,357,0,None,0.0,Success,Web,Verified,0,9
+TXN000000452,CUST060693,2019-01-02,13:06,Current,UPI,952.31,Credit,109659.12,Retail,Tamil Nadu,745,0,None,0.0,Success,Branch,Verified,0,13
+TXN000000453,CUST044426,2019-01-02,02:52,Current,NEFT,7864.13,Debit,29938.35,Food & Dining,Tamil Nadu,442,1,Auto,3194.31,Success,Web,Verified,0,2
+TXN000000454,CUST038757,2019-01-02,19:38,Savings,UPI,687.6,Debit,16054.44,Travel,Delhi,838,0,None,0.0,Success,Mobile_App,Expired,0,19
+TXN000000455,CUST018889,2019-01-02,00:29,Savings,Auto_Debit,623.35,Debit,116850.42,Healthcare,Tamil Nadu,464,1,Business,10255.39,Success,Mobile_App,Verified,0,0
+TXN000000456,CUST035736,2019-01-02,09:17,NRI,NEFT,6583.66,Debit,89396.27,Salary,West Bengal,783,0,None,0.0,Success,Mobile_App,Verified,0,9
+TXN000000457,CUST047296,2019-01-02,19:12,NRI,RTGS,29905.1,Credit,100148.21,Fuel,Tamil Nadu,777,0,None,0.0,Success,Mobile_App,Pending,0,19
+TXN000000458,CUST017956,2019-01-02,21:29,Savings,IMPS,7514.18,Credit,13680.38,Salary,Tamil Nadu,591,0,None,0.0,Success,Web,Pending,0,21
+TXN000000459,CUST037842,2019-01-02,11:05,Salary,Auto_Debit,1645.28,Debit,3919.57,Salary,Tamil Nadu,859,0,None,0.0,Success,Web,Verified,0,11
+TXN000000460,CUST070641,2019-01-02,14:36,Current,NEFT,21983.63,Credit,3213.7,Insurance,Tamil Nadu,607,1,None,4523.31,Success,API,Verified,0,14
+TXN000000461,CUST065511,2019-01-02,15:56,Savings,Auto_Debit,4620.24,Debit,15399.81,Travel,Telangana,621,0,None,0.0,Success,Mobile_App,Verified,0,15
+TXN000000462,CUST034912,2019-01-02,13:20,Current,UPI,305.77,Credit,24209.64,Insurance,UP,522,0,None,0.0,Success,API,Verified,0,13
+TXN000000463,CUST059032,2019-01-02,14:18,Savings,UPI,50.16,Credit,61457.94,Retail,Maharashtra,476,0,None,0.0,Success,ATM,Verified,0,14
+TXN000000464,CUST007358,2019-01-02,18:31,Current,IMPS,4347.21,Debit,66564.26,Travel,UP,513,0,None,0.0,Failed,POS_Terminal,Verified,0,18
+TXN000000465,CUST032480,2019-01-02,06:18,Fixed Deposit,POS,287.47,Debit,45798.4,E-Commerce,Delhi,843,0,None,0.0,Success,Web,Verified,0,6
+TXN000000466,CUST061477,2019-01-02,17:26,Savings,POS,601.09,Debit,34127.26,Travel,Telangana,809,1,None,2269.07,Success,Branch,Verified,0,17
+TXN000000467,CUST044812,2019-01-02,17:17,Savings,Net_Banking,14851.6,Credit,6811.9,Healthcare,Tamil Nadu,489,0,None,0.0,Success,Mobile_App,Expired,0,17
+TXN000000468,CUST036209,2019-01-02,09:18,Current,Net_Banking,12527.17,Credit,33814.49,Government,Gujarat,409,0,None,0.0,Success,Mobile_App,Verified,0,9
+TXN000000469,CUST020151,2019-01-02,07:39,Current,RTGS,84342.17,Debit,34586.12,Government,Maharashtra,442,1,Education,8716.29,Success,Mobile_App,Verified,0,7
+TXN000000470,CUST071181,2019-01-02,12:10,Salary,Cheque,4366.13,Debit,27542.78,Investment,West Bengal,754,0,None,0.0,Success,API,Verified,0,12
+TXN000000471,CUST043287,2019-01-02,06:33,Savings,POS,3243.8,Debit,21061.77,Peer Transfer,Karnataka,581,1,Business,10418.05,Success,POS_Terminal,Verified,0,6
+TXN000000472,CUST068451,2019-01-02,07:17,Current,ATM_Withdrawal,2000.0,Debit,1814.57,Retail,Tamil Nadu,435,0,None,0.0,Success,POS_Terminal,Verified,0,7
+TXN000000473,CUST021353,2019-01-02,00:05,NRI,RTGS,85529.56,Debit,23164.37,Utilities,West Bengal,378,0,None,0.0,Success,Web,Verified,0,0
+TXN000000474,CUST055070,2019-01-02,16:23,NRI,NEFT,6216.79,Debit,42742.58,Entertainment,Maharashtra,624,0,None,0.0,Success,Mobile_App,Verified,0,16
+TXN000000475,CUST014398,2019-01-02,01:36,NRI,RTGS,68425.69,Debit,63110.25,Peer Transfer,Tamil Nadu,888,0,None,0.0,Success,Mobile_App,Verified,0,1
+TXN000000476,CUST041556,2019-01-02,19:35,Salary,UPI,2192.49,Debit,8324.48,Real Estate,Karnataka,591,0,None,0.0,Success,POS_Terminal,Verified,0,19
+TXN000000477,CUST046960,2019-01-02,03:16,Fixed Deposit,IMPS,225.5,Credit,8639.28,Travel,West Bengal,400,0,None,0.0,Success,Web,Verified,0,3
+TXN000000478,CUST000729,2019-01-02,17:32,Savings,POS,1628.09,Debit,19648.1,Travel,Tamil Nadu,458,1,Auto,1993.35,Success,Mobile_App,Verified,0,17
+TXN000000479,CUST050518,2019-01-02,06:01,Savings,UPI,3901.46,Credit,63904.16,Salary,Gujarat,598,0,None,0.0,Success,Web,Verified,0,6
+TXN000000480,CUST066235,2019-01-02,02:46,Current,Cheque,24712.98,Debit,3879.2,Healthcare,Rajasthan,561,0,None,0.0,Success,Web,Verified,0,2
+TXN000000481,CUST039955,2019-01-02,19:58,Savings,UPI,2487.39,Credit,54209.44,Retail,Karnataka,883,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000482,CUST047281,2019-01-02,00:45,Current,NEFT,17452.89,Debit,75580.95,Real Estate,Maharashtra,423,1,Gold,3857.17,Success,API,Verified,0,0
+TXN000000483,CUST079460,2019-01-02,09:10,Current,POS,5726.82,Debit,8979.56,Peer Transfer,West Bengal,693,0,None,0.0,Success,Web,Verified,0,9
+TXN000000484,CUST016780,2019-01-02,21:38,Savings,UPI,1194.24,Debit,13939.42,Salary,West Bengal,462,0,None,0.0,Success,ATM,Verified,0,21
+TXN000000485,CUST063933,2019-01-02,21:09,Savings,UPI,2842.65,Credit,129100.96,Food & Dining,Telangana,854,1,Home,4631.08,Success,Web,Verified,0,21
+TXN000000486,CUST072937,2019-01-02,12:32,Salary,ATM_Withdrawal,1000.0,Debit,67858.38,E-Commerce,Karnataka,478,0,None,0.0,Success,Web,Verified,0,12
+TXN000000487,CUST024467,2019-01-02,19:09,Savings,ATM_Withdrawal,3000.0,Debit,18416.96,Travel,UP,775,1,Home,14322.44,Success,Mobile_App,Verified,0,19
+TXN000000488,CUST036940,2019-01-02,10:14,Current,Net_Banking,6432.4,Credit,8605.22,E-Commerce,Karnataka,521,0,None,0.0,Success,POS_Terminal,Verified,0,10
+TXN000000489,CUST069897,2019-01-02,08:37,Savings,RTGS,203312.39,Credit,219965.13,Healthcare,Maharashtra,509,0,None,0.0,Success,POS_Terminal,Verified,0,8
+TXN000000490,CUST035271,2019-01-02,05:15,Savings,RTGS,262580.08,Credit,57178.06,Retail,Tamil Nadu,655,1,Home,4063.77,Success,Mobile_App,Verified,0,5
+TXN000000491,CUST059164,2019-01-02,23:23,Savings,RTGS,448803.82,Credit,33313.5,E-Commerce,Gujarat,720,0,None,0.0,Success,ATM,Verified,0,23
+TXN000000492,CUST051935,2019-01-02,11:48,Salary,Cheque,5346.05,Debit,169410.63,Retail,Tamil Nadu,731,1,Home,2710.76,Success,Web,Verified,0,11
+TXN000000493,CUST064896,2019-01-02,15:36,Savings,UPI,450.16,Credit,286396.26,Education,Rajasthan,715,1,Home,3333.18,Failed,Branch,Expired,0,15
+TXN000000494,CUST032308,2019-01-02,06:52,Fixed Deposit,IMPS,5567.66,Credit,32787.75,E-Commerce,Karnataka,796,0,None,0.0,Success,Mobile_App,Verified,0,6
+TXN000000495,CUST054099,2019-01-02,23:28,NRI,UPI,6474.11,Debit,89469.65,Real Estate,Maharashtra,885,0,None,0.0,Success,Mobile_App,Verified,0,23
+TXN000000496,CUST060922,2019-01-02,01:08,Salary,UPI,2678.39,Credit,33758.16,Travel,Rajasthan,588,1,Personal,6344.31,Success,Web,Verified,0,1
+TXN000000497,CUST005487,2019-01-02,06:04,NRI,IMPS,12166.71,Credit,31847.14,Insurance,West Bengal,607,1,Personal,5119.45,Success,Web,Verified,0,6
+TXN000000498,CUST008336,2019-01-02,11:55,Current,Cheque,136837.26,Credit,25489.54,E-Commerce,Telangana,441,0,None,0.0,Success,POS_Terminal,Verified,0,11
+TXN000000499,CUST011131,2019-01-02,20:15,Savings,NEFT,57579.98,Debit,41466.78,Peer Transfer,UP,468,0,None,0.0,Success,Mobile_App,Pending,0,20
+TXN000000500,CUST060567,2019-01-02,01:10,Fixed Deposit,Credit_Card,189.23,Debit,1451.55,Travel,Karnataka,684,1,Auto,21513.82,Success,Web,Verified,0,1
+TXN000000501,CUST066704,2019-01-02,23:57,Savings,UPI,177.76,Credit,273798.66,Retail,West Bengal,664,0,None,0.0,Success,Web,Verified,0,23
+TXN000000502,CUST027193,2019-01-02,09:26,Savings,IMPS,1229.61,Debit,25714.5,Utilities,Tamil Nadu,864,0,None,0.0,Success,Mobile_App,Verified,0,9
+TXN000000503,CUST001063,2019-01-02,01:56,Savings,RTGS,177768.29,Credit,23038.0,Food & Dining,Gujarat,837,0,None,0.0,Success,Web,Pending,0,1
+TXN000000504,CUST021546,2019-01-02,07:38,Savings,Auto_Debit,4342.9,Debit,55874.99,E-Commerce,West Bengal,415,1,Auto,2122.68,Success,API,Verified,0,7
+TXN000000505,CUST021690,2019-01-02,00:10,NRI,Credit_Card,4837.84,Debit,32763.75,Food & Dining,West Bengal,561,0,None,0.0,Success,Mobile_App,Verified,0,0
+TXN000000506,CUST011175,2019-01-02,20:40,Savings,NEFT,5717.03,Debit,72146.12,Government,Delhi,597,0,None,0.0,Success,Mobile_App,Verified,0,20
+TXN000000507,CUST009349,2019-01-02,09:14,Fixed Deposit,ATM_Withdrawal,5000.0,Debit,162913.69,Investment,Telangana,611,0,None,0.0,Success,Web,Verified,0,9
+TXN000000508,CUST023715,2019-01-02,09:19,Savings,Net_Banking,3477.45,Debit,466343.06,Real Estate,UP,812,1,Personal,1720.35,Success,Mobile_App,Verified,0,9
+TXN000000509,CUST038103,2019-01-02,15:17,Savings,UPI,554.73,Credit,38535.17,Food & Dining,Tamil Nadu,400,1,Home,10183.95,Failed,Mobile_App,Verified,0,15
+TXN000000510,CUST074461,2019-01-02,05:56,Current,Net_Banking,40826.89,Debit,257067.73,Utilities,Rajasthan,788,0,None,0.0,Success,Web,Verified,0,5
+TXN000000511,CUST006802,2019-01-02,19:04,Savings,NEFT,8899.53,Credit,23613.35,Fuel,Tamil Nadu,587,0,None,0.0,Success,Web,Verified,0,19
+TXN000000512,CUST072268,2019-01-02,14:19,Current,NEFT,2329.05,Debit,12754.82,Fuel,Maharashtra,583,1,Business,688.84,Success,Web,Verified,0,14
+TXN000000513,CUST048137,2019-01-02,17:23,NRI,UPI,278.25,Credit,44102.67,E-Commerce,Delhi,712,1,Auto,2100.7,Success,POS_Terminal,Verified,0,17
+TXN000000514,CUST023626,2019-01-02,02:22,Current,UPI,4520.03,Debit,24330.57,Fuel,Maharashtra,869,1,Home,4388.58,Success,Mobile_App,Verified,0,2
+TXN000000515,CUST072593,2019-01-02,17:06,Savings,Auto_Debit,814.2,Debit,21745.71,Education,Telangana,428,1,None,5686.15,Success,API,Verified,0,17
+TXN000000516,CUST077053,2019-01-02,22:11,Current,UPI,1303.91,Debit,530240.49,Entertainment,West Bengal,856,0,None,0.0,Success,Branch,Verified,0,22
+TXN000000517,CUST044262,2019-01-02,08:21,Salary,UPI,1287.05,Credit,3912.49,E-Commerce,Telangana,427,1,Personal,6095.2,Success,Branch,Verified,0,8
+TXN000000518,CUST001543,2019-01-02,05:07,Savings,RTGS,65896.33,Debit,38641.58,Insurance,Karnataka,824,0,None,0.0,Success,Mobile_App,Verified,0,5
+TXN000000519,CUST021678,2019-01-02,18:27,Savings,UPI,357.02,Debit,4683.24,Travel,Telangana,850,0,None,0.0,Success,Mobile_App,Verified,0,18
+TXN000000520,CUST046733,2019-01-02,11:26,Salary,UPI,253.71,Debit,5259.61,Fuel,Punjab,525,0,None,0.0,Reversed,Mobile_App,Pending,0,11
+TXN000000521,CUST050344,2019-01-02,23:31,Current,UPI,4763.57,Debit,29913.33,Utilities,Karnataka,663,1,Home,5661.96,Success,API,Verified,0,23
+TXN000000522,CUST039082,2019-01-02,11:17,Savings,RTGS,80467.44,Credit,56381.88,Salary,Maharashtra,544,1,Home,1315.1,Success,Mobile_App,Verified,0,11
+TXN000000523,CUST062857,2019-01-02,13:15,Salary,IMPS,2997.64,Debit,73839.26,Travel,Tamil Nadu,832,1,Business,4225.42,Success,ATM,Pending,0,13
+TXN000000524,CUST019066,2019-01-02,22:42,Savings,UPI,5736.96,Debit,112063.16,Government,Delhi,855,0,None,0.0,Success,Web,Expired,0,22
+TXN000000525,CUST054694,2019-01-02,01:43,Savings,UPI,1217.17,Debit,3987.27,E-Commerce,Gujarat,878,0,None,0.0,Success,Mobile_App,Verified,0,1
+TXN000000526,CUST026963,2019-01-02,02:04,Current,Net_Banking,87587.03,Debit,50875.05,Peer Transfer,UP,783,1,Personal,901.33,Success,Mobile_App,Verified,0,2
+TXN000000527,CUST028296,2019-01-02,17:19,NRI,UPI,1789.07,Credit,23871.34,Retail,Delhi,716,0,None,0.0,Success,Mobile_App,Pending,0,17
+TXN000000528,CUST013808,2019-01-02,17:00,Savings,ATM_Withdrawal,2000.0,Debit,98659.6,Retail,Rajasthan,776,1,Home,9226.37,Success,Mobile_App,Verified,0,17
+TXN000000529,CUST042349,2019-01-02,03:48,Salary,UPI,247.67,Debit,6849.89,Investment,Maharashtra,614,1,Gold,6405.85,Success,POS_Terminal,Verified,0,3
+TXN000000530,CUST026433,2019-01-02,21:47,Savings,POS,1073.25,Debit,31544.03,Travel,Delhi,434,0,None,0.0,Success,Mobile_App,Verified,0,21
+TXN000000531,CUST057855,2019-01-02,02:11,Current,IMPS,11612.85,Debit,88634.18,Salary,Punjab,532,1,Auto,16603.47,Success,POS_Terminal,Verified,0,2
+TXN000000532,CUST040263,2019-01-02,22:02,Savings,UPI,529.42,Credit,15159.39,Peer Transfer,Tamil Nadu,362,0,None,0.0,Success,Web,Verified,0,22
+TXN000000533,CUST037081,2019-01-02,07:24,Current,UPI,426.25,Debit,109892.4,Education,Telangana,876,0,None,0.0,Success,POS_Terminal,Verified,0,7
+TXN000000534,CUST001325,2019-01-02,17:37,Salary,IMPS,7650.55,Debit,63644.68,Healthcare,Gujarat,541,0,None,0.0,Success,Mobile_App,Expired,0,17
+TXN000000535,CUST035910,2019-01-02,04:16,Savings,IMPS,3413.61,Debit,42283.1,Utilities,West Bengal,824,0,None,0.0,Success,Mobile_App,Verified,0,4
+TXN000000536,CUST019871,2019-01-02,20:26,Savings,Cheque,55736.87,Debit,19532.96,Peer Transfer,Maharashtra,590,0,None,0.0,Success,Web,Verified,0,20
+TXN000000537,CUST034579,2019-01-02,13:00,Savings,RTGS,126840.27,Debit,31555.36,Utilities,Tamil Nadu,419,1,Home,6821.86,Success,Web,Verified,0,13
+TXN000000538,CUST072125,2019-01-02,13:34,NRI,IMPS,2625.11,Debit,42220.07,Education,West Bengal,592,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000539,CUST026791,2019-01-02,04:48,Current,IMPS,6614.85,Debit,12171.8,E-Commerce,Delhi,357,0,None,0.0,Success,POS_Terminal,Verified,0,4
+TXN000000540,CUST025290,2019-01-02,00:10,Savings,RTGS,132816.57,Debit,65060.36,Retail,Telangana,716,0,None,0.0,Failed,Branch,Verified,0,0
+TXN000000541,CUST055130,2019-01-02,05:59,Savings,IMPS,1163.39,Credit,1601.3,Education,Maharashtra,755,1,Home,8944.18,Success,Mobile_App,Verified,0,5
+TXN000000542,CUST015486,2019-01-02,21:11,Savings,UPI,2195.3,Debit,3294.06,E-Commerce,Rajasthan,854,1,Auto,3719.12,Success,Branch,Verified,0,21
+TXN000000543,CUST044483,2019-01-02,08:15,Current,Cheque,48349.6,Debit,29249.22,Healthcare,UP,795,0,None,0.0,Success,Mobile_App,Verified,0,8
+TXN000000544,CUST004749,2019-01-02,10:42,Salary,IMPS,2975.13,Debit,20396.36,Entertainment,Gujarat,660,0,None,0.0,Success,API,Verified,0,10
+TXN000000545,CUST009436,2019-01-02,16:46,Salary,NEFT,3315.77,Credit,93964.46,Retail,Maharashtra,330,0,None,0.0,Success,API,Verified,0,16
+TXN000000546,CUST003710,2019-01-02,01:17,Current,UPI,900.71,Credit,363391.55,Peer Transfer,Gujarat,452,0,None,0.0,Success,ATM,Verified,0,1
+TXN000000547,CUST030356,2019-01-02,13:12,Salary,UPI,242.47,Debit,30669.0,Peer Transfer,Tamil Nadu,509,1,Home,2061.75,Success,Web,Verified,0,13
+TXN000000548,CUST055772,2019-01-02,10:04,Current,UPI,1791.16,Credit,34927.06,Government,Telangana,382,0,None,0.0,Success,Web,Verified,0,10
+TXN000000549,CUST057800,2019-01-02,23:13,Savings,UPI,1167.11,Debit,34136.63,Food & Dining,Delhi,672,0,None,0.0,Success,Mobile_App,Verified,0,23
+TXN000000550,CUST013117,2019-01-02,17:11,NRI,UPI,594.11,Debit,19529.12,Peer Transfer,Maharashtra,427,1,Personal,4284.24,Success,ATM,Verified,0,17
+TXN000000551,CUST025471,2019-01-02,14:57,Salary,NEFT,1494.77,Credit,28598.34,Healthcare,Tamil Nadu,336,0,None,0.0,Success,Web,Verified,0,14
+TXN000000552,CUST042345,2019-01-02,16:25,Salary,NEFT,4968.25,Debit,1515.48,Salary,Tamil Nadu,682,0,None,0.0,Success,POS_Terminal,Verified,0,16
+TXN000000553,CUST042919,2019-01-02,01:25,Salary,NEFT,9310.16,Debit,3986.02,Peer Transfer,UP,490,0,None,0.0,Success,API,Verified,0,1
+TXN000000554,CUST052225,2019-01-02,21:35,Savings,Net_Banking,2468.26,Debit,9451.57,Food & Dining,Gujarat,319,0,None,0.0,Success,Web,Verified,0,21
+TXN000000555,CUST039299,2019-01-02,21:12,Salary,UPI,277.3,Debit,33192.53,Utilities,West Bengal,888,1,Personal,2239.15,Success,Web,Expired,0,21
+TXN000000556,CUST061630,2019-01-02,01:21,NRI,NEFT,12300.75,Debit,13196.1,Entertainment,Karnataka,441,1,Home,10015.2,Success,ATM,Verified,0,1
+TXN000000557,CUST066041,2019-01-02,03:20,NRI,POS,1182.76,Debit,8545.39,Travel,West Bengal,363,1,Personal,2058.23,Success,Branch,Verified,0,3
+TXN000000558,CUST028017,2019-01-02,14:40,Savings,ATM_Withdrawal,10000.0,Debit,9295.44,Insurance,Punjab,369,0,None,0.0,Success,POS_Terminal,Verified,0,14
+TXN000000559,CUST023961,2019-01-02,23:32,Current,Auto_Debit,1401.43,Debit,121406.52,Healthcare,Karnataka,618,0,None,0.0,Success,ATM,Verified,0,23
+TXN000000560,CUST033592,2019-01-02,04:15,Savings,UPI,71.46,Credit,26824.42,Education,Gujarat,815,0,None,0.0,Success,POS_Terminal,Verified,0,4
+TXN000000561,CUST067642,2019-01-02,17:22,Current,ATM_Withdrawal,1000.0,Debit,7235.97,Retail,Rajasthan,561,0,None,0.0,Success,POS_Terminal,Pending,0,17
+TXN000000562,CUST036396,2019-01-02,18:03,Savings,Net_Banking,129432.11,Debit,54258.49,Peer Transfer,West Bengal,776,0,None,0.0,Success,Mobile_App,Verified,0,18
+TXN000000563,CUST022701,2019-01-02,07:02,Savings,IMPS,73.56,Debit,227514.58,Entertainment,Delhi,628,0,None,0.0,Success,Web,Verified,0,7
+TXN000000564,CUST034621,2019-01-02,17:42,Current,Cheque,41280.45,Credit,98168.82,Food & Dining,Delhi,785,0,None,0.0,Success,ATM,Verified,0,17
+TXN000000565,CUST020560,2019-01-02,07:25,Savings,ATM_Withdrawal,5000.0,Debit,3965.02,Travel,Rajasthan,364,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000566,CUST061643,2019-01-02,13:25,Savings,UPI,870.3,Credit,1156.7,Food & Dining,Delhi,302,1,Auto,13199.54,Success,POS_Terminal,Verified,0,13
+TXN000000567,CUST076540,2019-01-02,09:02,Salary,Auto_Debit,3188.48,Debit,5252.08,Travel,Tamil Nadu,531,0,None,0.0,Success,Mobile_App,Verified,0,9
+TXN000000568,CUST021733,2019-01-02,10:16,Current,IMPS,11183.08,Debit,5137.5,Fuel,Maharashtra,501,0,None,0.0,Success,Mobile_App,Pending,0,10
+TXN000000569,CUST030355,2019-01-02,18:26,Current,UPI,1695.65,Debit,33759.69,Peer Transfer,West Bengal,830,0,None,0.0,Success,Mobile_App,Verified,0,18
+TXN000000570,CUST013844,2019-01-02,16:07,Savings,POS,552.91,Debit,14874.66,Travel,Maharashtra,749,1,Education,3028.23,Success,Mobile_App,Verified,0,16
+TXN000000571,CUST071727,2019-01-02,10:02,Current,IMPS,1601.47,Credit,120738.03,Healthcare,Delhi,821,0,None,0.0,Success,Mobile_App,Verified,0,10
+TXN000000572,CUST017641,2019-01-03,14:23,Salary,Cheque,131247.85,Credit,16622.44,Entertainment,Maharashtra,407,0,None,0.0,Success,Mobile_App,Verified,0,14
+TXN000000573,CUST052529,2019-01-03,02:04,Savings,UPI,4337.59,Debit,29968.63,Government,Telangana,368,1,Business,6802.34,Success,Web,Verified,0,2
+TXN000000574,CUST038414,2019-01-03,04:21,Salary,Cheque,26598.44,Debit,22663.36,E-Commerce,Delhi,600,0,None,0.0,Success,Branch,Verified,0,4
+TXN000000575,CUST052639,2019-01-03,00:28,Current,UPI,155.45,Debit,201852.9,Travel,Gujarat,783,1,Auto,2617.45,Failed,API,Verified,0,0
+TXN000000576,CUST052737,2019-01-03,06:23,Current,POS,434.48,Debit,165522.43,Salary,Tamil Nadu,715,0,None,0.0,Reversed,Mobile_App,Verified,0,6
+TXN000000577,CUST068867,2019-01-03,02:19,Fixed Deposit,Credit_Card,1793.64,Debit,65623.35,Utilities,Karnataka,791,0,None,0.0,Success,Mobile_App,Verified,0,2
+TXN000000578,CUST019088,2019-01-03,07:56,Current,IMPS,5099.17,Debit,52876.27,E-Commerce,Maharashtra,538,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000579,CUST041431,2019-01-03,02:19,Current,Net_Banking,7253.47,Debit,180204.88,Retail,Delhi,496,0,None,0.0,Success,Mobile_App,Verified,0,2
+TXN000000580,CUST024505,2019-01-03,07:45,Current,IMPS,7841.44,Credit,65294.98,E-Commerce,Gujarat,553,1,Auto,2054.81,Success,POS_Terminal,Verified,0,7
+TXN000000581,CUST007115,2019-01-03,14:54,Salary,UPI,113.72,Credit,1169.96,Government,Delhi,498,1,Personal,4934.48,Success,Mobile_App,Verified,0,14
+TXN000000582,CUST078860,2019-01-03,22:21,Current,POS,2171.93,Debit,85228.28,Utilities,Maharashtra,333,0,None,0.0,Success,Web,Verified,0,22
+TXN000000583,CUST010976,2019-01-03,14:29,Salary,Auto_Debit,891.89,Debit,43049.42,Healthcare,Delhi,848,1,Education,7472.37,Success,POS_Terminal,Verified,0,14
+TXN000000584,CUST011024,2019-01-03,05:10,Savings,NEFT,6611.56,Credit,213219.67,Travel,Delhi,373,1,Auto,16609.08,Failed,ATM,Pending,0,5
+TXN000000585,CUST021448,2019-01-03,06:13,Current,ATM_Withdrawal,1000.0,Debit,38464.76,Insurance,Telangana,568,1,Personal,24316.96,Success,POS_Terminal,Verified,0,6
+TXN000000586,CUST023960,2019-01-03,08:28,Current,Auto_Debit,2857.0,Debit,15312.62,E-Commerce,Maharashtra,571,0,None,0.0,Success,Branch,Expired,0,8
+TXN000000587,CUST066204,2019-01-03,18:29,Salary,Cheque,84908.09,Credit,260356.29,Investment,Punjab,495,0,None,0.0,Success,Web,Verified,0,18
+TXN000000588,CUST029704,2019-01-03,15:22,Current,UPI,1303.95,Debit,26605.85,Utilities,Tamil Nadu,550,1,Personal,4576.85,Success,API,Verified,0,15
+TXN000000589,CUST009338,2019-01-03,06:01,Salary,Cheque,119434.45,Credit,30468.47,E-Commerce,Tamil Nadu,355,0,None,0.0,Success,ATM,Verified,0,6
+TXN000000590,CUST046428,2019-01-03,20:57,Savings,IMPS,1347.32,Debit,20908.31,Education,Punjab,688,0,None,0.0,Success,Mobile_App,Verified,0,20
+TXN000000591,CUST061530,2019-01-03,11:13,Salary,UPI,6727.15,Debit,13011.05,Peer Transfer,Gujarat,860,1,Auto,8772.66,Success,Mobile_App,Verified,0,11
+TXN000000592,CUST031922,2019-01-03,20:12,Savings,IMPS,530.76,Credit,137767.92,E-Commerce,Karnataka,872,0,None,0.0,Success,Mobile_App,Verified,0,20
+TXN000000593,CUST033308,2019-01-03,10:39,Salary,POS,3457.36,Debit,200735.46,Entertainment,Rajasthan,403,1,Home,3753.02,Success,Mobile_App,Verified,0,10
+TXN000000594,CUST027356,2019-01-03,18:58,Salary,UPI,55.81,Debit,25464.32,Government,UP,768,0,None,0.0,Success,Web,Verified,0,18
+TXN000000595,CUST004836,2019-01-03,00:08,Savings,UPI,1690.59,Debit,42126.69,Travel,Delhi,421,1,Auto,7943.28,Success,Web,Verified,0,0
+TXN000000596,CUST020160,2019-01-03,22:02,Savings,NEFT,55629.13,Debit,36105.98,E-Commerce,Maharashtra,357,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000597,CUST047606,2019-01-03,09:56,Salary,Net_Banking,150.11,Debit,124868.35,Government,Karnataka,724,1,Personal,4583.88,Success,API,Verified,0,9
+TXN000000598,CUST038089,2019-01-03,01:42,Salary,NEFT,4309.56,Credit,15125.43,Government,Gujarat,886,0,None,0.0,Success,Mobile_App,Verified,0,1
+TXN000000599,CUST078753,2019-01-03,15:34,Savings,UPI,458.63,Debit,7537.14,Government,Telangana,348,1,None,1470.01,Success,Mobile_App,Verified,0,15
+TXN000000600,CUST055285,2019-01-03,19:44,Savings,Net_Banking,11240.55,Debit,11762.29,Healthcare,Tamil Nadu,417,0,None,0.0,Success,Web,Verified,0,19
+TXN000000601,CUST057044,2019-01-03,23:30,Savings,UPI,957.57,Debit,72683.84,Retail,Maharashtra,779,0,None,0.0,Success,Web,Pending,0,23
+TXN000000602,CUST035548,2019-01-03,09:54,Savings,IMPS,1070.2,Debit,30971.96,Retail,Telangana,477,1,Business,14977.32,Success,Branch,Verified,0,9
+TXN000000603,CUST027533,2019-01-03,18:08,Fixed Deposit,POS,360.79,Debit,4680.96,Retail,Karnataka,537,0,None,0.0,Success,Branch,Verified,0,18
+TXN000000604,CUST034350,2019-01-03,21:45,NRI,UPI,3163.09,Debit,46735.36,Government,Tamil Nadu,352,0,None,0.0,Success,Mobile_App,Verified,0,21
+TXN000000605,CUST045446,2019-01-03,18:28,Current,Cheque,22557.66,Debit,14277.99,E-Commerce,Karnataka,898,0,None,0.0,Success,Mobile_App,Verified,0,18
+TXN000000606,CUST005714,2019-01-03,14:41,Current,Credit_Card,22201.28,Debit,42501.76,Food & Dining,Gujarat,646,1,None,8273.04,Success,ATM,Verified,0,14
+TXN000000607,CUST056179,2019-01-03,13:24,Savings,POS,3207.57,Debit,14274.79,Peer Transfer,Maharashtra,422,0,None,0.0,Success,POS_Terminal,Verified,0,13
+TXN000000608,CUST049408,2019-01-03,07:00,Fixed Deposit,ATM_Withdrawal,1000.0,Debit,11539.33,Healthcare,Delhi,434,0,None,0.0,Success,Web,Verified,0,7
+TXN000000609,CUST070341,2019-01-03,10:01,Current,RTGS,150847.3,Credit,56319.78,Utilities,Maharashtra,572,0,None,0.0,Success,POS_Terminal,Verified,0,10
+TXN000000610,CUST050991,2019-01-03,17:34,Savings,POS,866.94,Debit,88026.89,Education,Karnataka,827,0,None,0.0,Success,POS_Terminal,Verified,0,17
+TXN000000611,CUST075673,2019-01-03,11:02,Savings,UPI,568.49,Debit,57458.83,Entertainment,Telangana,671,1,Personal,10178.49,Success,ATM,Verified,0,11
+TXN000000612,CUST065546,2019-01-03,12:25,Savings,NEFT,499602.68,Credit,10840.51,Education,Maharashtra,846,0,None,0.0,Success,Mobile_App,Verified,0,12
+TXN000000613,CUST058142,2019-01-03,22:01,Savings,Cheque,6505.59,Credit,29733.23,E-Commerce,Delhi,779,0,None,0.0,Success,POS_Terminal,Verified,0,22
+TXN000000614,CUST023794,2019-01-03,14:49,Savings,ATM_Withdrawal,1000.0,Debit,261710.29,Insurance,Rajasthan,346,0,None,0.0,Success,Web,Verified,0,14
+TXN000000615,CUST056571,2019-01-03,03:21,Salary,ATM_Withdrawal,500.0,Debit,50231.71,Healthcare,Telangana,396,0,None,0.0,Success,Web,Verified,0,3
+TXN000000616,CUST037893,2019-01-03,00:58,Savings,NEFT,4610.09,Credit,45383.49,Peer Transfer,Tamil Nadu,409,0,None,0.0,Success,ATM,Verified,0,0
+TXN000000617,CUST001016,2019-01-03,06:17,Current,ATM_Withdrawal,1000.0,Debit,58773.73,Travel,Maharashtra,336,1,Home,7255.36,Success,Mobile_App,Verified,0,6
+TXN000000618,CUST061814,2019-01-03,05:22,Savings,POS,381.66,Debit,338435.23,Investment,Karnataka,705,0,None,0.0,Success,Mobile_App,Verified,0,5
+TXN000000619,CUST027713,2019-01-03,06:05,Savings,NEFT,5959.85,Credit,23515.77,Fuel,UP,595,0,None,0.0,Success,ATM,Verified,0,6
+TXN000000620,CUST008416,2019-01-03,09:43,Current,UPI,111.73,Debit,77935.26,Salary,Maharashtra,374,0,None,0.0,Success,POS_Terminal,Pending,0,9
+TXN000000621,CUST062293,2019-01-03,01:52,Salary,ATM_Withdrawal,5000.0,Debit,30635.34,Travel,Rajasthan,536,0,None,0.0,Success,ATM,Verified,0,1
+TXN000000622,CUST023834,2019-01-03,09:22,Salary,UPI,600.19,Debit,673908.55,Education,UP,571,1,Home,5698.84,Success,Mobile_App,Expired,0,9
+TXN000000623,CUST004159,2019-01-03,16:15,Current,UPI,922.69,Debit,13639.74,E-Commerce,Karnataka,410,1,Home,1264.61,Success,Web,Pending,0,16
+TXN000000624,CUST062681,2019-01-03,09:44,NRI,IMPS,10839.0,Credit,333727.32,E-Commerce,Tamil Nadu,718,0,None,0.0,Success,Mobile_App,Pending,0,9
+TXN000000625,CUST020310,2019-01-03,04:00,Fixed Deposit,UPI,56.97,Debit,75475.46,Entertainment,Maharashtra,802,0,None,0.0,Success,Mobile_App,Verified,0,4
+TXN000000626,CUST006971,2019-01-03,08:55,Salary,UPI,313.36,Credit,181097.53,Government,West Bengal,421,0,None,0.0,Success,Mobile_App,Verified,0,8
+TXN000000627,CUST072475,2019-01-03,06:34,Salary,POS,1681.68,Debit,373566.59,Investment,Gujarat,800,0,None,0.0,Failed,Web,Verified,0,6
+TXN000000628,CUST046541,2019-01-03,06:35,NRI,IMPS,2531.83,Credit,25796.05,Peer Transfer,Delhi,841,0,None,0.0,Success,Mobile_App,Verified,0,6
+TXN000000629,CUST020385,2019-01-03,23:10,Savings,UPI,880.08,Credit,175014.79,Retail,Maharashtra,718,1,Education,8004.03,Success,Mobile_App,Pending,0,23
+TXN000000630,CUST018018,2019-01-03,01:57,Current,UPI,308.56,Credit,161822.21,E-Commerce,Telangana,757,0,None,0.0,Success,Web,Verified,0,1
+TXN000000631,CUST075881,2019-01-03,22:18,Savings,IMPS,4884.18,Credit,48067.29,Healthcare,Telangana,429,0,None,0.0,Success,POS_Terminal,Verified,0,22
+TXN000000632,CUST008703,2019-01-03,04:40,Salary,Cheque,3817.65,Debit,10427.19,Salary,Tamil Nadu,700,0,None,0.0,Success,POS_Terminal,Verified,0,4
+TXN000000633,CUST000385,2019-01-03,21:30,Current,IMPS,27649.48,Credit,60060.96,E-Commerce,Tamil Nadu,727,0,None,0.0,Failed,Branch,Verified,0,21
+TXN000000634,CUST000405,2019-01-03,11:21,Current,Net_Banking,7018.34,Credit,18738.12,Salary,Delhi,809,0,None,0.0,Pending,Mobile_App,Verified,0,11
+TXN000000635,CUST040944,2019-01-03,16:03,NRI,Cheque,12407.14,Debit,9836.87,Travel,Rajasthan,341,0,None,0.0,Success,Mobile_App,Verified,0,16
+TXN000000636,CUST047927,2019-01-03,00:27,Current,IMPS,563.96,Credit,6303.09,E-Commerce,UP,759,0,None,0.0,Success,Web,Verified,0,0
+TXN000000637,CUST029190,2019-01-03,21:27,Fixed Deposit,ATM_Withdrawal,500.0,Debit,40942.52,Utilities,Karnataka,327,1,Personal,5435.86,Success,ATM,Pending,0,21
+TXN000000638,CUST012764,2019-01-03,16:13,NRI,UPI,1767.55,Credit,666575.99,Utilities,Karnataka,713,1,Personal,14465.83,Success,Mobile_App,Verified,0,16
+TXN000000639,CUST018385,2019-01-03,22:50,Salary,Credit_Card,1927.13,Debit,88511.79,Peer Transfer,UP,487,0,None,0.0,Success,ATM,Verified,0,22
+TXN000000640,CUST060101,2019-01-03,18:05,NRI,POS,13368.85,Debit,7254.32,Government,Delhi,782,0,None,0.0,Success,Mobile_App,Verified,0,18
+TXN000000641,CUST009861,2019-01-03,01:42,Savings,Net_Banking,117610.37,Debit,84163.12,E-Commerce,Gujarat,357,0,None,0.0,Success,Web,Verified,0,1
+TXN000000642,CUST050613,2019-01-03,22:24,Savings,IMPS,559.89,Credit,178426.77,Investment,Tamil Nadu,770,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000643,CUST023575,2019-01-03,00:59,Current,UPI,81.81,Credit,260744.18,Retail,Delhi,419,0,None,0.0,Success,Web,Verified,0,0
+TXN000000644,CUST023525,2019-01-03,19:13,Salary,IMPS,1470.29,Debit,19387.7,Healthcare,Rajasthan,442,1,Education,18169.03,Success,Web,Verified,0,19
+TXN000000645,CUST069173,2019-01-03,15:52,Savings,IMPS,1868.35,Debit,19078.15,Retail,Karnataka,845,0,None,0.0,Success,Mobile_App,Verified,0,15
+TXN000000646,CUST010917,2019-01-03,12:53,Salary,NEFT,10089.64,Credit,16023.89,Food & Dining,Maharashtra,425,1,Business,6395.42,Failed,Mobile_App,Verified,0,12
+TXN000000647,CUST004810,2019-01-03,09:31,Fixed Deposit,UPI,356.6,Debit,86735.98,Peer Transfer,Telangana,687,1,Personal,5264.18,Success,POS_Terminal,Verified,0,9
+TXN000000648,CUST032202,2019-01-03,02:58,Current,UPI,622.6,Debit,123694.03,Peer Transfer,UP,579,1,None,902.8,Success,Web,Verified,0,2
+TXN000000649,CUST053331,2019-01-03,08:29,Salary,Net_Banking,6397.54,Debit,24797.02,Retail,Rajasthan,547,1,Education,29723.95,Success,Mobile_App,Pending,0,8
+TXN000000650,CUST013457,2019-01-03,13:31,Savings,IMPS,595.18,Debit,19877.89,Peer Transfer,Tamil Nadu,469,0,None,0.0,Success,Web,Verified,0,13
+TXN000000651,CUST056398,2019-01-03,22:29,Savings,NEFT,8345.03,Debit,44595.12,Retail,West Bengal,795,0,None,0.0,Success,Branch,Verified,0,22
+TXN000000652,CUST038766,2019-01-03,19:06,Savings,Net_Banking,8775.48,Debit,34287.92,Retail,UP,524,1,Home,16099.43,Failed,Mobile_App,Expired,0,19
+TXN000000653,CUST034817,2019-01-03,03:29,Savings,Auto_Debit,7644.19,Debit,41601.41,Healthcare,Karnataka,334,0,None,0.0,Success,ATM,Verified,0,3
+TXN000000654,CUST045107,2019-01-03,12:35,Savings,UPI,1357.39,Debit,37777.76,Food & Dining,Maharashtra,302,0,None,0.0,Success,Mobile_App,Verified,0,12
+TXN000000655,CUST053933,2019-01-03,17:18,Fixed Deposit,UPI,543.37,Debit,37354.63,Travel,Delhi,401,0,None,0.0,Success,Mobile_App,Verified,0,17
+TXN000000656,CUST017101,2019-01-03,20:06,Savings,UPI,1457.3,Credit,18902.07,Travel,Karnataka,608,1,None,13751.14,Success,Mobile_App,Verified,0,20
+TXN000000657,CUST057092,2019-01-03,01:12,Current,IMPS,6839.26,Debit,29232.45,Retail,Punjab,865,0,None,0.0,Success,Mobile_App,Verified,0,1
+TXN000000658,CUST021950,2019-01-03,19:07,Current,ATM_Withdrawal,10000.0,Debit,25965.54,Entertainment,Telangana,419,0,None,0.0,Success,Branch,Verified,0,19
+TXN000000659,CUST070081,2019-01-03,14:42,Salary,Cheque,6178.45,Credit,50557.97,Entertainment,West Bengal,614,1,Business,3300.58,Success,Mobile_App,Verified,0,14
+TXN000000660,CUST037745,2019-01-03,12:07,Current,IMPS,703.85,Debit,4614.71,Education,Rajasthan,384,0,None,0.0,Success,API,Verified,0,12
+TXN000000661,CUST045544,2019-01-03,04:25,Current,ATM_Withdrawal,5000.0,Debit,90853.03,Healthcare,Karnataka,376,1,Home,12551.15,Success,Mobile_App,Verified,0,4
+TXN000000662,CUST036188,2019-01-03,11:25,Savings,POS,2474.04,Debit,155969.81,Education,Punjab,432,0,None,0.0,Success,Mobile_App,Expired,0,11
+TXN000000663,CUST007240,2019-01-03,06:39,Salary,UPI,1163.9,Debit,58340.21,Salary,Karnataka,340,1,None,2576.58,Success,Web,Verified,0,6
+TXN000000664,CUST014490,2019-01-03,20:45,Salary,POS,1768.24,Debit,35918.64,Salary,Telangana,674,0,None,0.0,Success,Mobile_App,Expired,0,20
+TXN000000665,CUST058018,2019-01-03,11:50,Salary,UPI,178.15,Credit,23945.65,Real Estate,Maharashtra,698,0,None,0.0,Success,Branch,Verified,0,11
+TXN000000666,CUST061878,2019-01-03,12:30,Salary,UPI,3166.81,Debit,331549.42,Food & Dining,Maharashtra,377,0,None,0.0,Success,Mobile_App,Verified,0,12
+TXN000000667,CUST043126,2019-01-03,00:56,Savings,Cheque,30865.19,Credit,31782.66,E-Commerce,West Bengal,438,0,None,0.0,Success,ATM,Verified,0,0
+TXN000000668,CUST049923,2019-01-03,19:27,Savings,IMPS,1621.72,Credit,91569.91,Investment,Maharashtra,480,1,Personal,8847.9,Success,Mobile_App,Expired,0,19
+TXN000000669,CUST032050,2019-01-03,03:52,Salary,ATM_Withdrawal,2000.0,Debit,253066.1,E-Commerce,Tamil Nadu,730,1,None,2793.05,Success,ATM,Verified,0,3
+TXN000000670,CUST037132,2019-01-03,04:29,Savings,NEFT,2671.8,Debit,12115.67,E-Commerce,Tamil Nadu,497,1,Personal,4403.87,Success,Mobile_App,Verified,0,4
+TXN000000671,CUST042945,2019-01-03,06:57,Current,POS,745.08,Debit,46313.0,Education,UP,886,1,Education,4892.89,Success,Mobile_App,Pending,0,6
+TXN000000672,CUST073964,2019-01-03,19:24,Fixed Deposit,Net_Banking,8353.33,Debit,362627.06,E-Commerce,Gujarat,377,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000673,CUST024286,2019-01-03,17:22,Savings,RTGS,373379.29,Credit,5232.26,Salary,Tamil Nadu,563,1,Business,7606.35,Success,POS_Terminal,Verified,0,17
+TXN000000674,CUST037627,2019-01-03,21:40,Savings,IMPS,21458.22,Debit,97100.97,E-Commerce,Gujarat,791,1,Personal,5467.16,Reversed,Mobile_App,Verified,0,21
+TXN000000675,CUST042809,2019-01-03,11:59,Savings,Cheque,45792.28,Debit,20519.81,Travel,Karnataka,452,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000676,CUST053872,2019-01-03,12:10,Salary,NEFT,1215.19,Credit,16020.81,Travel,West Bengal,603,1,Gold,6145.0,Success,Web,Verified,0,12
+TXN000000677,CUST019199,2019-01-03,14:09,Current,ATM_Withdrawal,1000.0,Debit,37254.88,Healthcare,Telangana,315,0,None,0.0,Reversed,API,Verified,0,14
+TXN000000678,CUST019759,2019-01-03,16:14,Current,NEFT,1637.98,Credit,446332.06,Food & Dining,Telangana,652,1,Home,3453.41,Success,Mobile_App,Verified,0,16
+TXN000000679,CUST015255,2019-01-03,19:19,Savings,UPI,361.26,Credit,85270.72,Peer Transfer,Tamil Nadu,532,0,None,0.0,Success,Branch,Verified,0,19
+TXN000000680,CUST044239,2019-01-03,15:51,Current,POS,929.27,Debit,33164.25,Peer Transfer,Gujarat,810,0,None,0.0,Success,Branch,Verified,0,15
+TXN000000681,CUST001253,2019-01-03,04:31,Salary,UPI,2026.79,Debit,16010.23,Travel,West Bengal,711,1,Business,4602.71,Success,Web,Verified,0,4
+TXN000000682,CUST039765,2019-01-03,11:35,Savings,UPI,286.45,Debit,3632.19,Healthcare,Punjab,581,0,None,0.0,Reversed,Mobile_App,Verified,0,11
+TXN000000683,CUST077710,2019-01-03,08:29,Salary,Cheque,25413.9,Credit,11836.24,Travel,Maharashtra,347,1,Home,3655.38,Success,Mobile_App,Verified,0,8
+TXN000000684,CUST037442,2019-01-03,17:39,Savings,RTGS,35582.01,Debit,55761.86,Government,Delhi,566,1,Personal,4110.47,Success,Web,Verified,0,17
+TXN000000685,CUST053683,2019-01-03,14:55,Savings,NEFT,1609.56,Credit,18008.63,Retail,Karnataka,572,1,Auto,1718.16,Success,Mobile_App,Verified,0,14
+TXN000000686,CUST059495,2019-01-03,15:07,Current,IMPS,4662.75,Debit,65688.94,Investment,Telangana,787,1,Education,2267.66,Success,API,Verified,0,15
+TXN000000687,CUST065216,2019-01-03,23:45,NRI,IMPS,3467.69,Debit,3565.34,Food & Dining,Gujarat,519,0,None,0.0,Success,Mobile_App,Verified,0,23
+TXN000000688,CUST078588,2019-01-03,00:43,Current,UPI,311.32,Debit,29748.33,Fuel,Gujarat,837,0,None,0.0,Success,Mobile_App,Verified,0,0
+TXN000000689,CUST006950,2019-01-03,21:03,Savings,POS,642.75,Debit,61071.16,Food & Dining,Tamil Nadu,637,0,None,0.0,Success,POS_Terminal,Verified,0,21
+TXN000000690,CUST055394,2019-01-03,23:19,NRI,UPI,356.41,Credit,270222.74,E-Commerce,West Bengal,818,0,None,0.0,Success,Web,Verified,0,23
+TXN000000691,CUST073554,2019-01-03,16:50,Savings,UPI,222.68,Debit,74683.62,Retail,Karnataka,497,0,None,0.0,Success,Web,Verified,0,16
+TXN000000692,CUST006942,2019-01-03,03:03,Savings,POS,187.88,Debit,77804.97,Salary,Delhi,582,1,Personal,4388.55,Success,Mobile_App,Verified,0,3
+TXN000000693,CUST025935,2019-01-03,11:26,Savings,UPI,1154.52,Debit,11831.82,Healthcare,Maharashtra,837,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000694,CUST023387,2019-01-03,09:53,Savings,IMPS,25388.03,Credit,153638.63,Peer Transfer,Maharashtra,374,1,Auto,8335.62,Failed,POS_Terminal,Verified,0,9
+TXN000000695,CUST061887,2019-01-03,18:23,Current,POS,1350.81,Debit,5175.74,Travel,Karnataka,594,0,None,0.0,Success,Mobile_App,Verified,0,18
+TXN000000696,CUST075746,2019-01-03,11:41,Savings,Cheque,44478.0,Credit,40849.15,Food & Dining,Tamil Nadu,823,1,Gold,6471.12,Success,Web,Verified,0,11
+TXN000000697,CUST053414,2019-01-03,05:08,Savings,IMPS,2455.6,Debit,63143.85,E-Commerce,Telangana,634,1,None,30656.06,Success,Mobile_App,Pending,0,5
+TXN000000698,CUST056801,2019-01-03,18:37,Current,ATM_Withdrawal,5000.0,Debit,26417.3,Food & Dining,West Bengal,628,1,Auto,1312.43,Success,Mobile_App,Verified,0,18
+TXN000000699,CUST042319,2019-01-03,06:13,Salary,Auto_Debit,978.91,Debit,57525.65,Investment,Telangana,673,1,Gold,2806.63,Success,ATM,Verified,0,6
+TXN000000700,CUST070174,2019-01-03,02:33,Fixed Deposit,ATM_Withdrawal,10000.0,Debit,9689.17,Fuel,Punjab,825,1,Gold,2328.81,Success,Mobile_App,Verified,0,2
+TXN000000701,CUST070391,2019-01-03,13:05,Salary,UPI,1528.03,Credit,8899.53,Food & Dining,Maharashtra,336,0,None,0.0,Success,Web,Verified,0,13
+TXN000000702,CUST052330,2019-01-03,18:36,Salary,Credit_Card,891.53,Debit,28408.96,Government,Karnataka,666,0,None,0.0,Success,ATM,Verified,0,18
+TXN000000703,CUST043089,2019-01-03,02:16,Salary,UPI,488.74,Credit,43505.27,Retail,West Bengal,458,0,None,0.0,Success,Mobile_App,Expired,0,2
+TXN000000704,CUST039812,2019-01-03,20:51,Current,NEFT,125184.3,Debit,26862.32,Salary,Rajasthan,741,0,None,0.0,Success,Web,Verified,0,20
+TXN000000705,CUST055480,2019-01-03,21:16,Current,UPI,3761.95,Debit,71666.19,Travel,Rajasthan,629,0,None,0.0,Success,Mobile_App,Verified,0,21
+TXN000000706,CUST019964,2019-01-03,12:52,Salary,Credit_Card,3779.46,Debit,16452.44,Government,Gujarat,682,0,None,0.0,Success,POS_Terminal,Verified,0,12
+TXN000000707,CUST055124,2019-01-03,13:52,Current,Net_Banking,1200.14,Credit,20052.15,E-Commerce,Karnataka,428,0,None,0.0,Success,Web,Verified,0,13
+TXN000000708,CUST073478,2019-01-03,02:30,Savings,ATM_Withdrawal,2000.0,Debit,171123.03,Retail,Delhi,892,0,None,0.0,Success,Mobile_App,Verified,0,2
+TXN000000709,CUST014389,2019-01-03,03:11,Current,UPI,491.86,Credit,29722.64,Retail,Tamil Nadu,705,1,Education,8826.71,Success,POS_Terminal,Pending,0,3
+TXN000000710,CUST005570,2019-01-03,21:20,Current,RTGS,141871.17,Credit,3511.53,Peer Transfer,UP,369,0,None,0.0,Success,ATM,Verified,0,21
+TXN000000711,CUST069837,2019-01-03,07:12,Current,POS,5433.81,Debit,11545.45,E-Commerce,Tamil Nadu,354,0,None,0.0,Success,ATM,Verified,0,7
+TXN000000712,CUST036587,2019-01-03,17:51,Current,IMPS,112.62,Debit,68440.58,Food & Dining,Karnataka,344,1,None,1959.45,Success,Web,Verified,0,17
+TXN000000713,CUST012016,2019-01-03,00:03,NRI,Credit_Card,553.21,Debit,2659.28,Education,West Bengal,354,0,None,0.0,Success,Web,Verified,0,0
+TXN000000714,CUST045003,2019-01-03,08:03,Current,Net_Banking,47771.18,Debit,74532.88,Healthcare,UP,671,1,Home,10699.12,Reversed,Web,Verified,0,8
+TXN000000715,CUST006255,2019-01-03,15:56,NRI,UPI,324.44,Debit,83379.62,Real Estate,Telangana,625,0,None,0.0,Success,Mobile_App,Expired,0,15
+TXN000000716,CUST017145,2019-01-03,02:06,Current,UPI,80.54,Credit,6868.54,Food & Dining,Karnataka,738,0,None,0.0,Success,Web,Verified,0,2
+TXN000000717,CUST024215,2019-01-03,16:49,Savings,IMPS,1654.21,Debit,76132.65,Entertainment,Gujarat,533,0,None,0.0,Success,Mobile_App,Verified,0,16
+TXN000000718,CUST071775,2019-01-03,07:08,Salary,NEFT,20592.33,Credit,87551.9,Healthcare,Tamil Nadu,416,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000719,CUST006091,2019-01-03,14:45,Current,UPI,304.63,Debit,50430.21,Education,Maharashtra,421,0,None,0.0,Success,POS_Terminal,Verified,0,14
+TXN000000720,CUST011638,2019-01-03,11:19,Fixed Deposit,Net_Banking,4040.95,Debit,8500.17,Fuel,Tamil Nadu,746,1,Business,2267.6,Success,Mobile_App,Verified,0,11
+TXN000000721,CUST022416,2019-01-03,03:49,Savings,NEFT,5507.72,Debit,92280.97,Travel,Karnataka,365,0,None,0.0,Success,Mobile_App,Verified,0,3
+TXN000000722,CUST024072,2019-01-03,16:30,Savings,Auto_Debit,3460.68,Debit,26007.07,Food & Dining,Delhi,783,1,Personal,5559.75,Success,Mobile_App,Verified,0,16
+TXN000000723,CUST058244,2019-01-03,02:04,Fixed Deposit,ATM_Withdrawal,2000.0,Debit,135208.11,E-Commerce,Maharashtra,844,1,Personal,9892.1,Success,Mobile_App,Verified,0,2
+TXN000000724,CUST041241,2019-01-03,17:19,Current,IMPS,5116.83,Credit,371294.38,Salary,Telangana,485,0,None,0.0,Success,POS_Terminal,Verified,0,17
+TXN000000725,CUST033435,2019-01-03,18:33,Fixed Deposit,IMPS,12282.99,Debit,2906.63,Travel,Karnataka,845,0,None,0.0,Failed,POS_Terminal,Verified,0,18
+TXN000000726,CUST069725,2019-01-03,10:43,Savings,POS,469.47,Debit,65683.6,Retail,Maharashtra,398,1,Personal,1820.45,Success,Mobile_App,Verified,0,10
+TXN000000727,CUST075698,2019-01-03,11:08,NRI,Net_Banking,1206.92,Debit,26873.23,Food & Dining,Maharashtra,362,0,None,0.0,Success,Web,Verified,0,11
+TXN000000728,CUST028733,2019-01-03,21:54,Salary,ATM_Withdrawal,3000.0,Debit,15946.76,Salary,Karnataka,706,1,Home,9199.56,Success,Mobile_App,Verified,0,21
+TXN000000729,CUST011315,2019-01-03,12:33,Savings,UPI,1373.86,Debit,13732.84,E-Commerce,Rajasthan,553,0,None,0.0,Reversed,Web,Pending,0,12
+TXN000000730,CUST023955,2019-01-03,14:18,Current,IMPS,1264.43,Debit,100997.75,Entertainment,Karnataka,444,1,Personal,8905.26,Success,POS_Terminal,Verified,0,14
+TXN000000731,CUST057109,2019-01-03,19:47,Current,Net_Banking,38781.05,Debit,32176.28,Investment,Tamil Nadu,540,0,None,0.0,Success,Web,Verified,0,19
+TXN000000732,CUST036669,2019-01-03,11:11,Current,IMPS,20261.75,Credit,35428.0,E-Commerce,Tamil Nadu,617,0,None,0.0,Success,Web,Expired,0,11
+TXN000000733,CUST023062,2019-01-03,10:20,Salary,RTGS,194308.65,Debit,12165.39,Insurance,Rajasthan,454,0,None,0.0,Success,Mobile_App,Verified,0,10
+TXN000000734,CUST079253,2019-01-03,09:00,Current,POS,959.8,Debit,14510.28,Salary,Tamil Nadu,810,0,None,0.0,Success,ATM,Verified,0,9
+TXN000000735,CUST039750,2019-01-03,07:25,Fixed Deposit,NEFT,15954.13,Debit,83381.62,Government,Maharashtra,776,0,None,0.0,Success,Web,Verified,0,7
+TXN000000736,CUST016908,2019-01-03,04:00,Savings,UPI,1059.82,Credit,332663.76,Investment,Punjab,761,1,Business,3230.47,Success,Mobile_App,Pending,0,4
+TXN000000737,CUST018778,2019-01-03,10:17,Fixed Deposit,UPI,321.58,Credit,12946.55,E-Commerce,West Bengal,526,0,None,0.0,Success,API,Verified,0,10
+TXN000000738,CUST051746,2019-01-03,00:46,Savings,POS,358.17,Debit,96664.69,Food & Dining,Maharashtra,459,1,Personal,7252.47,Pending,POS_Terminal,Pending,0,0
+TXN000000739,CUST023625,2019-01-03,04:12,Salary,UPI,252.18,Credit,13935.45,E-Commerce,Maharashtra,844,0,None,0.0,Success,Branch,Verified,0,4
+TXN000000740,CUST023322,2019-01-03,16:14,Salary,Credit_Card,9267.77,Debit,58645.14,Fuel,UP,662,1,Personal,8101.84,Success,Mobile_App,Verified,0,16
+TXN000000741,CUST010489,2019-01-03,23:22,Savings,ATM_Withdrawal,5000.0,Debit,47831.78,Utilities,Gujarat,752,0,None,0.0,Success,Mobile_App,Verified,0,23
+TXN000000742,CUST022575,2019-01-03,20:43,Fixed Deposit,Auto_Debit,1097.48,Debit,54403.58,Peer Transfer,Maharashtra,470,1,Home,1206.91,Pending,Mobile_App,Verified,0,20
+TXN000000743,CUST005241,2019-01-03,05:08,NRI,UPI,621.59,Credit,52687.16,E-Commerce,Telangana,613,0,None,0.0,Success,Branch,Verified,0,5
+TXN000000744,CUST043222,2019-01-03,15:57,NRI,UPI,136.2,Credit,17568.61,Government,West Bengal,543,1,Education,6474.97,Success,POS_Terminal,Verified,0,15
+TXN000000745,CUST010479,2019-01-03,17:57,Savings,IMPS,3322.83,Debit,70223.27,Retail,Tamil Nadu,647,0,None,0.0,Success,ATM,Verified,0,17
+TXN000000746,CUST055646,2019-01-03,06:47,Savings,UPI,154.61,Debit,2737.05,E-Commerce,Maharashtra,553,0,None,0.0,Success,Mobile_App,Verified,0,6
+TXN000000747,CUST019263,2019-01-03,07:54,Current,UPI,1052.21,Debit,39045.3,Food & Dining,Tamil Nadu,760,0,None,0.0,Success,Web,Verified,0,7
+TXN000000748,CUST052797,2019-01-03,07:44,Current,IMPS,377.98,Debit,281487.66,Retail,Tamil Nadu,883,1,Personal,2452.88,Success,Web,Verified,0,7
+TXN000000749,CUST004433,2019-01-03,23:56,Savings,RTGS,1120791.34,Debit,23631.65,E-Commerce,West Bengal,381,1,Personal,4295.85,Success,API,Verified,0,23
+TXN000000750,CUST064292,2019-01-03,20:37,Savings,UPI,187.48,Debit,25757.51,Real Estate,Karnataka,712,0,None,0.0,Success,ATM,Expired,0,20
+TXN000000751,CUST079105,2019-01-03,07:04,Fixed Deposit,UPI,627.01,Debit,53109.2,Food & Dining,Tamil Nadu,515,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000752,CUST059400,2019-01-03,02:44,Fixed Deposit,Credit_Card,6877.74,Debit,59147.47,Insurance,Maharashtra,870,1,Education,5601.34,Success,Mobile_App,Verified,0,2
+TXN000000753,CUST079715,2019-01-03,21:13,Fixed Deposit,NEFT,161866.41,Credit,202133.51,Utilities,Gujarat,320,0,None,0.0,Success,Mobile_App,Pending,0,21
+TXN000000754,CUST050429,2019-01-03,02:42,Salary,Auto_Debit,3510.23,Debit,4005.45,E-Commerce,Maharashtra,540,0,None,0.0,Success,ATM,Verified,0,2
+TXN000000755,CUST000303,2019-01-03,00:05,Savings,UPI,942.73,Debit,15453.56,Education,Telangana,691,0,None,0.0,Success,Web,Verified,0,0
+TXN000000756,CUST000056,2019-01-03,01:11,Salary,UPI,131.21,Credit,366174.38,Investment,Gujarat,778,0,None,0.0,Success,Mobile_App,Expired,0,1
+TXN000000757,CUST008718,2019-01-03,06:24,Savings,UPI,320.65,Debit,39506.83,Government,Karnataka,602,0,None,0.0,Success,Web,Verified,0,6
+TXN000000758,CUST028700,2019-01-03,10:30,Current,RTGS,214500.07,Credit,262857.85,Insurance,Tamil Nadu,522,0,None,0.0,Success,Mobile_App,Verified,0,10
+TXN000000759,CUST073687,2019-01-03,16:41,Savings,POS,5236.02,Debit,9248.66,Travel,Gujarat,423,0,None,0.0,Success,ATM,Verified,0,16
+TXN000000760,CUST067662,2019-01-03,00:03,Salary,ATM_Withdrawal,10000.0,Debit,197057.52,Healthcare,Tamil Nadu,747,1,Auto,20855.72,Success,ATM,Verified,0,0
+TXN000000761,CUST044248,2019-01-03,08:07,Current,UPI,181.87,Debit,7660.84,Utilities,UP,899,1,Personal,5790.6,Success,Mobile_App,Verified,0,8
+TXN000000762,CUST016749,2019-01-03,12:28,Savings,Net_Banking,80668.45,Credit,18283.46,Salary,Telangana,637,0,None,0.0,Success,Web,Verified,0,12
+TXN000000763,CUST004622,2019-01-03,22:43,Fixed Deposit,NEFT,7324.84,Debit,5540.21,Retail,Telangana,678,0,None,0.0,Success,Web,Verified,0,22
+TXN000000764,CUST015035,2019-01-03,17:42,Savings,IMPS,12001.91,Debit,144341.28,Investment,UP,389,1,Personal,9449.87,Success,Mobile_App,Verified,0,17
+TXN000000765,CUST005127,2019-01-03,09:20,Savings,ATM_Withdrawal,500.0,Debit,746217.96,Peer Transfer,Telangana,867,0,None,0.0,Success,Mobile_App,Verified,0,9
+TXN000000766,CUST005123,2019-01-03,12:16,Salary,Credit_Card,1262.18,Debit,77156.28,Peer Transfer,Karnataka,835,1,Home,6312.43,Success,Mobile_App,Expired,0,12
+TXN000000767,CUST018031,2019-01-03,16:43,Salary,IMPS,731.01,Credit,30046.58,Peer Transfer,Karnataka,551,0,None,0.0,Success,Web,Verified,0,16
+TXN000000768,CUST055659,2019-01-03,00:01,NRI,RTGS,153549.82,Credit,1191914.27,Government,Maharashtra,431,0,None,0.0,Success,Mobile_App,Verified,0,0
+TXN000000769,CUST038639,2019-01-03,21:32,Current,ATM_Withdrawal,5000.0,Debit,165874.41,Food & Dining,West Bengal,314,0,None,0.0,Success,ATM,Verified,0,21
+TXN000000770,CUST067068,2019-01-03,22:37,Savings,ATM_Withdrawal,1000.0,Debit,47369.26,Education,Maharashtra,594,0,None,0.0,Failed,Mobile_App,Verified,0,22
+TXN000000771,CUST034675,2019-01-03,06:58,NRI,ATM_Withdrawal,1000.0,Debit,18329.17,Insurance,Rajasthan,319,1,Education,6182.0,Success,Mobile_App,Verified,0,6
+TXN000000772,CUST035855,2019-01-03,11:26,Current,ATM_Withdrawal,1000.0,Debit,43163.09,Healthcare,Tamil Nadu,777,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000773,CUST046272,2019-01-03,13:53,NRI,POS,3651.85,Debit,66933.16,Entertainment,Tamil Nadu,380,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000774,CUST073689,2019-01-03,08:14,Salary,Credit_Card,477.5,Debit,16317.77,Peer Transfer,Delhi,507,1,None,15940.1,Success,Mobile_App,Verified,0,8
+TXN000000775,CUST038519,2019-01-03,15:38,Salary,Cheque,32056.13,Debit,20480.32,Retail,Gujarat,407,0,None,0.0,Success,Web,Verified,0,15
+TXN000000776,CUST010268,2019-01-03,23:06,Savings,UPI,448.01,Debit,58344.39,Government,Telangana,546,0,None,0.0,Success,POS_Terminal,Expired,0,23
+TXN000000777,CUST001063,2019-01-03,10:14,Savings,RTGS,282841.05,Debit,25702.05,E-Commerce,Gujarat,532,0,None,0.0,Success,POS_Terminal,Verified,0,10
+TXN000000778,CUST050449,2019-01-03,20:25,Fixed Deposit,Credit_Card,3757.75,Debit,20652.59,Food & Dining,Maharashtra,855,0,None,0.0,Success,Mobile_App,Verified,0,20
+TXN000000779,CUST006230,2019-01-03,07:25,Salary,UPI,247.75,Debit,646550.94,Education,Delhi,736,1,Personal,7712.87,Reversed,Branch,Expired,0,7
+TXN000000780,CUST056794,2019-01-03,08:16,Fixed Deposit,UPI,1834.45,Credit,21435.6,Education,Punjab,433,0,None,0.0,Success,Mobile_App,Verified,0,8
+TXN000000781,CUST047916,2019-01-03,10:30,NRI,UPI,241.64,Debit,29205.12,Education,Delhi,340,1,Auto,3222.89,Success,ATM,Verified,0,10
+TXN000000782,CUST004633,2019-01-03,16:54,Current,POS,644.72,Debit,32410.71,Government,Maharashtra,623,0,None,0.0,Success,Branch,Verified,0,16
+TXN000000783,CUST003597,2019-01-03,02:47,Savings,IMPS,639.46,Debit,81941.39,Retail,Karnataka,512,1,Auto,19670.62,Success,Web,Verified,0,2
+TXN000000784,CUST006169,2019-01-03,07:14,Savings,ATM_Withdrawal,500.0,Debit,39633.01,E-Commerce,Punjab,317,0,None,0.0,Success,POS_Terminal,Verified,0,7
+TXN000000785,CUST007562,2019-01-03,22:44,Fixed Deposit,UPI,809.91,Debit,9578.01,Investment,Maharashtra,591,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000786,CUST073795,2019-01-03,07:39,Savings,UPI,124.62,Credit,67966.66,Insurance,Maharashtra,614,1,Education,10080.89,Success,API,Verified,0,7
+TXN000000787,CUST026735,2019-01-03,22:33,Savings,UPI,6682.22,Credit,166802.95,Investment,Gujarat,519,0,None,0.0,Success,Web,Verified,0,22
+TXN000000788,CUST006372,2019-01-03,13:54,Current,POS,1501.57,Debit,60331.57,Food & Dining,Maharashtra,739,1,Business,3168.07,Success,API,Verified,0,13
+TXN000000789,CUST026070,2019-01-03,11:44,Current,RTGS,72066.63,Debit,22799.72,Salary,Delhi,769,0,None,0.0,Success,Branch,Verified,0,11
+TXN000000790,CUST079906,2019-01-03,13:07,Current,POS,440.09,Debit,52876.98,Salary,Karnataka,735,1,Auto,7141.2,Reversed,Mobile_App,Verified,0,13
+TXN000000791,CUST012911,2019-01-03,18:19,Savings,UPI,829.45,Debit,50122.65,E-Commerce,Tamil Nadu,695,1,Personal,10756.32,Success,POS_Terminal,Verified,0,18
+TXN000000792,CUST073480,2019-01-03,00:57,Savings,Cheque,67779.64,Credit,7350.22,Education,Telangana,386,0,None,0.0,Success,Branch,Verified,0,0
+TXN000000793,CUST077736,2019-01-03,01:34,Salary,POS,1891.28,Debit,29707.29,Retail,Telangana,655,1,Business,13772.39,Success,POS_Terminal,Verified,0,1
+TXN000000794,CUST023276,2019-01-03,19:05,NRI,UPI,83.74,Credit,3303.69,Food & Dining,Maharashtra,438,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000795,CUST072275,2019-01-03,22:24,Current,RTGS,107425.24,Credit,18464.09,E-Commerce,Telangana,506,0,None,0.0,Success,POS_Terminal,Verified,0,22
+TXN000000796,CUST060005,2019-01-03,04:20,Savings,Auto_Debit,1078.07,Debit,12518.11,Insurance,Delhi,591,1,Personal,2031.06,Success,Branch,Verified,0,4
+TXN000000797,CUST062982,2019-01-03,09:57,Current,NEFT,13645.62,Credit,93189.62,Government,Karnataka,540,0,None,0.0,Success,Mobile_App,Verified,0,9
+TXN000000798,CUST054554,2019-01-03,16:25,Savings,UPI,2500.24,Debit,10335.41,Travel,Tamil Nadu,491,0,None,0.0,Success,Mobile_App,Verified,0,16
+TXN000000799,CUST048448,2019-01-03,22:19,Savings,Net_Banking,17334.44,Credit,191405.0,E-Commerce,Maharashtra,786,0,None,0.0,Success,POS_Terminal,Pending,0,22
+TXN000000800,CUST034530,2019-01-03,01:33,Savings,POS,2032.31,Debit,13595.89,Utilities,Maharashtra,895,0,None,0.0,Success,Mobile_App,Verified,0,1
+TXN000000801,CUST075704,2019-01-03,22:24,Fixed Deposit,NEFT,1459.29,Debit,18802.41,Food & Dining,Delhi,370,1,None,7492.6,Success,POS_Terminal,Pending,0,22
+TXN000000802,CUST076091,2019-01-03,11:00,Current,Credit_Card,360.82,Debit,19319.25,Retail,Karnataka,301,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000803,CUST017261,2019-01-03,06:50,NRI,ATM_Withdrawal,5000.0,Debit,70994.15,E-Commerce,Punjab,764,0,None,0.0,Success,Mobile_App,Verified,0,6
+TXN000000804,CUST003813,2019-01-03,04:17,Current,ATM_Withdrawal,1000.0,Debit,36106.47,Travel,Maharashtra,447,0,None,0.0,Success,ATM,Verified,0,4
+TXN000000805,CUST028025,2019-01-03,15:18,Savings,UPI,1210.33,Debit,45579.39,Retail,Punjab,803,0,None,0.0,Success,Mobile_App,Verified,0,15
+TXN000000806,CUST058657,2019-01-03,23:20,Savings,Credit_Card,6646.81,Debit,7972.28,Retail,Gujarat,834,1,Auto,2264.07,Success,Mobile_App,Verified,0,23
+TXN000000807,CUST027286,2019-01-03,07:12,Savings,Credit_Card,428.44,Debit,80851.26,Entertainment,Maharashtra,481,0,None,0.0,Success,Branch,Verified,0,7
+TXN000000808,CUST001606,2019-01-03,05:44,NRI,NEFT,2537.35,Credit,29184.54,E-Commerce,Gujarat,892,0,None,0.0,Success,Mobile_App,Verified,0,5
+TXN000000809,CUST071159,2019-01-03,22:57,Current,RTGS,227464.51,Credit,8543.73,Retail,Gujarat,489,1,Education,8170.78,Success,Web,Verified,0,22
+TXN000000810,CUST072304,2019-01-03,01:58,Savings,RTGS,175405.92,Debit,26338.01,Insurance,Tamil Nadu,485,0,None,0.0,Success,API,Verified,0,1
+TXN000000811,CUST027140,2019-01-03,07:02,Savings,NEFT,13616.05,Credit,224601.21,E-Commerce,West Bengal,483,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000812,CUST077150,2019-01-03,00:44,Salary,NEFT,135613.38,Credit,15196.25,Investment,Telangana,881,1,Personal,25206.6,Success,ATM,Verified,0,0
+TXN000000813,CUST056139,2019-01-03,09:29,Salary,UPI,1921.3,Debit,141703.83,E-Commerce,Rajasthan,417,1,Business,17830.77,Success,Web,Verified,0,9
+TXN000000814,CUST076126,2019-01-03,11:09,Salary,POS,712.41,Debit,190497.0,Government,West Bengal,727,1,Business,15802.55,Success,Branch,Verified,0,11
+TXN000000815,CUST013919,2019-01-03,08:07,NRI,RTGS,17544.35,Debit,171277.88,E-Commerce,Maharashtra,672,0,None,0.0,Success,Mobile_App,Verified,0,8
+TXN000000816,CUST027447,2019-01-03,19:11,Salary,UPI,3169.88,Debit,12463.56,Utilities,Maharashtra,702,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000817,CUST013047,2019-01-03,12:57,Savings,Net_Banking,5303.17,Debit,380604.91,Peer Transfer,Tamil Nadu,510,1,Auto,12336.46,Success,Web,Verified,0,12
+TXN000000818,CUST024819,2019-01-03,17:29,Salary,POS,169.73,Debit,93934.14,Real Estate,Maharashtra,627,1,Home,12815.29,Success,Branch,Verified,0,17
+TXN000000819,CUST004325,2019-01-03,10:37,Salary,IMPS,454.46,Debit,163868.12,Healthcare,Gujarat,326,0,None,0.0,Success,Mobile_App,Verified,1,10
+TXN000000820,CUST076324,2019-01-03,04:51,Savings,NEFT,39417.21,Credit,24945.37,Investment,Delhi,601,1,None,2122.05,Success,Web,Verified,0,4
+TXN000000821,CUST009112,2019-01-03,02:45,Fixed Deposit,RTGS,91007.69,Debit,415570.51,Salary,Gujarat,499,1,Auto,2601.62,Success,Branch,Pending,0,2
+TXN000000822,CUST038111,2019-01-03,08:23,Fixed Deposit,UPI,1129.98,Credit,61245.84,Food & Dining,Gujarat,770,1,Personal,4802.21,Success,Mobile_App,Verified,0,8
+TXN000000823,CUST016390,2019-01-03,23:30,Savings,POS,468.91,Debit,37426.45,Retail,Rajasthan,321,0,None,0.0,Success,Web,Expired,0,23
+TXN000000824,CUST041428,2019-01-03,23:49,Savings,POS,2763.26,Debit,60961.92,Utilities,Telangana,515,0,None,0.0,Success,POS_Terminal,Verified,0,23
+TXN000000825,CUST079580,2019-01-03,03:00,Savings,Cheque,71019.8,Debit,593304.92,Retail,Rajasthan,349,0,None,0.0,Success,POS_Terminal,Verified,0,3
+TXN000000826,CUST028747,2019-01-03,18:50,Salary,IMPS,10911.67,Debit,411106.38,Retail,UP,386,1,None,913.03,Success,Web,Verified,0,18
+TXN000000827,CUST000118,2019-01-03,19:50,Fixed Deposit,NEFT,9207.08,Debit,27348.17,Utilities,Telangana,313,0,None,0.0,Success,ATM,Verified,0,19
+TXN000000828,CUST013235,2019-01-03,04:05,Current,NEFT,3916.15,Credit,20357.75,Utilities,Maharashtra,511,0,None,0.0,Success,Mobile_App,Expired,0,4
+TXN000000829,CUST053442,2019-01-03,12:43,Savings,UPI,5883.27,Credit,16176.35,Utilities,Tamil Nadu,627,0,None,0.0,Success,Web,Expired,0,12
+TXN000000830,CUST000847,2019-01-03,00:06,NRI,UPI,583.79,Credit,23805.34,E-Commerce,Tamil Nadu,486,1,Personal,5099.12,Success,Web,Verified,0,0
+TXN000000831,CUST010955,2019-01-03,18:54,Savings,NEFT,10116.7,Debit,67158.92,Travel,Gujarat,548,0,None,0.0,Success,API,Pending,0,18
+TXN000000832,CUST079240,2019-01-03,01:52,Current,ATM_Withdrawal,500.0,Debit,70579.21,Food & Dining,Tamil Nadu,331,0,None,0.0,Success,Mobile_App,Pending,0,1
+TXN000000833,CUST046515,2019-01-03,07:00,Savings,UPI,514.13,Credit,4858.47,Investment,UP,467,1,Auto,5913.7,Success,Web,Verified,0,7
+TXN000000834,CUST006470,2019-01-03,02:19,Savings,Auto_Debit,227.58,Debit,13402.41,Healthcare,Delhi,601,0,None,0.0,Success,POS_Terminal,Verified,0,2
+TXN000000835,CUST030106,2019-01-03,17:05,Savings,UPI,144.92,Credit,8210.12,Salary,Maharashtra,456,0,None,0.0,Success,Mobile_App,Verified,0,17
+TXN000000836,CUST042102,2019-01-03,00:09,Current,Credit_Card,1338.55,Debit,15880.41,Government,Maharashtra,573,1,Business,13814.7,Failed,Web,Verified,0,0
+TXN000000837,CUST064324,2019-01-03,17:23,Savings,POS,181.95,Debit,121864.31,Travel,Tamil Nadu,554,1,Business,4478.7,Success,Mobile_App,Verified,0,17
+TXN000000838,CUST058068,2019-01-03,15:34,Savings,Cheque,231659.64,Debit,3041.83,Food & Dining,West Bengal,611,0,None,0.0,Success,POS_Terminal,Verified,0,15
+TXN000000839,CUST049377,2019-01-03,06:40,NRI,Credit_Card,177.99,Debit,3852.5,Retail,Karnataka,783,1,Education,2641.19,Success,API,Verified,0,6
+TXN000000840,CUST045588,2019-01-03,04:07,Current,Net_Banking,545.1,Debit,25119.79,Utilities,Delhi,558,0,None,0.0,Success,Mobile_App,Verified,0,4
+TXN000000841,CUST036977,2019-01-03,11:08,Savings,UPI,512.66,Credit,112810.5,Education,Tamil Nadu,407,0,None,0.0,Success,Web,Verified,0,11
+TXN000000842,CUST067585,2019-01-03,23:25,Current,NEFT,15919.4,Credit,316914.81,Healthcare,Rajasthan,837,0,None,0.0,Success,ATM,Verified,0,23
+TXN000000843,CUST078478,2019-01-03,06:07,Savings,ATM_Withdrawal,1000.0,Debit,39155.23,Utilities,Telangana,801,0,None,0.0,Success,ATM,Verified,0,6
+TXN000000844,CUST042534,2019-01-03,03:16,Salary,UPI,198.9,Debit,12978.56,Retail,UP,772,0,None,0.0,Success,Mobile_App,Verified,0,3
+TXN000000845,CUST001829,2019-01-03,15:53,Salary,UPI,433.09,Credit,8280.49,Insurance,Rajasthan,318,0,None,0.0,Success,ATM,Verified,0,15
+TXN000000846,CUST001918,2019-01-03,04:05,NRI,UPI,506.54,Debit,9318.5,Travel,Maharashtra,810,0,None,0.0,Failed,POS_Terminal,Verified,0,4
+TXN000000847,CUST020619,2019-01-03,15:20,Savings,RTGS,74272.73,Debit,25716.25,Food & Dining,Telangana,719,0,None,0.0,Success,Web,Expired,0,15
+TXN000000848,CUST032255,2019-01-03,22:55,Salary,NEFT,109600.56,Debit,7167.86,Retail,Delhi,654,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000849,CUST047363,2019-01-03,10:30,Current,UPI,2452.36,Debit,12012.44,Government,Tamil Nadu,495,1,Auto,4531.82,Success,Mobile_App,Verified,0,10
+TXN000000850,CUST020129,2019-01-03,20:13,Salary,ATM_Withdrawal,1000.0,Debit,894.32,Salary,Tamil Nadu,709,0,None,0.0,Success,API,Verified,0,20
+TXN000000851,CUST059384,2019-01-03,13:47,Salary,POS,766.86,Debit,52649.61,Government,Karnataka,433,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000852,CUST065546,2019-01-03,14:45,Savings,UPI,1006.77,Credit,15293.94,Fuel,Maharashtra,678,0,None,0.0,Success,Mobile_App,Verified,0,14
+TXN000000853,CUST009866,2019-01-03,11:18,Current,ATM_Withdrawal,5000.0,Debit,46108.81,Food & Dining,Gujarat,483,1,Auto,3744.76,Success,Mobile_App,Verified,0,11
+TXN000000854,CUST002220,2019-01-03,22:14,NRI,POS,2410.92,Debit,73399.91,Travel,Rajasthan,566,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000855,CUST039810,2019-01-03,21:45,Savings,UPI,1422.17,Debit,7335.2,Education,Gujarat,375,1,Personal,5799.05,Success,POS_Terminal,Verified,0,21
+TXN000000856,CUST005288,2019-01-03,21:51,NRI,IMPS,5685.03,Credit,12644.64,Retail,Rajasthan,475,0,None,0.0,Success,Branch,Verified,0,21
+TXN000000857,CUST034388,2019-01-03,05:45,Salary,UPI,371.61,Credit,2113.39,Travel,Karnataka,328,0,None,0.0,Success,Mobile_App,Pending,0,5
+TXN000000858,CUST008513,2019-01-03,07:05,Current,NEFT,10301.86,Credit,32215.78,E-Commerce,Punjab,516,0,None,0.0,Success,Web,Verified,0,7
+TXN000000859,CUST001343,2019-01-03,12:42,Salary,IMPS,6530.65,Debit,39516.7,E-Commerce,Gujarat,655,1,Personal,3242.41,Success,Web,Verified,0,12
+TXN000000860,CUST063077,2019-01-03,13:55,Current,UPI,1260.17,Credit,24784.52,Fuel,Karnataka,336,1,Auto,3618.52,Success,POS_Terminal,Verified,0,13
+TXN000000861,CUST019217,2019-01-03,22:26,Savings,UPI,240.52,Credit,499793.61,Investment,UP,595,0,None,0.0,Success,Web,Verified,0,22
+TXN000000862,CUST079768,2019-01-03,13:06,Salary,UPI,2078.52,Debit,12212.52,Retail,West Bengal,390,0,None,0.0,Success,ATM,Verified,0,13
+TXN000000863,CUST026615,2019-01-03,06:13,Salary,POS,2882.93,Debit,685886.7,Real Estate,Rajasthan,716,0,None,0.0,Success,API,Verified,0,6
+TXN000000864,CUST036259,2019-01-04,11:29,Current,UPI,328.42,Debit,11199.55,Food & Dining,Rajasthan,428,0,None,0.0,Success,Mobile_App,Verified,0,11
+TXN000000865,CUST042079,2019-01-04,10:02,Current,POS,626.0,Debit,30322.71,Salary,Maharashtra,365,1,Business,4320.7,Success,Mobile_App,Verified,0,10
+TXN000000866,CUST012220,2019-01-04,00:59,Savings,IMPS,6568.77,Debit,59939.76,Salary,Tamil Nadu,471,0,None,0.0,Success,Mobile_App,Verified,0,0
+TXN000000867,CUST000236,2019-01-04,08:21,NRI,POS,59.49,Debit,166612.56,Entertainment,Delhi,772,0,None,0.0,Success,POS_Terminal,Verified,0,8
+TXN000000868,CUST042930,2019-01-04,16:45,Savings,UPI,42.87,Credit,77155.17,Retail,Maharashtra,342,0,None,0.0,Success,Web,Verified,0,16
+TXN000000869,CUST067445,2019-01-04,06:39,Savings,POS,237.06,Debit,302297.55,Real Estate,West Bengal,416,0,None,0.0,Success,Web,Verified,0,6
+TXN000000870,CUST008568,2019-01-04,00:55,Savings,Auto_Debit,993.21,Debit,28955.98,Retail,Tamil Nadu,808,0,None,0.0,Success,POS_Terminal,Verified,0,0
+TXN000000871,CUST070793,2019-01-04,07:39,Salary,ATM_Withdrawal,500.0,Debit,132404.79,Travel,Karnataka,746,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000872,CUST065442,2019-01-04,00:43,Current,ATM_Withdrawal,2000.0,Debit,5930.63,Entertainment,West Bengal,314,0,None,0.0,Success,Mobile_App,Verified,0,0
+TXN000000873,CUST073699,2019-01-04,12:13,Current,ATM_Withdrawal,2000.0,Debit,104080.04,Insurance,Tamil Nadu,434,0,None,0.0,Success,ATM,Verified,0,12
+TXN000000874,CUST005416,2019-01-04,18:21,NRI,Cheque,21004.79,Debit,5068.98,Investment,Rajasthan,898,0,None,0.0,Success,ATM,Verified,0,18
+TXN000000875,CUST036160,2019-01-04,05:25,Salary,UPI,338.04,Credit,126912.77,Travel,Delhi,354,0,None,0.0,Success,Web,Verified,0,5
+TXN000000876,CUST043926,2019-01-04,09:47,Savings,Credit_Card,11605.94,Debit,3628.88,Peer Transfer,Maharashtra,398,1,Education,2959.41,Success,ATM,Verified,0,9
+TXN000000877,CUST005952,2019-01-04,13:48,Current,Auto_Debit,1045.1,Debit,125225.36,Retail,West Bengal,706,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000878,CUST008008,2019-01-04,17:39,Current,POS,326.02,Debit,25505.08,Insurance,Delhi,316,0,None,0.0,Success,POS_Terminal,Verified,0,17
+TXN000000879,CUST041833,2019-01-04,21:25,Current,UPI,7172.23,Debit,16588.16,Investment,Karnataka,337,0,None,0.0,Failed,Branch,Verified,0,21
+TXN000000880,CUST058597,2019-01-04,10:41,Salary,NEFT,7423.71,Credit,140672.08,Healthcare,West Bengal,504,0,None,0.0,Success,Web,Verified,0,10
+TXN000000881,CUST030524,2019-01-04,05:12,Savings,Auto_Debit,1721.53,Debit,173991.38,Retail,Rajasthan,349,1,Personal,2992.74,Success,Web,Pending,0,5
+TXN000000882,CUST015525,2019-01-04,00:58,Current,UPI,3681.53,Debit,63382.54,Retail,Maharashtra,689,1,Personal,5755.48,Success,ATM,Verified,0,0
+TXN000000883,CUST019283,2019-01-04,09:16,Savings,NEFT,155062.45,Credit,17639.65,Salary,Maharashtra,849,0,None,0.0,Success,Mobile_App,Verified,0,9
+TXN000000884,CUST023931,2019-01-04,17:00,Current,POS,957.39,Debit,4108.15,E-Commerce,Delhi,863,0,None,0.0,Success,Mobile_App,Expired,0,17
+TXN000000885,CUST000078,2019-01-04,13:22,Current,NEFT,1835.9,Debit,54175.27,Food & Dining,West Bengal,737,1,Education,2521.03,Success,Mobile_App,Verified,0,13
+TXN000000886,CUST020612,2019-01-04,20:06,NRI,Credit_Card,1077.3,Debit,70782.58,Government,Punjab,430,1,Education,2135.96,Success,Mobile_App,Pending,0,20
+TXN000000887,CUST016985,2019-01-04,05:17,Savings,ATM_Withdrawal,3000.0,Debit,49021.1,Retail,Gujarat,313,1,Business,7759.03,Success,Web,Verified,0,5
+TXN000000888,CUST014061,2019-01-04,21:58,Salary,POS,2066.95,Debit,30687.85,Retail,Tamil Nadu,322,1,None,1863.64,Success,Web,Verified,0,21
+TXN000000889,CUST043304,2019-01-04,01:50,Savings,POS,4966.99,Debit,51927.81,Retail,West Bengal,355,1,Auto,1262.43,Success,Branch,Verified,0,1
+TXN000000890,CUST059208,2019-01-04,23:45,Savings,Net_Banking,27543.34,Credit,196644.8,Food & Dining,Maharashtra,632,0,None,0.0,Success,Branch,Verified,0,23
+TXN000000891,CUST075047,2019-01-04,01:33,Savings,IMPS,1600.06,Credit,76830.91,Food & Dining,Tamil Nadu,837,0,None,0.0,Success,Web,Verified,0,1
+TXN000000892,CUST029288,2019-01-04,12:08,Current,IMPS,4161.92,Debit,5907.33,Peer Transfer,Rajasthan,541,0,None,0.0,Success,Mobile_App,Verified,0,12
+TXN000000893,CUST039712,2019-01-04,04:12,Current,UPI,535.38,Credit,6607.23,E-Commerce,Gujarat,431,0,None,0.0,Success,Mobile_App,Verified,0,4
+TXN000000894,CUST011955,2019-01-04,14:42,Salary,RTGS,85673.74,Debit,12928.17,Retail,Maharashtra,745,0,None,0.0,Failed,POS_Terminal,Verified,0,14
+TXN000000895,CUST073341,2019-01-04,17:30,Salary,Auto_Debit,2711.24,Debit,15057.2,Peer Transfer,Delhi,781,0,None,0.0,Success,API,Verified,0,17
+TXN000000896,CUST072102,2019-01-04,01:24,Savings,IMPS,3397.3,Debit,61273.85,Food & Dining,Maharashtra,328,0,None,0.0,Success,Branch,Verified,0,1
+TXN000000897,CUST071521,2019-01-04,12:07,Fixed Deposit,Net_Banking,755.61,Debit,9487.68,Utilities,Maharashtra,822,0,None,0.0,Success,Mobile_App,Expired,0,12
+TXN000000898,CUST018575,2019-01-04,03:29,Savings,IMPS,811.1,Debit,167417.78,Retail,Telangana,813,1,Education,786.02,Success,ATM,Pending,0,3
+TXN000000899,CUST009185,2019-01-04,02:21,Current,UPI,707.19,Debit,190815.42,Utilities,West Bengal,556,0,None,0.0,Success,Mobile_App,Verified,0,2
+TXN000000900,CUST019097,2019-01-04,07:00,Salary,Net_Banking,2365.28,Debit,61181.42,E-Commerce,Karnataka,744,1,Home,5278.72,Success,Mobile_App,Verified,0,7
+TXN000000901,CUST067729,2019-01-04,08:10,Savings,UPI,114.98,Debit,68539.65,Salary,Rajasthan,682,0,None,0.0,Success,Mobile_App,Verified,0,8
+TXN000000902,CUST034017,2019-01-04,14:22,Salary,POS,1232.14,Debit,13917.37,Entertainment,Tamil Nadu,874,0,None,0.0,Success,Web,Verified,0,14
+TXN000000903,CUST011247,2019-01-04,00:57,Savings,UPI,838.89,Debit,92578.59,E-Commerce,Karnataka,705,0,None,0.0,Failed,Web,Verified,0,0
+TXN000000904,CUST045559,2019-01-04,21:22,Savings,UPI,774.74,Credit,6511.9,Peer Transfer,Rajasthan,548,0,None,0.0,Success,Mobile_App,Verified,0,21
+TXN000000905,CUST018382,2019-01-04,19:16,Savings,POS,1294.9,Debit,68456.36,Retail,Gujarat,675,1,Personal,7069.51,Success,Mobile_App,Pending,0,19
+TXN000000906,CUST036456,2019-01-04,11:03,Salary,UPI,651.36,Credit,7044.01,Food & Dining,Maharashtra,664,0,None,0.0,Pending,Mobile_App,Verified,0,11
+TXN000000907,CUST004019,2019-01-04,11:01,Savings,POS,1076.93,Debit,70253.15,Utilities,Maharashtra,855,1,None,8718.18,Success,Mobile_App,Pending,0,11
+TXN000000908,CUST011303,2019-01-04,14:31,Savings,ATM_Withdrawal,1000.0,Debit,6842.65,Travel,Telangana,639,0,None,0.0,Success,Web,Verified,0,14
+TXN000000909,CUST067507,2019-01-04,19:08,Current,UPI,599.99,Credit,38673.48,Insurance,Rajasthan,711,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000910,CUST041158,2019-01-04,22:45,Salary,UPI,82.55,Debit,1372.55,Government,Karnataka,832,0,None,0.0,Success,POS_Terminal,Verified,0,22
+TXN000000911,CUST054918,2019-01-04,00:58,Savings,ATM_Withdrawal,2000.0,Debit,15138.62,Healthcare,Karnataka,354,0,None,0.0,Success,POS_Terminal,Verified,0,0
+TXN000000912,CUST024520,2019-01-04,19:14,Salary,RTGS,55671.53,Debit,11652.75,Insurance,Telangana,718,0,None,0.0,Success,Mobile_App,Verified,0,19
+TXN000000913,CUST056820,2019-01-04,22:59,Salary,RTGS,196912.47,Credit,7475.93,Retail,Karnataka,849,0,None,0.0,Success,Mobile_App,Verified,0,22
+TXN000000914,CUST071325,2019-01-04,03:49,Current,NEFT,1656.29,Debit,60985.32,Investment,Telangana,791,1,Personal,6186.76,Success,Branch,Verified,0,3
+TXN000000915,CUST005409,2019-01-04,01:46,Salary,IMPS,202.31,Credit,357310.45,Investment,Maharashtra,405,1,Auto,2960.9,Success,Mobile_App,Verified,0,1
+TXN000000916,CUST059380,2019-01-04,18:44,Savings,IMPS,802.82,Debit,184633.93,Healthcare,Telangana,620,1,Education,5178.14,Success,Web,Expired,0,18
+TXN000000917,CUST025054,2019-01-04,13:17,Current,POS,572.49,Debit,164155.08,Salary,Delhi,342,0,None,0.0,Success,ATM,Verified,0,13
+TXN000000918,CUST009447,2019-01-04,03:48,Savings,UPI,162.34,Debit,5637.65,Entertainment,Delhi,675,0,None,0.0,Success,Web,Verified,0,3
+TXN000000919,CUST000923,2019-01-04,23:39,Salary,IMPS,655.61,Credit,25074.47,Food & Dining,West Bengal,612,0,None,0.0,Reversed,ATM,Verified,0,23
+TXN000000920,CUST051357,2019-01-04,07:22,Fixed Deposit,IMPS,6275.39,Debit,13121.32,Entertainment,Punjab,852,0,None,0.0,Success,POS_Terminal,Pending,0,7
+TXN000000921,CUST010790,2019-01-04,08:03,Savings,ATM_Withdrawal,5000.0,Debit,15541.43,Travel,Rajasthan,712,0,None,0.0,Failed,Mobile_App,Verified,0,8
+TXN000000922,CUST066657,2019-01-04,21:47,Savings,Net_Banking,37998.52,Debit,8096.73,Retail,Telangana,889,0,None,0.0,Success,Branch,Verified,0,21
+TXN000000923,CUST044029,2019-01-04,09:20,Current,POS,2995.18,Debit,76202.5,Real Estate,UP,529,1,Personal,9095.68,Success,Mobile_App,Verified,0,9
+TXN000000924,CUST064485,2019-01-04,23:46,Savings,Credit_Card,3900.33,Debit,24598.78,Retail,Tamil Nadu,354,0,None,0.0,Success,POS_Terminal,Verified,0,23
+TXN000000925,CUST032155,2019-01-04,00:07,Fixed Deposit,UPI,161.35,Credit,10445.0,Peer Transfer,Karnataka,500,0,None,0.0,Success,Mobile_App,Verified,0,0
+TXN000000926,CUST002337,2019-01-04,08:20,Savings,RTGS,774836.47,Debit,75298.18,Travel,Delhi,537,0,None,0.0,Reversed,API,Verified,0,8
+TXN000000927,CUST067780,2019-01-04,01:20,Savings,UPI,29.98,Debit,47014.31,Utilities,Delhi,381,0,None,0.0,Reversed,ATM,Verified,0,1
+TXN000000928,CUST019030,2019-01-04,00:15,Savings,NEFT,95998.33,Debit,113012.59,Travel,Gujarat,868,1,Home,15378.44,Reversed,Mobile_App,Verified,0,0
+TXN000000929,CUST059202,2019-01-04,13:46,Savings,NEFT,116861.73,Debit,34886.36,Travel,Gujarat,325,1,Business,14486.86,Success,ATM,Verified,0,13
+TXN000000930,CUST032266,2019-01-04,00:04,Current,NEFT,7529.14,Debit,10389.34,Travel,Karnataka,409,0,None,0.0,Success,Web,Verified,0,0
+TXN000000931,CUST043873,2019-01-04,07:43,Current,Credit_Card,2691.2,Debit,15386.03,Investment,West Bengal,782,0,None,0.0,Success,Web,Verified,0,7
+TXN000000932,CUST046198,2019-01-04,15:31,Savings,IMPS,3666.14,Debit,29912.31,Retail,Karnataka,657,0,None,0.0,Success,Web,Verified,0,15
+TXN000000933,CUST055181,2019-01-04,00:03,Savings,UPI,1649.35,Credit,6235.98,Government,Delhi,573,1,None,5113.11,Success,POS_Terminal,Pending,0,0
+TXN000000934,CUST023711,2019-01-04,23:39,Savings,UPI,845.54,Debit,50788.99,Utilities,Rajasthan,810,0,None,0.0,Success,Mobile_App,Verified,0,23
+TXN000000935,CUST029487,2019-01-04,20:51,Savings,Net_Banking,2763.31,Credit,8927.2,Fuel,Tamil Nadu,701,1,Home,4422.99,Success,Mobile_App,Verified,0,20
+TXN000000936,CUST071908,2019-01-04,03:24,Savings,IMPS,9000.49,Credit,21017.11,Insurance,Karnataka,409,0,None,0.0,Success,POS_Terminal,Verified,0,3
+TXN000000937,CUST071896,2019-01-04,18:38,Savings,NEFT,138896.45,Debit,37296.11,Insurance,Karnataka,681,0,None,0.0,Success,Web,Verified,0,18
+TXN000000938,CUST064436,2019-01-04,03:15,Savings,IMPS,656.23,Credit,181739.53,Entertainment,Gujarat,645,0,None,0.0,Success,Web,Verified,0,3
+TXN000000939,CUST040632,2019-01-04,20:03,Current,ATM_Withdrawal,3000.0,Debit,19418.03,Food & Dining,Gujarat,774,1,Auto,6067.73,Success,Web,Verified,0,20
+TXN000000940,CUST020104,2019-01-04,22:27,NRI,Auto_Debit,3161.42,Debit,29066.47,Healthcare,Telangana,466,1,None,32662.63,Success,ATM,Verified,0,22
+TXN000000941,CUST064773,2019-01-04,12:43,Savings,NEFT,8990.55,Credit,20527.29,Salary,Punjab,560,1,Auto,12511.03,Success,ATM,Verified,0,12
+TXN000000942,CUST014383,2019-01-04,07:21,Current,Auto_Debit,1697.52,Debit,143276.64,Salary,Maharashtra,831,0,None,0.0,Success,Mobile_App,Verified,0,7
+TXN000000943,CUST003757,2019-01-04,16:45,Savings,NEFT,23803.07,Credit,39254.11,Education,Delhi,431,0,None,0.0,Success,Web,Verified,0,16
+TXN000000944,CUST020610,2019-01-04,18:44,Savings,ATM_Withdrawal,1000.0,Debit,44994.25,Entertainment,Telangana,749,0,None,0.0,Success,Mobile_App,Verified,0,18
+TXN000000945,CUST016479,2019-01-04,01:00,Salary,ATM_Withdrawal,2000.0,Debit,35214.81,Entertainment,Karnataka,354,1,Business,2777.77,Success,POS_Terminal,Verified,0,1
+TXN000000946,CUST039667,2019-01-04,21:35,Salary,IMPS,15359.03,Credit,31977.92,Utilities,Karnataka,383,1,Personal,3548.25,Success,Mobile_App,Verified,0,21
+TXN000000947,CUST075684,2019-01-04,02:23,Savings,Net_Banking,6078.38,Debit,99360.4,Salary,Maharashtra,339,0,None,0.0,Success,Web,Verified,0,2
+TXN000000948,CUST071316,2019-01-04,12:55,Salary,UPI,759.5,Debit,25986.34,E-Commerce,Punjab,368,0,None,0.0,Success,API,Verified,0,12
+TXN000000949,CUST077835,2019-01-04,09:24,Savings,Net_Banking,4354.02,Debit,35722.3,Travel,Telangana,786,0,None,0.0,Success,ATM,Verified,0,9
+TXN000000950,CUST014154,2019-01-04,01:47,Savings,IMPS,15551.5,Debit,9641.35,E-Commerce,Maharashtra,501,0,None,0.0,Success,Web,Verified,0,1
+TXN000000951,CUST076326,2019-01-04,11:39,Salary,NEFT,21815.15,Credit,91378.32,Food & Dining,Karnataka,820,1,Business,3346.89,Success,Mobile_App,Verified,0,11
+TXN000000952,CUST013000,2019-01-04,06:58,Current,POS,2334.01,Debit,15207.78,Entertainment,Tamil Nadu,349,1,Business,2557.45,Success,Mobile_App,Verified,0,6
+TXN000000953,CUST055319,2019-01-04,09:36,Current,UPI,184.52,Credit,89898.67,Investment,Karnataka,602,0,None,0.0,Success,Web,Verified,0,9
+TXN000000954,CUST000815,2019-01-04,07:21,Fixed Deposit,RTGS,20009.2,Credit,265912.31,Insurance,Punjab,509,0,None,0.0,Failed,Branch,Verified,0,7
+TXN000000955,CUST076078,2019-01-04,11:51,Savings,POS,3685.66,Debit,25137.72,Real Estate,UP,822,0,None,0.0,Success,POS_Terminal,Verified,0,11
+TXN000000956,CUST002444,2019-01-04,02:57,Savings,NEFT,401537.11,Debit,18781.11,Travel,Punjab,383,1,Home,22130.62,Failed,Web,Verified,0,2
+TXN000000957,CUST075994,2019-01-04,18:34,Salary,NEFT,44780.29,Credit,2384.05,Entertainment,West Bengal,673,0,None,0.0,Success,Web,Verified,0,18
+TXN000000958,CUST075917,2019-01-04,22:27,Savings,IMPS,5136.5,Credit,32915.26,Healthcare,Tamil Nadu,464,1,Business,1570.02,Success,Mobile_App,Verified,0,22
+TXN000000959,CUST073320,2019-01-04,23:57,Current,UPI,255.86,Credit,9893.82,Insurance,Maharashtra,755,1,Home,6579.54,Success,ATM,Verified,0,23
+TXN000000960,CUST017369,2019-01-04,22:42,Savings,UPI,1672.4,Credit,29958.43,E-Commerce,Telangana,698,1,None,2306.52,Success,Mobile_App,Verified,0,22
+TXN000000961,CUST015329,2019-01-04,08:24,NRI,POS,1071.23,Debit,5923.04,Real Estate,Rajasthan,394,1,Home,5349.29,Success,POS_Terminal,Verified,0,8
+TXN000000962,CUST056943,2019-01-04,22:27,Savings,IMPS,3442.58,Credit,1643.95,Investment,Maharashtra,512,0,None,0.0,Success,Branch,Verified,0,22
+TXN000000963,CUST027307,2019-01-04,23:45,Salary,ATM_Withdrawal,2000.0,Debit,65724.81,Fuel,Punjab,801,0,None,0.0,Success,Branch,Verified,0,23
+TXN000000964,CUST039916,2019-01-04,11:26,Savings,NEFT,5460.96,Debit,9725.34,Real Estate,Delhi,889,1,Personal,8285.58,Success,Branch,Verified,0,11
+TXN000000965,CUST037220,2019-01-04,05:43,NRI,IMPS,6122.2,Debit,37767.45,Retail,Telangana,739,0,None,0.0,Success,Web,Verified,0,5
+TXN000000966,CUST064645,2019-01-04,09:39,Salary,UPI,2020.74,Credit,130469.0,E-Commerce,West Bengal,755,0,None,0.0,Success,ATM,Verified,0,9
+TXN000000967,CUST060280,2019-01-04,08:48,Savings,UPI,203.68,Debit,47208.06,Peer Transfer,West Bengal,711,1,Home,14120.16,Success,Mobile_App,Verified,0,8
+TXN000000968,CUST053029,2019-01-04,12:33,Savings,RTGS,220603.69,Credit,31262.85,Retail,Gujarat,409,0,None,0.0,Success,Mobile_App,Verified,0,12
+TXN000000969,CUST000127,2019-01-04,01:08,Current,UPI,746.56,Credit,74295.95,Utilities,Telangana,625,0,None,0.0,Success,Branch,Verified,0,1
+TXN000000970,CUST052330,2019-01-04,08:37,Salary,POS,467.82,Debit,249620.6,Healthcare,Rajasthan,584,0,None,0.0,Success,Branch,Verified,0,8
+TXN000000971,CUST027633,2019-01-04,17:55,Salary,POS,843.84,Debit,76460.97,Healthcare,Karnataka,327,0,None,0.0,Success,Mobile_App,Verified,0,17
+TXN000000972,CUST065311,2019-01-04,09:28,NRI,ATM_Withdrawal,500.0,Debit,95567.42,Government,Karnataka,740,0,None,0.0,Success,Web,Verified,0,9
+TXN000000973,CUST055177,2019-01-04,13:13,Savings,UPI,1505.22,Debit,51798.06,Food & Dining,Maharashtra,774,0,None,0.0,Success,Mobile_App,Verified,0,13
+TXN000000974,CUST044328,2019-01-04,03:04,Salary,UPI,517.71,Credit,13869.49,Retail,Tamil Nadu,545,0,None,0.0,Success,Mobile_App,Pending,0,3
+TXN000000975,CUST068905,2019-01-04,14:58,Current,IMPS,19191.79,Credit,37844.11,Retail,Maharashtra,725,1,Personal,3701.2,Success,Mobile_App,Verified,0,14
+TXN000000976,CUST003798,2019-01-04,02:32,Savings,UPI,561.38,Debit,20413.78,Retail,Tamil Nadu,635,0,None,0.0,Success,Mobile_App,Verified,0,2
+TXN000000977,CUST047883,2019-01-04,23:55,Current,IMPS,13141.01,Credit,34764.68,Entertainment,Maharashtra,641,0,None,0.0,Success,Mobile_App,Pending,0,23
+TXN000000978,CUST013719,2019-01-04,01:42,Current,IMPS,24208.72,Credit,4937.02,Utilities,Punjab,832,0,None,0.0,Success,Web,Pending,0,1
+TXN000000979,CUST034561,2019-01-04,19:18,Savings,UPI,334.26,Debit,196262.02,Travel,Rajasthan,559,1,Home,5793.49,Success,Mobile_App,Verified,0,19
+TXN000000980,CUST076590,2019-01-04,14:43,NRI,Credit_Card,5453.78,Debit,63282.84,Investment,Telangana,833,1,Home,8829.52,Success,Web,Verified,0,14
+TXN000000981,CUST022117,2019-01-04,18:59,Current,UPI,1028.68,Credit,91506.83,Salary,Rajasthan,349,1,Gold,3938.77,Failed,Mobile_App,Verified,0,18
+TXN000000982,CUST036245,2019-01-04,13:29,Salary,NEFT,2400.13,Debit,58761.05,Utilities,Delhi,498,0,None,0.0,Success,Web,Verified,0,13
+TXN000000983,CUST001646,2019-01-04,05:03,Savings,Auto_Debit,1807.35,Debit,174223.73,Investment,Maharashtra,573,1,Auto,16522.29,Success,Branch,Verified,0,5
+TXN000000984,CUST047524,2019-01-04,16:23,Fixed Deposit,Net_Banking,5857.6,Credit,64531.07,Entertainment,West Bengal,836,1,Business,8496.25,Success,Mobile_App,Verified,0,16
+TXN000000985,CUST019257,2019-01-04,04:10,Savings,Net_Banking,977.38,Debit,20486.3,Food & Dining,Rajasthan,716,0,None,0.0,Success,POS_Terminal,Verified,0,4
+TXN000000986,CUST053174,2019-01-04,01:35,Savings,UPI,865.1,Credit,77261.73,Utilities,Maharashtra,728,1,Personal,1518.15,Success,Branch,Verified,0,1
+TXN000000987,CUST037431,2019-01-04,13:15,Salary,IMPS,695.68,Debit,49321.54,Food & Dining,Karnataka,440,1,Personal,3234.87,Success,Mobile_App,Verified,0,13
+TXN000000988,CUST039283,2019-01-04,19:49,Current,NEFT,8592.78,Credit,69371.02,Real Estate,Rajasthan,339,0,None,0.0,Success,POS_Terminal,Verified,0,19
+TXN000000989,CUST063375,2019-01-04,15:40,Current,RTGS,339822.96,Credit,49813.79,Healthcare,West Bengal,609,0,None,0.0,Success,Mobile_App,Verified,0,15
+TXN000000990,CUST068245,2019-01-04,02:58,Salary,POS,989.64,Debit,94090.25,Government,Delhi,866,0,None,0.0,Success,ATM,Verified,0,2
+TXN000000991,CUST011695,2019-01-04,19:37,Current,POS,393.72,Debit,32002.32,Healthcare,Maharashtra,626,1,None,4326.69,Success,Web,Verified,0,19
+TXN000000992,CUST056265,2019-01-04,03:21,Savings,RTGS,131094.13,Credit,49954.48,Investment,Karnataka,386,1,Home,1597.29,Success,ATM,Verified,0,3
+TXN000000993,CUST075061,2019-01-04,19:44,Savings,UPI,3196.06,Debit,82896.38,Food & Dining,Maharashtra,345,1,Business,2982.16,Success,Mobile_App,Verified,0,19
+TXN000000994,CUST057546,2019-01-04,03:42,Current,Auto_Debit,1332.37,Debit,8127.06,Insurance,Tamil Nadu,712,1,Gold,3211.4,Success,Mobile_App,Verified,0,3
+TXN000000995,CUST039225,2019-01-04,06:59,Savings,Credit_Card,123.49,Debit,140161.81,Healthcare,Karnataka,311,0,None,0.0,Success,POS_Terminal,Verified,0,6
+TXN000000996,CUST013225,2019-01-04,23:27,Salary,Cheque,126078.76,Debit,211640.14,Peer Transfer,Delhi,520,0,None,0.0,Pending,ATM,Verified,0,23
+TXN000000997,CUST040739,2019-01-04,19:58,Current,POS,426.79,Debit,21166.05,Insurance,Telangana,726,0,None,0.0,Success,Web,Verified,0,19
+TXN000000998,CUST025151,2019-01-04,14:11,Savings,UPI,1163.43,Credit,41534.56,Retail,UP,785,1,Auto,5447.62,Success,POS_Terminal,Verified,0,14
+TXN000000999,CUST063732,2019-01-04,18:13,Savings,IMPS,7223.83,Debit,44187.1,E-Commerce,West Bengal,704,1,Personal,1062.16,Success,Mobile_App,Verified,0,18
+TXN000001000,CUST049689,2019-01-04,00:51,Current,UPI,1611.35,Credit,17173.86,Government,Rajasthan,702,1,None,5432.36,Success,Mobile_App,Verified,0,0
